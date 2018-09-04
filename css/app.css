@@ -1,1 +1,156 @@
 /* .cell{border:1px solid red;} */
+
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header {
+    background-color: #FFFFFF;
+}
+nav {
+    background-size: cover;
+    margin-top: 75px;
+    padding: 10px;
+}
+
+/* navtext */
+nav a {
+    color: #596e79;
+    font-family: monospace;
+    font-weight: thin;
+}
+
+a:hover {
+  color: #c3c3c3;
+}
+
+/* title */
+h1 {
+  font-family: 'Oxygen Mono', monospace;
+  color: #596e79;
+  alignment: center;
+}
+
+/* info */
+article {
+    font-family: sans-serif;
+    vertical-align: middle;
+    line-height: 25px;
+    background-size: cover;
+    margin-top: 25px;
+    margin-right: 175px;
+    alignment: right;
+    text-align: justify;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    line-height: 25px;
+    margin-top: 250px;
+}
+
+/* subhead */
+h6 {
+  font-family: 'Oxygen Mono', monospace;
+  color: #c3c3c3;
+}
+
+/* gallery */
+.gallery {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+
+.item {
+  img {
+    width: 100%;
+    }
+  }
+}
+
+/* video */
+video {
+    display: block;
+    margin: 0 auto;
+    padding-top: 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* slideshow */
+#slides {
+    display: block;
+    margin: 0 auto;
+    padding-top: 200px;
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+/* CONTACT FORM */
+form{
+  text-align: center;
+  display: inline-block;
+  margin=top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control{
+
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px #c3c3c3;
+    color: #c3c3c3;
+    font size: 12px;
+    margin-bottom: 0px;
+    margin-top: 16px;
+    alignment: center;
+
+}
+
+form .submit
+{
+  background: #000;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height:45px;
+  margin-top: 0px;
+}
+
+form .submit:hover
+{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
