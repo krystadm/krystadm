@@ -6,8 +6,9 @@ function nextSlide() {
     slides[currentSlide].className = 'slide';
     currentSlide = (currentSlide+1)%slides.length;
     slides[currentSlide].className = 'slide showing';
-}
+  }
 
+// day
 var d = new Date ();
 var day = d.getDay();
 
@@ -50,7 +51,6 @@ document.getElementById("greeting").style.color = "#c3c3c3"
 
 document.getElementById("greeting").innerHTML = greeting;
 
-}
 
 addEvent(window, 'load', initForm);
 
