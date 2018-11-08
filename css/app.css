@@ -232,3 +232,18 @@ form .submit:hover
     color: #000;
     cursor: pointer;
 }
+
+.LI-profile-badge {
+  position: relative;
+  left: 37.75%;
+}
+
+.ex3{
+  i{
+    &:hover{
+	    		color: #ef43a1;
+	    		@include transition(all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55));
+          @include transform(translateY(-10px));
+    }
+  }
+}
