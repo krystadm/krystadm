@@ -82,7 +82,9 @@ h4 {
 
 /* info */
 article {
-    font-family: sans-serif;
+    font-family: 'Helvetica', sans-serif;
+    line-height:200%;
+    font-size: 12pt;
     vertical-align: middle;
     line-height: 25px;
     background-size: cover;
