@@ -43,8 +43,7 @@ a:hover {
 
 #PACKAGING {
   position: relative;
-  left: 28.55%;
-  text-align: left;
+  text-align: center;
 }
 
 #BOOKLET {
@@ -71,6 +70,14 @@ h1 {
 h2 {
   font-family: 'Oxygen Mono', monospace;
   color: #c3c3c3;
+}
+
+h4 {
+  font-family: 'Oxygen Mono', monospace;
+  color: #c3c3c3;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 /* info */
