@@ -194,6 +194,30 @@ body {
   position: absolute;
 }
 
+#landing {
+	width: 100%;
+	left: 35%;
+	background-color: #cde1e1;
+	padding-top: 300px;
+	padding-bottom: 25px;
+	position: relative;
+	font-family: 'Oxygen Mono', monospace;
+	color: #fff;
+}
+
+#landing nav {
+	padding-left: 8.5%;
+	padding-top: 75px;
+	padding-bottom: 250px;
+	color: #666766;
+	font-size: 15pt;
+}
+
+#landing nav a:hover {
+	color: #fff;
+	opacity:1;
+}
+
 /* navtext */
 a {
     color: #666766;
@@ -213,41 +237,50 @@ a: hover {
 }
 
 #BRANDING {
-  position: relative;
+  position: absolute;
   text-align: center;
+	width: 100%;
 }
 
 #BRANDING img {
 	padding-bottom: 25px;
+	width: 100%;
 }
 
 #PACKAGING {
-  position: relative;
+	position: absolute;
   text-align: center;
+	width: 100%;
+
 }
 
 #BOOKLET {
-  position: relative;
-  text-align: CENTER;
+  position: absolute;
+  text-align: center;
+	width: 100%;
 }
 
 #TYPE {
-  position: relative;
+  position: absolute;
   text-align: center;
+	width: 100%;
 }
 
 #PHOTO {
-  position: relative;
+  position: absolute;
+	width: 100%;
 }
 
 #WEB {
-  position: relative;
+  position: absolute;
   text-align: center;
+	width: 100%;
 }
 
 #RESUME {
-	position: relative;
-	width: 50%;
+	position: absolute;
+	text-align: center;
+	width: 100%;
 	left: 25%;
 }
 /* title */
