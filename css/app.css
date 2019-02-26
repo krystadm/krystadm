@@ -1,44 +1,224 @@
-/* .cell{border:1px solid red;} */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* header */
+
+#logo {
+  height: 75px;
+}
+
+.header-fixed {
+	background-color:#cde1e1;
+	padding: 20px 40px;
+	height: 140px;
+	color: #666766;
+	top:-100px;
+
+	-webkit-transition:top 0.3s;
+	transition:top 0.3s;
+}
+
+.header-fixed .header-limiter {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*	The header placeholder. It is displayed when the header is fixed to the top of the
+	browser window, in order to prevent the content of the page from jumping up. */
+
+.header-fixed-placeholder{
+	height: 160px;
+	display: none;
+}
+
+/* Logo */
+
+.header-fixed .header-limiter h1 {
+	float: left;
+	line-height: 150px;
+	margin: 0;
+}
+
+.header-fixed .header-limiter h1 span {
+	color: #5383d3;
+}
+
+/* The navigation links */
+
+.header-fixed .header-limiter a {
+	color: #fff;
+	text-decoration: none;
+  padding-top: 25px;
+}
+
+.header-fixed .header-limiter nav {
+	line-height: 40px;
+	float: right;
+}
+
+.header-fixed .header-limiter nav a{
+	display: inline-block;
+	padding: 20, 5px;
+	text-decoration:none;
+	color: #666766;
+	opacity: 0.9;
+}
+
+.header-fixed .header-limiter nav a:hover{
+	color: #fff;
+	opacity: 1;
+}
+
+.header-fixed .header-limiter nav a.selected {
+	color: #fff;
+	pointer-events: none;
+	opacity: 1;
+}
+
+/* Fixed version of the header */
+
+body.fixed .header-fixed {
+	padding: 10px 40px;
+	height: 125px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+body.fixed .header-fixed-placeholder {
+	display: block;
+}
+
+body.fixed .header-fixed .header-limiter h1 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+body.fixed .header-fixed .header-limiter nav {
+	line-height: 28px;
+	font-size: 13px;
+}
+
+
+/* Making the header responsive */
+
+@media all and (max-width: 600px) {
+
+	.header-fixed {
+		padding: 20px 0;
+		height: 150px;
+	}
+
+	.header-fixed .header-limiter h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header-fixed .header-limiter nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.header-fixed .header-limiter nav a {
+		font-size: 15px;
+	}
+
+	body.fixed .header-fixed {
+		display: none;
+	}
+
+}
 
 body {
-    background-color: #FFFFFF;
+    background-color: #cde1e1;
     margin: 0;
     padding: 0;
 }
 
-/* header */
-header {
-    background-color: #FFFFFF;
-}
-nav {
-    background-size: cover;
-    margin-top: 75px;
-    padding: 10px;
+#container {
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
 }
 
 /* navtext */
 a {
-    color: #596e79;
+    color: #666766;
     font-family: monospace;
     font-weight: thin;
 }
 
-img {
-  position: relative;
-}
-
-a:hover {
-  color: #c3c3c3;
+a: hover {
+		color: #fff;
+		text-decoration: underline;
 }
 
 .portfolio {
-  padding-bottom: 20px;
-  left: 20%;
+  margin-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
 }
 
 #BRANDING {
   position: relative;
   text-align: center;
+}
+
+#BRANDING img {
+	padding-bottom: 25px;
 }
 
 #PACKAGING {
@@ -60,151 +240,66 @@ a:hover {
   position: relative;
 }
 
-/* title */
-h1 {
-  font-family: 'Oxygen Mono', monospace;
-  color: #596e79;
-  padding: 0px;
+#WEB {
+  position: relative;
+  text-align: center;
 }
+
+#RESUME {
+	position: relative;
+	width: 50%;
+	left: 25%;
+}
+/* title */
+
 
 h2 {
   font-family: 'Oxygen Mono', monospace;
-  color: #c3c3c3;
+  color: #666766;
+  font-size: 20pt;
+  text-align: center;
+  margin-top: 10px;
+  left: 55%;
+  padding-bottom: 25px;
 }
 
 h4 {
   font-family: 'Oxygen Mono', monospace;
-  color: #c3c3c3;
+  color: #666766;
   padding-top: 15px;
   padding-bottom: 50px;
   text-align: center:
 }
 
 /* info */
-article {
-    font-family: 'Helvetica', sans-serif;
-    line-height:200%;
-    font-size: 12pt;
-    vertical-align: middle;
-    line-height: 25px;
-    background-size: cover;
-    margin-top: 25px;
-    margin-right: 175px;
-    alignment: right;
-    text-align: justify;
-}
-
-/* footer */
-footer {
-    text-align: center;
-    line-height: 25px;
-    margin-top: 250px;
-}
-
-/* subhead */
-h6 {
-  font-family: 'Oxygen Mono', monospace;
-  color: #c3c3c3;
-}
-
-
-/* gallery */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0px;
-  position: relative;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0px;
-}
-
-.column img {
-  margin-top: 0px;
-  vertical-align: middle;
-}
-
-
-/* medgallery */
-.rowmed {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2px;
-}
-
-/* Create four equal columns that sits next to each other */
-.columnmed {
-  flex: 100%;
-  max-width: 100%;
-  padding: 2px;
-}
-
-.columnmed img {
-  left: 7.75%;
-  margin-top: 0px;
-  vertical-align: middle;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-/* video */
-video {
-    display: grid;
-    margin: 0 auto;
-    padding-top: 0px;
-    max-width: 100%;
-    height: auto;
-}
-
-/* slideshow */
-#slides {
+#article {
     position: relative;
-    height: 300px;
-    padding: 0px;
-    margin: 0px;
-    list-style-type: none;
-}
+    font-family: courier;
+    line-height:200%;
+    font-size: 10pt;
+    line-height: 1.5;
+    margin-top: 25px;
+    padding-bottom: 50px;
+    margin-right: 175px;
+    text-align: center;
+    left: 25%;
+    width: 50%;
+  }
 
-.slide {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    z-index: 1;
+  #article p {
+    line-height: 2.5;
+		padding-bottom: 25px;
+  }
 
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
-}
+  #article img {
+      position: relative;
+      padding-top: 50px;
+      top: -2.5px;
+      width: 50%;
+    }
+  }
 
-.showing {
-    opacity: 1;
-    z-index: 2;
-}
-
-/* CONTACT FORM */
-form{
+  form{
   text-align: center;
   display: inline-block;
   margin-top: 0px;
@@ -247,8 +342,9 @@ form .submit:hover
 }
 
 .LI-profile-badge {
-  position: relative;
-  left: 37.75%;
+  position: absolute;
+  bottom: 15%;
+  left: 53.5%;
 }
 
 .ex3{
@@ -259,4 +355,140 @@ form .submit:hover
           @include transform(translateY(-10px));
     }
   }
+}
+
+/* gallery */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 100%;
+  padding: 0px;
+}
+
+.column img {
+  height: 50%;
+  width: 100%;
+  margin-top: 0px;
+  vertical-align: middle;
+  padding: 0;
+}
+
+
+/* medgallery */
+.rowmed {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px;
+}
+
+/* Create four equal columns that sits next to each other */
+.columnmed {
+  flex: 100%;
+  max-width: 100%;
+  padding: 2px;
+}
+
+.columnmed img {
+  left: 7.75%;
+  margin-top: 0px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 20%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* video */
+video {
+    display: grid;
+    margin: 0 auto;
+    padding-top: 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* slideshow */
+#slides {
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 150px;
+    left: 40%;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.ex3{
+  a{
+    &:hover{
+	    		color: #ef43a1;
+	    		@include transition(all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55));
+          @include transform(translateY(-10px));
+    }
+  }
+}
+
+/* footer */
+#footer {
+    position: absolute;
+    text-align: center;
+    top: 74%;
+    background-color: #cde1e1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+    font-family: 'Oxygen Mono', monospace;
+    color: #fff;
+}
+
+#footer img {
+	position: relative;
+	left: 29%;
+	top: px;
+}
+
+#footer h1 {
+		position: absolute;
+		font-size: 9pt;
+	  font-family: 'Oxygen Mono', monospace;
+	  color: #fff;
+	  padding: 0px;
+		left: 20%;
 }
