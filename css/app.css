@@ -237,50 +237,41 @@ a: hover {
 }
 
 #BRANDING {
-  position: absolute;
+  position: relative;
   text-align: center;
-	width: 100%;
 }
 
 #BRANDING img {
 	padding-bottom: 25px;
-	width: 100%;
 }
 
 #PACKAGING {
-	position: absolute;
+  position: relative;
   text-align: center;
-	width: 100%;
-
 }
 
 #BOOKLET {
-  position: absolute;
-  text-align: center;
-	width: 100%;
+  position: relative;
+  text-align: CENTER;
 }
 
 #TYPE {
-  position: absolute;
+  position: relative;
   text-align: center;
-	width: 100%;
 }
 
 #PHOTO {
-  position: absolute;
-	width: 100%;
+  position: relative;
 }
 
 #WEB {
-  position: absolute;
+  position: relative;
   text-align: center;
-	width: 100%;
 }
 
 #RESUME {
-	position: absolute;
-	text-align: center;
-	width: 100%;
+	position: relative;
+	width: 50%;
 	left: 25%;
 }
 /* title */
