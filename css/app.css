@@ -57,12 +57,12 @@ table {
 .header-fixed {
 	background-color:#cde1e1;
 	padding: 20px 40px;
-	height: 140px;
+	height: 120px;
 	color: #666766;
 	top:-100px;
 
-	-webkit-transition:top 0.3s;
-	transition:top 0.3s;
+	-webkit-transition:top 0.6s;
+	transition:top 0.6s;
 }
 
 .header-fixed .header-limiter {
@@ -75,7 +75,7 @@ table {
 	browser window, in order to prevent the content of the page from jumping up. */
 
 .header-fixed-placeholder{
-	height: 160px;
+	height: 120px;
 	display: none;
 }
 
@@ -83,7 +83,7 @@ table {
 
 .header-fixed .header-limiter h1 {
 	float: left;
-	line-height: 150px;
+	line-height: 120px;
 	margin: 0;
 }
 
@@ -96,11 +96,11 @@ table {
 .header-fixed .header-limiter a {
 	color: #fff;
 	text-decoration: none;
-  padding-top: 25px;
+  padding-top: 30px;
 }
 
 .header-fixed .header-limiter nav {
-	line-height: 40px;
+	line-height: 30px;
 	float: right;
 }
 
@@ -126,8 +126,8 @@ table {
 /* Fixed version of the header */
 
 body.fixed .header-fixed {
-	padding: 10px 40px;
-	height: 125px;
+	padding: 20px 40px;
+	height: 120px;
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -156,7 +156,7 @@ body.fixed .header-fixed .header-limiter nav {
 
 	.header-fixed {
 		padding: 20px 0;
-		height: 150px;
+		height: 120px;
 	}
 
 	.header-fixed .header-limiter h1 {
@@ -242,7 +242,7 @@ a:hover {
 }
 
 #BRANDING img {
-	padding-bottom: 25px;
+	padding-bottom: 125px;
 }
 
 #PACKAGING {
@@ -318,6 +318,7 @@ h4 {
   #article img {
       position: relative;
       padding-top: 50px;
+			padding-bottom: 75px;
       top: -2.5px;
       width: 50%;
     }
@@ -491,28 +492,28 @@ video {
 
 /* footer */
 #footer {
-    position: absolute;
+    position: fixed;
     text-align: center;
-    top: 74%;
+		width: 100%;
     background-color: #cde1e1;
     padding-top: 25px;
-    padding-bottom: 25px;
-    position: relative;
+    bottom: 0px;
     font-family: 'Oxygen Mono', monospace;
     color: #fff;
 }
 
 #footer img {
 	position: relative;
-	left: 29%;
-	top: px;
+	left: 47%;
+	top: -15px;
+
 }
 
 #footer h1 {
-		position: absolute;
+		position: relative;
 		font-size: 9pt;
 	  font-family: 'Oxygen Mono', monospace;
 	  color: #fff;
 	  padding: 0px;
-		left: 20%;
+		left: -45%;
 }
