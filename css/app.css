@@ -225,8 +225,8 @@ a {
     font-weight: thin;
 }
 
-a: hover {
-		color: #fff;
+a:hover {
+		color: #cde1e1;
 		text-decoration: underline;
 }
 
