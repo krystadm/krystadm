@@ -155,15 +155,15 @@ body.fixed .header-fixed .header-limiter nav {
 @media all and (max-width: 600px) {
 
 	.header-fixed {
-		padding: 20px 0;
-		height: 120px;
+		padding: 0px -40;
+		height: 135px;
 	}
 
 	.header-fixed .header-limiter h1 {
 		float: none;
-		margin: -8px 0 10px;
+		margin: 0px 10px -25px;
 		text-align: center;
-		font-size: 24px;
+		font-size: 20px;
 		line-height: 1;
 	}
 
@@ -184,6 +184,7 @@ body.fixed .header-fixed .header-limiter nav {
 
 body {
     background-color: #cde1e1;
+		width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -196,7 +197,7 @@ body {
 
 #landing {
 	width: 100%;
-	left: 35%;
+	text-align: center;
 	background-color: #cde1e1;
 	padding-top: 300px;
 	padding-bottom: 25px;
@@ -496,7 +497,7 @@ video {
     text-align: center;
 		width: 100%;
     background-color: #cde1e1;
-    padding-top: 25px;
+    padding-top: 35px;
     bottom: 0px;
     font-family: 'Oxygen Mono', monospace;
     color: #fff;
@@ -504,8 +505,8 @@ video {
 
 #footer img {
 	position: relative;
-	left: 47%;
-	top: -15px;
+	left: 0px;
+	top:  -35px;
 
 }
 
@@ -514,6 +515,6 @@ video {
 		font-size: 9pt;
 	  font-family: 'Oxygen Mono', monospace;
 	  color: #fff;
-	  padding: 0px;
-		left: -45%;
+	  top: 12px;
+		left: 0px;
 }
