@@ -62,7 +62,7 @@ table {
 	width: 100%;
 	text-align: center;
 	background-color: #cde1e1;
-	padding-top: 300px;
+	padding-top: 200px;
 	padding-bottom: 25px;
 	position: relative;
 	font-family: 'Oxygen Mono', monospace;
@@ -229,6 +229,7 @@ body {
   background-color: #fff;
   width: 100%;
   position: absolute;
+	padding-bottom: 50px;
 	opacity: 0;
 	animation: fadeIn 1s ease-in-out 0s forwards;
 }
@@ -316,26 +317,28 @@ h4 {
     font-family: courier;
     line-height:200%;
     font-size: 10pt;
-    line-height: 1.5;
+    line-height: 2;
     margin-top: 25px;
     padding-bottom: 50px;
     margin-right: 175px;
-    text-align: center;
+    text-align: left;
     left: 25%;
     width: 50%;
   }
 
   #article p {
-    line-height: 2.5;
 		padding-bottom: 25px;
-  }
+}
+	#article h4 {
+		position: relative;
+		text-align: center;
+		margin-top: -50px;
+	}
 
   #article img {
       position: relative;
-      padding-top: 50px;
-			padding-bottom: 75px;
-      top: -2.5px;
-      width: 50%;
+      height: 400px;
+			left: 25%;
     }
   }
 
