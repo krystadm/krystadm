@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRYSTA MADEWELL</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen+Mono' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+  </head>
+
+
+<body>
+
+<!-- HEADER -->
+<header class="header-fixed">
+<div class="header-limiter">
+  <h1><a href="index.html"><img src="LOGO.png" alt="logo" id="logo"></a></h1>
+      <nav>
+      <a href="portfolio.html" class="inlined">PORTFOLIO</a> |
+      <a href="about.html" class="inlined">ABOUT</a> |
+      <a href="resume.html" class="inlined">RESUME</a>
+      </nav>
+  </div>
+</header>
+
+<div class="header-fixed-placeholder"></div>
+
+<div id="container">
+  <section class="portfolio-flex-container">
+  <div class="portfolio-flex-items-default menu-portfolio-link">
+  <img src="ryu.png" alt-"">
+  </div>
+
+<div id="article"><h2>RYU JAPANESE STREET FOOD</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+</div>
+</div>
+</div>
+
+<!-- FOOTER -->
+<div id="footer">
+  <h1>KRYSTA MADEWELL 2019</h1>
+  <a href="mailto:contact@krystadm.com"> <img src="email.png" alt="enail"></a>
+  <a href="https://www.instagram.com/gsuskryst" target="_blank"> <img src="ig.png" alt="instagram"></a>
+  <a href="https://www.linkedin.com/in/krysta-madewell-ba5792a6/" target="_blank"> <img src="linkedin.png" alt="linkedin"></a>
+</div>
+
+</div>
+
+    <script src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+
+      var showHeaderAt = 150;
+
+      var win = $(window),
+          body = $('body');
+
+      // Show the fixed header only on larger screen devices
+
+      if(win.width() > 400){
+
+        // When we scroll more than 150px down, we set the
+        // "fixed" class on the body element.
+
+        win.on('scroll', function(e){
+
+          if(win.scrollTop() > showHeaderAt) {
+            body.addClass('fixed');
+          }
+          else {
+            body.removeClass('fixed');
+          }
+        });
+
+      }
+
+    });
+    </script>
+  </body>
+</html>

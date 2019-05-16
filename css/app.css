@@ -229,10 +229,70 @@ body {
   background-color: #fff;
   width: 100%;
   position: absolute;
-	padding-bottom: 500px;
+	padding-bottom: 0px;
+	opacity: 0;
+	animation: fadeIn 1s ease-in-out 0s forwards;
+
+}
+
+.bio {
+	width: 100%;
+	padding: 0;
+}
+
+.container {
+  width: 100%;
+	text-align: center;
+	background-color: #fff;
 	opacity: 0;
 	animation: fadeIn 1s ease-in-out 0s forwards;
 }
+	 	h2 {
+		padding: 1em;
+		font-family: sans-serif;
+		font-weight: bold;
+		color: #666766;
+		font-size: 35pt;
+	}
+
+	h3 {
+		font-family: sans-serif;
+		color: #c3c3c3;
+		font-weight: lighter;
+		font-size: 15pt;
+		text-align: center;
+		padding-top: 0px;
+		padding-bottom: 50px;
+	}
+
+  .container p {
+		margin: 0 auto;
+		padding-top: 20px;
+		padding-left: 0px;
+    line-height: 1.75;
+		max-width: 30em;
+		font-size: 11pt;
+		font-weight: lighter;
+		font-family: sans-serif;
+		text-align: justify;
+}
+
+
+  .bio {
+		padding-bottom: 60px;
+}
+
+    .bio-text {
+			margin-left: 100px;
+			margin-right: 100px;
+			padding-right: 1em;
+		}
+
+    .bio-img {
+			margin: 0 auto;
+			max-width: inherit;
+
+		}
 
 /* navtext */
 a {
@@ -246,62 +306,119 @@ a:hover {
 		text-decoration: underline;
 }
 
-.portfolio {
-  margin-top: 25px;
-  padding-bottom: 25px;
+
+.portfolio-flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // justify-content: flex-start;
+    // align-content: flex-start;
+    // align-items: flex-start;
+}
+.portfolio-flex-items-default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-height: 300px;
+	flex-shrink: 1;
+  // flex-basis: 20px;
+
+}
+.moodykit-portfolio-link {
+	overflow-y: hidden;
+}
+.bubblekitty-portfolio-link {
+	overflow-y: hidden;
+
+}
+.nvrbckdwn-portfolio-link {
+	overflow-y: hidden;
+}
+.beyondthebp-portfolio-link {
+	overflow-y: hidden;
+}
+.editorial-portfolio-link {
+	overflow-y: hidden;
+}
+
+.menu-portfolio-link {
+	overflow-y: hidden;
+}
+
+.book-portfolio-link {
+	overflow-y: hidden;
+}
+
+.piedmont-portfolio-link {
+	overflow-y: hidden;
+}
+
+.text-wrapper {
+  position: absolute;
+	width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	font-family: monospace;
   text-align: center;
+  color: #fff;
+  opacity: 0;
 }
 
-#BRANDING {
-  position: relative;
+.text-wrapper a {
+  position: absolute;
+	width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	font-family: monospace;
   text-align: center;
+  color: #000;
+  opacity: 0.5;
 }
 
-#BRANDING img {
-	padding-bottom: 125px;
+.text-wrapper:hover {
+  transition: all 0.8s ease;
+  background: #000;
+  opacity: .5;
+}
 }
 
-#PACKAGING {
-  position: relative;
-  text-align: center;
+.name {
+	top: 50%;
+  font-size: 30pt;
+	font-weight: bold;
+	font-family: sans-serif;
 }
 
-#BOOKLET {
-  position: relative;
-  text-align: CENTER;
+
+/* Because there is no hover on a touch devide, we need to move the text to the bottom of the image and display it by default */
+
+@media only screen and (max-width: 1024px) {
+  .text-wrapper {
+    opacity: 1;
+    justify-content: flex-end;
+
+  }
+  .title {
+    margin-bottom: 125px;
+  }
 }
 
-#TYPE {
-  position: relative;
-  text-align: center;
-}
-
-#PHOTO {
-  position: relative;
-}
-
-#WEB {
-  position: relative;
-  text-align: center;
-}
-
-#RESUME {
-	position: relative;
+#RESUME img{
+	position: absolute;
 	width: 50%;
 	left: 25%;
 }
 /* title */
 
 
-h2 {
-  font-family: 'Oxygen Mono', monospace;
-  color: #666766;
-  font-size: 20pt;
-  text-align: center;
-  margin-top: 10px;
-  left: 55%;
-  padding-bottom: 25px;
-}
+/* end */
+
+
 
 h4 {
   font-family: 'Oxygen Mono', monospace;
@@ -313,32 +430,42 @@ h4 {
 
 /* info */
 #article {
-    position: relative;
+
+		display: inline;
+		position: static;
     font-family: courier;
-    line-height:200%;
+    line-height:100%;
     font-size: 10pt;
-    line-height: 2;
-    margin-top: 25px;
-    padding-bottom: 50px;
-    margin-right: 175px;
+    line-height: 1.75;
+    padding-top: 50px;
+		width: 60%;
     text-align: left;
-    left: 25%;
-    width: 50%;
+		left: %;
   }
 
   #article p {
-		padding-bottom: 25px;
+		position: static;
+		text-align: justify;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		width: 600px;
+
 }
-	#article h4 {
+
+	#article h2 {
+		position: relative;
 		position: relative;
 		text-align: center;
-		margin-top: -50px;
 	}
 
+
+
   #article img {
-      position: relative;
-      height: 400px;
-			left: 25%;
+		padding-top: 20px;
+		display: inline;
+		width: 50%;
+    position: static;
+		overflow-y: hidden;
     }
   }
 
