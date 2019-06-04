@@ -268,7 +268,7 @@ nav #menu li a:hover {
 }
 
 .project1 {
-      background: url(http://krystadm.com/boxes.jpg) no-repeat 50% 50%;
+      background: url('../boxes.jpg') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -286,7 +286,7 @@ nav #menu li a:hover {
 }
 
 .project2 {
-      background: url(http://krystadm.com/bubblekitty.png) no-repeat 50% 50%;
+      background: url('../bubblekitty.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -304,7 +304,7 @@ nav #menu li a:hover {
 }
 
 .project3 {
-      background: url(http://krystadm.com/dinner.png) no-repeat 50% 50%;
+      background: url('../dinner.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -322,7 +322,7 @@ nav #menu li a:hover {
 }
 
 .project4 {
-      background: url(http://krystadm.com/brochure.png) no-repeat 50% 50%;
+      background: url('../brochure.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -340,7 +340,7 @@ nav #menu li a:hover {
 }
 
 .project5 {
-      background: url(http://krystadm.com/menu.png) no-repeat 50% 50%;
+      background: url('../menu.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -358,7 +358,7 @@ nav #menu li a:hover {
 }
 
 .project6 {
-      background: url(http://krystadm.com/nvrbckdwn.png) no-repeat 50% 50%;
+      background: url('../nvrbckdwn.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -376,7 +376,7 @@ nav #menu li a:hover {
 }
 
 .project7 {
-      background: url(http://krystadm.com/editorial.png) no-repeat 50% 50%;
+      background: url('../editorial.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -394,7 +394,7 @@ nav #menu li a:hover {
 }
 
 .project8 {
-      background: url(http://krystadm.com/piedmont.png) no-repeat 50% 50%;
+      background: url('../piedmont.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -538,7 +538,7 @@ nav #menu li a:hover {
 .bio-image {
       height: 700px;
       margin-top: 120px;
-      background: url(http://krystadm.com/8.png) no-repeat center;
+      background: url('../8.png') no-repeat center;
       position: relative;
 }
 
