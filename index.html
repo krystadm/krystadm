@@ -1,43 +1,119 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KRYSTA MADEWELL</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link href='https://fonts.googleapis.com/css?family=Oxygen+Mono' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="author" content="harrnish">
 
-  </head>
+      <title>KRYSTA MADEWELL</title>
+      <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="js/bootstrap.min.js"></script>
 
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
 
+      <!-- terminal effect -->
+      <script src="t.min.js"></script>
+
+      <!-- for on scroll animations -->
+      <link rel="stylesheet" href="css/animate.css">
+      <script src="wow.min.js"></script>
+
+</head>
 <body>
 
-  <div class="header-fixed-placeholder"></div>
 
-<div id="landing">
-  <a href="portfolio.html"><img src="landing.png" alt="landing"></a>
-  <nav>
-  </nav>
+
+
+      <!--------------- hero section starts here --------------->
+            <div class="col-lg-12 hero wow fadeInUp" >
+                  <div class="header">
+                        <a href="portfolio.html"><img src="landing.png" alt="">
+                  </div>
+            </div>
+      </div>
+
+
+      <!--------------- footer starts here --------------->
+      <div class="footer">
+            <div class="container">
+                  <div class="hr">
+                        <div class="row"></div>
+                  </div>
+
+                  <div class="info">
+                        <div class="row">
+
+                          <div class="col-lg-6" id="media">
+                            <ul>
+                                  <li id="li" class="wow fadeInUp" data-wow-delay="0.6s"><a href="mailto:contact@krystadm.com"><img src="email.png"></a></li>
+                                  <li id="ig" class="wow fadeInUp" data-wow-delay="0.8s"><a href="https://www.linkedin.com/in/krysta-madewell-ba5792a6/"><img src="linkedin.png"></a></li>
+                                  <li id="em" class="wow fadeInUp" data-wow-delay="1s"><a href="https://www.instagram.com/gsuskryst"><img src="ig.png"></a></li>
+                            </ul>
+                      </div>
+
+                              <div class="col-lg-6" id="media"><h4>KRYSTA MADEWELL 2018</h4></div>
+
+
+
+
+
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+      <!--------------- footer ends here --------------->
+
+
+
 </div>
 
+      <!-- greensock cdn -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script type="text/javascript">
 
-  <div id="footer">
-    <h1>KRYSTA MADEWELL 2019</h1>
-    <a href="mailto:contact@krystadm.com"> <img src="email.png" alt="enail"></a>
-    <a href="https://www.instagram.com/gsuskryst" target="_blank"> <img src="ig.png" alt="instagram"></a>
-    <a href="https://www.linkedin.com/in/krysta-madewell-ba5792a6/" target="_blank"> <img src="linkedin.png" alt="linkedin"></a>
-  </div>
+      // navigation starts here
 
-</div>
+      $("#toggle").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
 
+      $("#resize ul li a").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
 
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
-  <script src="js/app.js"></script>
-  </body>
+      $(".close-btn").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+
+      // navigation ends here
+
+      // nav animation
+
+      TweenMax.from("#brand", 1, {
+            delay: 0.4,
+            y: 10,
+            opacity: 0,
+            ease: Expo.easeInOut
+      })
+
+      TweenMax.staggerFrom("#menu li a", 1, {
+            delay: 0.4,
+            opacity: 0,
+            ease: Expo.easeInOut
+      }, 0.1);
+
+      // nav animation ends
+
+      new WOW().init();
+
+      </script>
+</body>
 </html>

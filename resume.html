@@ -1,76 +1,155 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KRYSTA MADEWELL</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen+Mono' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="author" content="harrnish">
 
+      <title>KRYSTA MADEWELL</title>
+      <link rel="stylesheet" href="css/app.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="js/bootstrap.min.js"></script>
 
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+
+      <!-- terminal effect -->
+      <script src="t.min.js"></script>
+
+      <!-- for on scroll animations -->
+      <link rel="stylesheet" href="css/animate.css">
+      <script src="wow.min.js"></script>
+</head>
 <body>
-  <header class="header-fixed">
-  <div class="header-limiter">
-    <h1><a href="index.html"><img src="LOGO.png" alt="logo" id="logo"></a></h1>
-          <nav>
-          <a href="portfolio.html" class="inlined">PORTFOLIO</a> |
-          <a href="about.html" class="inlined">ABOUT</a> |
-          <a href="resume.html" class="inlined">RESUME</a>
-          </nav>
-    </div>
-  </header>
+      <div class="wrapper">
+
+            <!--------------- navbar starts here --------------->
+            <nav>
+                  <span id="brand">
+                        <a href="index.html"><img src="LOGO.png"></a>
+                  </span>
+
+                  <ul id="menu">
+                        <li><a href="portfolio.html">portfolio<span></span></a></li>
+                        <li><a href="about.html">about<span></span></a></li>
+                        <li><a href="resume.html">resume<span></span></a></li>
+                  </ul>
+
+                  <div id="toggle">
+                        <div class="span">menu</div>
+                  </div>
+
+            </nav>
+
+            <div id="resize">
+                  <div class="close-btn">close</div>
+
+                  <ul id="menu">
+                    <li><a href="portfolio.html">portfolio<span></span></a></li>
+                    <li><a href="about.html">about<span></span></a></li>
+                    <li><a href="resume.html">resume<span></span></a></li>
+                  </ul>
+            </div>
+
+            <!--------------- navbar ends here --------------->
 
 
-    <div class="container">
-    <div class="bio">
-<img src="webresume.png" alt="resume">
-</div>
-</div>
+            <!--------------- hero image starts here --------------->
+            <div class="container">
+                  <div class="row">
+                        <div class="col-lg-12 about image wow fadeInUp" data-wow-delay="1s"></div>
+                  </div>
+            </div>
+            <!--------------- hero image ends here --------------->
+
+            </div>
+            <!--------------- hero section ends here --------------->
+
+            <div class="whitespace"></div>
 
 
-<!-- FOOTER -->
-<div id="footer">
-  <h1>KRYSTA MADEWELL 2019</h1>
-  <a href="mailto:contact@krystadm.com"> <img src="email.png" alt="enail"></a>
-  <a href="https://www.instagram.com/gsuskryst" target="_blank"> <img src="ig.png" alt="instagram"></a>
-  <a href="https://www.linkedin.com/in/krysta-madewell-ba5792a6/" target="_blank"> <img src="linkedin.png" alt="linkedin"></a>
-</div>
-</div>
 
-    <script src="js/app.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
+                        <!--------------- footer starts here --------------->
+                        <div class="footer">
+                              <div class="container">
+                                    <div class="hr">
+                                          <div class="row"></div>
+                                    </div>
 
-      var showHeaderAt = 150;
+                                    <div class="info">
+                                          <div class="row">
 
-      var win = $(window),
-          body = $('body');
+                                            <div class="col-lg-6" id="media">
+                                              <ul>
+                                                    <li id="li" class="wow fadeInUp" data-wow-delay="0.6s"><img src="linkedin.png"></li>
+                                                    <li id="ig" class="wow fadeInUp" data-wow-delay="0.8s"><img src="ig.png"></li>
+                                                    <li id="em" class="wow fadeInUp" data-wow-delay="1s"><img src="email.png"></li>
+                                              </ul>
+                                        </div>
 
-      // Show the fixed header only on larger screen devices
+                                                <div class="col-lg-6" id="media"><h4>KRYSTA MADEWELL 2018</h4></div>
 
-      if(win.width() > 400){
 
-        // When we scroll more than 150px down, we set the
-        // "fixed" class on the body element.
 
-        win.on('scroll', function(e){
 
-          if(win.scrollTop() > showHeaderAt) {
-            body.addClass('fixed');
-          }
-          else {
-            body.removeClass('fixed');
-          }
-        });
 
-      }
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
 
-    });
-    </script>
-  </body>
+                        <!--------------- footer ends here --------------->
+
+
+
+                  </div>
+
+
+      <!-- greensock cdn -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script type="text/javascript">
+
+      // navigation starts here
+      $("#toggle").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+
+      $("#resize ul li a").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+
+      $(".close-btn").click(function() {
+            $(this).toggleClass('on');
+            $("#resize").toggleClass("active");
+      });
+
+      // navigation ends here
+
+      // nav animation
+
+      TweenMax.from("#brand", 1, {
+            delay: 0.4,
+            y: 10,
+            opacity: 0,
+            ease: Expo.easeInOut
+      })
+
+      TweenMax.staggerFrom("#menu li a", 1, {
+            delay: 0.4,
+            opacity: 0,
+            ease: Expo.easeInOut
+      }, 0.1);
+
+      // nav animation ends
+
+      new WOW().init();
+
+
+      </script>
+</body>
 </html>

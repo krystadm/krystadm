@@ -20,6 +20,7 @@
       <!-- for on scroll animations -->
       <link rel="stylesheet" href="css/animate.css">
       <script src="wow.min.js"></script>
+
 </head>
 <body>
       <div class="wrapper">
@@ -33,7 +34,7 @@
                   <ul id="menu">
                         <li><a href="portfolio.html">portfolio<span></span></a></li>
                         <li><a href="about.html">about<span></span></a></li>
-                        <li><a href="resume.html">resume<span></span></a></li>
+                        <!-- <li><a href="resume.html">resume<span></span></a></li> -->
                   </ul>
 
                   <div id="toggle">
@@ -43,49 +44,72 @@
             </nav>
 
             <div id="resize">
-                  <div class="close-btn">close</div>
+
+                  <div class="close-btn">X</div>
 
                   <ul id="menu">
-                    <li><a href="portfolio.html">portfolio<span></span></a></li>
-                    <li><a href="about.html">about<span></span></a></li>
-                    <li><a href="resume.html">resume<span></span></a></li>
+                    <li><a href="portfolio.html">portfolio<span>.</span></a></li>
+                    <li><a href="about.html">about<span>.</span></a></li>
+                    <!-- <li><a href="resume.html">resume<span>.</span></a></li> -->
                   </ul>
             </div>
-
             <!--------------- navbar ends here --------------->
 
-
-            <!--------------- hero image starts here --------------->
-
-
-
-
-
-            <!--------------- hero image ends here --------------->
-
+            <div class="whitespace"></div>
 
             <!--------------- hero section starts here --------------->
-              <div class="section">
-                  <div class="container-fluid">
-                    <div class="row">
-                          <div class="col-lg-6 about bio-image"></div>
-                          <div class="col-lg-6 about about-content wow fadeInUp" data-wow-delay="2s">
-                                    <h1 class="wow fadeInUp" data-wow-delay="1.2s">Krysta Madewell</h1><br>
-                                    <p>Hello! I am a graphic designer born and raised in the Bay Area, California! I grew up in a multicultural, Asian-American family. As a mixed kid always on the move, I’ve gotten to experience life and culture all around my home state, country, and different parts of the globe. Traditional art and technology has always been a hobby for me since I was a kid. As I got older, my hobbies shifted into traveling, music, food and online creator communities. I started to realize how design played a huge part in not only what I enjoyed doing, but how it shaped the world around me.</p>
-                                Since then, I have implemented design into my craft, giving me a multi-faceted range of skills. I specialize in design for branding, promotional advertising, as well as visually implementing other ideas useful for web and print design.
-                                  </div>
+            <div class="container">
+                  <div class="hero-content">
+                        <br><br>
+                        <div class="row">
+                              <div class="col-lg-12">
+                                    <br>
 
+                                    <div class="row">
+                                    <br>
+                                    <div class="col-lg-6">
+                                      <h3>PHOTO CLUB</h3>
+                                <h6>Layout Design, Photography, and Print</h6>
+                                    <p>PHOTO CLUB was an editorial layout project for a Typography class which we researched and documented a moment with a certain group of our choosing. There was major experimentation with layout designs and how I could create a hip but comprehensive story through words and visuals by sticking through a certain theme that would appeal to younger, artistic types.</p>
                               </div>
                         </div>
-
-              </div>
-
-
-
-
+                  </div>
+            </div>
             <!--------------- hero section ends here --------------->
+            <br><br><br><br>
 
-        <div class="whitespace"></div>
+            <!--------------- project image section starts here --------------->
+
+                  <div class="container">
+                    <div class="project-img">
+                      <div class="col-lg-12">
+                            <img src="editorial.png">
+                          </div>
+                    </div>
+                  </div>
+
+            <!--------------- project image section ends here --------------->
+
+            <br><br>
+
+
+
+            <!--------------- project nav starts here --------------->
+
+            <div class="project-nav">
+                  <div class="container">
+                        <div class="row">
+                              <div class="col-lg-6 prev">
+                                <p><ion-icon name="arrow-back"></ion-icon><a href='nvrbckdwn.html'><<<a></p>
+                          </div>
+                          <div class="col-lg-6 next">
+                                <p><ion-icon name="arrow-forward"></ion-icon><a href='piedmonttravel.html'>>><a></p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+
 
             <!--------------- footer starts here --------------->
             <div class="footer">
@@ -99,9 +123,9 @@
 
                                 <div class="col-lg-6" id="media">
                                   <ul>
-                                        <li id="li" class="wow fadeInUp" data-wow-delay="0.6s"><a href="mailto:contact@krystadm.com"><img src="email.png"></a></li>
-                                        <li id="ig" class="wow fadeInUp" data-wow-delay="0.8s"><a href="https://www.linkedin.com/in/krysta-madewell-ba5792a6/"><img src="linkedin.png"></a></li>
-                                        <li id="em" class="wow fadeInUp" data-wow-delay="1s"><a href="https://www.instagram.com/gsuskryst"><img src="ig.png"></a></li>
+                                        <li id="li"><a href="mailto:contact@krystadm.com"><img src="email.png"></a></li>
+                                        <li id="ig"><a href="https://www.linkedin.com/in/krysta-madewell-ba5792a6/"><img src="linkedin.png"></a></li>
+                                        <li id="em"><a href="https://www.instagram.com/gsuskryst"><img src="ig.png"></a></li>
                                   </ul>
                             </div>
 
@@ -119,15 +143,6 @@
             <!--------------- footer ends here --------------->
 
 
-
-      </div>
-
-
-            <!--------------- footer ends here --------------->
-
-
-
-      </div>
       </div>
 
       <!-- greensock cdn -->
@@ -170,6 +185,8 @@
       }, 0.1);
 
       // nav animation ends
+
+
 
       new WOW().init();
 
