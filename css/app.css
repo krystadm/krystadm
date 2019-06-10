@@ -12,9 +12,14 @@ html, body {
 
 .whitespace {
       width: 100%;
-      height: 51px;
+      height: 30px;
 }
 
+@media(max-width: 768px) {
+      .whitespace {
+        height: 75px;
+      }
+    }
 
 .header {
   text-align: center;
@@ -202,6 +207,10 @@ nav #menu li a:hover {
 }
 
 /*--------------- hero section --------------- */
+.container {
+  width: 1400px;
+}
+
 .hero {
       height: 100%;
       display: block;
@@ -231,7 +240,7 @@ nav #menu li a:hover {
 
 .hero-content {
       height: 100vh:
-      width: 100%;
+      width: 1400px;
       margin-top: 70px;
       font-size: 10pt;
       display: inline;
@@ -304,7 +313,7 @@ nav #menu li a:hover {
 }
 
 .project3 {
-      background: url('../dinner.png') no-repeat 50% 50%;
+      background: url('../warmcozy2.jpg') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -322,7 +331,7 @@ nav #menu li a:hover {
 }
 
 .project4 {
-      background: url('../brochure.png') no-repeat 50% 50%;
+      background: url('../nvrbckdwn.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -340,7 +349,7 @@ nav #menu li a:hover {
 }
 
 .project5 {
-      background: url('../menu.png') no-repeat 50% 50%;
+      background: url('../dinner.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -358,7 +367,7 @@ nav #menu li a:hover {
 }
 
 .project6 {
-      background: url('../nvrbckdwn.png') no-repeat 50% 50%;
+      background: url('../menu.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -376,7 +385,7 @@ nav #menu li a:hover {
 }
 
 .project7 {
-      background: url('../editorial.png') no-repeat 50% 50%;
+      background: url('../brochure.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -497,12 +506,17 @@ nav #menu li a:hover {
 
 
 
-.project-img img {
-  width: 100%;
+.project-img  {
   position: relative;
-  margin: auto;
   text-align: center;
+
 }
+
+.project-img img {
+  max-width: 75% !important;
+  margin: 0 auto;
+
+  }
 }
 
 .hero-content h6 {
@@ -571,7 +585,7 @@ nav #menu li a:hover {
 
 .hero-content h1 {
       text-align: left;
-      padding-top: 00px;
+      padding-top: 0px;
 }
 @media(max-width: 768px) {
       .hero-content {
@@ -586,17 +600,42 @@ nav #menu li a:hover {
 /*--------------- project page --------------- */
 
 .prev, .next p {
+  color: #666766 !important;
+  font-size: 15pt;
 
 }
 
 .prev p {
-      text-align: left;
-      color: #666766;
-      font-weight: bolder;
+      text-align: left !important;
 }
 
 .next p {
-      text-align: right;
-      color: #666766;
-      font-weight: bolder;
+      text-align: right !important;
+    }
+}
+
+/* slide */
+
+#myCarousel {
+  width: 786px;
+  margin: 0 auto;
+
+}
+
+@media(max-width: 768px) {
+      #myCarousel {
+            width: 100% !important;
+
+          }
+        }
+
+.carousel .carousel-item {
+    overflow:hidden;
+    margin-bottom:1em;
+    margin-top:1em;
+}
+.carousel-inner > .carousel-item > img {
+    float: left;
+    height: none;
+    width:  100%;
 }
