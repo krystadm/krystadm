@@ -284,8 +284,27 @@ nav #menu li a:hover {
       height: 200px;
 }
 
-.project1 {
+.project9 {
       background: url('../boxes.jpg') no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.project9::after {
+      content: "";
+      font-family: sans-serif;
+      font-weight: bolder;
+      font-size: 36px;
+      position: relative;
+      color: #000;
+      display: block;
+      top: 80%;
+      right: 0;
+      bottom: 0;
+}
+
+
+.project1 {
+      background: url('../plushegg.jpg') no-repeat 50% 50%;
       background-size: cover;
 }
 
