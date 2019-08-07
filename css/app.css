@@ -13,7 +13,7 @@ html, body {
 
 .whitespace {
       width: 100%;
-      height: 50px;
+      height: 100px;
 }
 
 @media(max-width: 768px) {
@@ -103,11 +103,9 @@ nav #menu li a:hover {
 #toggle {
       position: absolute;
       right: 35px;
-      top: 30px;
+      top: 25px;
       font-weight: 300;
       z-index: 2;
-      width: 30px;
-      height: 30px;
       cursor: pointer;
       float: right;
       transition: all 0.3s ease-out;
@@ -115,18 +113,26 @@ nav #menu li a:hover {
       opacity: 0;
 }
 
+#toggle img{
+  width: 50px;
+}
+
 .close-btn {
       position: absolute;
-      right: 30px;
-      font-weight: 300;
-      z-index: 2;
+      right: 35px;
+      z-index: 1;
       cursor: pointer;
-      top: -2px;
+      top: 0px;
+      float: right;
       line-height: 100px;
 }
 
+.close-btn img {
+  width: 50px;
+}
+
 #resize {
-      z-index: 1;
+      z-index: 2;
       top: 0px;
       position: fixed;
       background: #666766;
@@ -138,7 +144,7 @@ nav #menu li a:hover {
 }
 
 #resize #menu {
-      height: 10px;
+      height: px;
       position: absolute;
       left: 45%;
       transform: translateX(-40%);
@@ -150,16 +156,16 @@ nav #menu li a:hover {
 #resize #menu li {
       display: block;
       text-align: center;
-      padding: 40px 0;
+      padding: 50px 0;
       font-size: 50px;
-      min-height: 50px;
+      min-height: 20px;
       font-weight: bold;
       cursor: pointer;
       transition: all 0.3s ease-out;
 }
 
 #resize li:nth-child(1) {
-      margin-top: 150px;
+      margin-top: 120px;
 }
 
 #resize #menu li a {
@@ -172,15 +178,15 @@ nav #menu li a:hover {
 
 #resize.active {
       visibility: visible;
-      opacity: 1;
+      opacity: .90;
 }
 
 @media(max-width: 768px) {
       #toggle {
             visibility: visible;
             opacity: 1;
-            margin-top: 6px;
-            margin-right: 4px;
+            margin-top: 0px;
+            margin-right: 0px;
       }
 
       nav #brand {
@@ -229,7 +235,8 @@ nav #menu li a:hover {
 
 .about-content {
       width: 100%;
-      padding-top: 150px;
+      font-size: 11pt;
+      padding-top: 163px;
       display: block;
       font-weight: lighter;
       text-align: left;
@@ -241,6 +248,7 @@ nav #menu li a:hover {
 
 .about-content h3, .hero-content h3{
       width: 100%;
+      font-size: 20pt;
       font-weight: bold;
       color: #a2b3b4;
       float: left;
@@ -287,6 +295,49 @@ nav #menu li a:hover {
       height: 200px;
 }
 
+.project .caption {
+    font-family: sans-serif;
+    font-size: .5em;
+    font-weight: 400;
+    background-color: #cde1e2;
+    position: absolute;
+    z-index: 100;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.project .caption h1 {
+  position: relative;
+  font-weight: bolder;
+  display: block;
+  color: #fff;
+  top: 35%;
+  animation: fadeIn 2s ease-in-out 0s forwards;
+}
+
+.project .caption p {
+  font-size: 8pt;
+  color: #666767;
+  position: relative;
+  top: 30%;
+}
+
+
+
+ .project:hover .fade-caption {
+    opacity: .95;
+}
+
+
 .project9 {
       background: url('../boxes.jpg') no-repeat 50% 50%;
       background-size: cover;
@@ -298,7 +349,7 @@ nav #menu li a:hover {
       font-weight: bolder;
       font-size: 36px;
       position: relative;
-      color: #000;
+      color: #fff;
       display: block;
       top: 80%;
       right: 0;
@@ -558,6 +609,11 @@ nav #menu li a:hover {
       color: #000;
 }
 
+.hero-content a {
+  color: #a2b2b4;
+  font-weight: 400;
+}
+
 @media(max-width: 768px) {
       .hero-content {
         height: 100vh;
@@ -602,6 +658,7 @@ nav #menu li a:hover {
 }
 
 .hero-content p {
+      font-size: 10pt;
       text-align: left;
       margin: 0 auto;
       font-weight: 300;
@@ -621,9 +678,11 @@ nav #menu li a:hover {
 
 /*--------------- project page --------------- */
 
-.prev, .next p {
-  color: #666766 !important;
-  font-size: 15pt;
+.prev a, .next a{
+  display: block;
+  font-weight: bold;
+  color: #a2b2b4 !important;
+  font-size: 10pt;
 
 }
 
@@ -652,7 +711,7 @@ nav #menu li a:hover {
         }
 
 .carousel .carousel-item {
-  animation: fadeIn 2.75s ease-in-out 0s forwards;
+  animation: fadeIn 1s ease-in-out 0s forwards;
     overflow:hidden;
     margin-bottom:1em;
     margin-top:1em;
