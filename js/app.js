@@ -1,3 +1,4 @@
+
 $('#myCarousel').carousel();
 
 $(function() {

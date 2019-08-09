@@ -11,6 +11,11 @@ html, body {
 
 }
 
+.whitespace1 {
+      width: 100%;
+      height: 99px;
+}
+
 .whitespace {
       width: 100%;
       height: 50px;
@@ -46,6 +51,7 @@ html, body {
 
 /*--------------- navigation --------------- */
 nav {
+      font-weight: 800;
       width: 100%;
       background: #cde1e2;
       height: 100px;
@@ -89,7 +95,7 @@ nav #menu li {
 }
 
 nav #menu li span {
-      font-weight: bolder;
+
 }
 
 nav #menu li a {
@@ -297,7 +303,7 @@ nav #menu li a:hover {
 
 .project .caption {
     font-family: sans-serif;
-    font-size: .5em;
+    font-size: .25em;
     font-weight: 400;
     background-color: #cde1e2;
     position: absolute;
@@ -337,28 +343,26 @@ nav #menu li a:hover {
     opacity: .95;
 }
 
-
-.project9 {
-      background: url('../boxes.jpg') no-repeat 50% 50%;
-      background-size: cover;
+.landing {
+      background: url('../landing.png') no-repeat 50% 50%;
+      background-size:contain;
 }
 
-.project9::after {
+.landing::after {
       content: "";
       font-family: sans-serif;
       font-weight: bolder;
       font-size: 36px;
       position: relative;
-      color: #fff;
+      color: #000;
       display: block;
       top: 80%;
       right: 0;
       bottom: 0;
 }
 
-
 .project1 {
-      background: url('../plushegg.jpg') no-repeat 50% 50%;
+      background: url('../boxes.jpg') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -376,7 +380,7 @@ nav #menu li a:hover {
 }
 
 .project2 {
-      background: url('../bubblekitty.png') no-repeat 50% 50%;
+      background: url('../menu.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -394,7 +398,7 @@ nav #menu li a:hover {
 }
 
 .project3 {
-      background: url('../warmcozy2.JPG') no-repeat 50% 50%;
+      background: url('../warmcozy2.jpg') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -412,7 +416,7 @@ nav #menu li a:hover {
 }
 
 .project4 {
-      background: url('../nvrbckdwn.png') no-repeat 50% 50%;
+      background: url('../plushegg.jpg') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -430,7 +434,7 @@ nav #menu li a:hover {
 }
 
 .project5 {
-      background: url('../dinner.png') no-repeat 50% 50%;
+      background: url('../nvrbckdwn.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -448,7 +452,7 @@ nav #menu li a:hover {
 }
 
 .project6 {
-      background: url('../menu.png') no-repeat 50% 50%;
+      background: url('../dinner2.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -466,7 +470,7 @@ nav #menu li a:hover {
 }
 
 .project7 {
-      background: url('../brochure.png') no-repeat 50% 50%;
+      background: url('../bubblekitty.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
