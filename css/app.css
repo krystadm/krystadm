@@ -274,7 +274,8 @@ nav #menu li a:hover {
       float: left;
 }
 
-.row {
+.row#nav-row  {
+  flex-wrap: nowrap !important;
 }
 
 /*--------------- projects section --------------- */
