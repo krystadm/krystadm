@@ -492,6 +492,24 @@ nav #menu li a:hover {
       bottom: 0;
 }
 
+.project9 {
+      background: url('../st3.png') no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.project9::after {
+      content: "";
+      font-family: sans-serif;
+      font-weight: bolder;
+      font-size: 36px;
+      position: relative;
+      color: #fff;
+      display: block;
+      top: 80%;
+      right: 0;
+      bottom: 0;
+}
+
 @media(max-width: 768px) {
       .project {
             width: 100% !important;
