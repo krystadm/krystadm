@@ -13,23 +13,23 @@ html, body {
 
 .whitespace1 {
       width: 100%;
-      height: 99px;
+      height: 55px;
 }
 
 .whitespace {
       width: 100%;
-      height: 65px;
+      height: 35px;
 }
 
 @media(max-width: 768px) {
-      .whitespace {
+      .whitespace
         height: 50px;
       }
     }
 
 .header {
   text-align: center;
-  background-color: #cde1e2;
+  background-color: #;
   width: 100%
   height: 100%;
 
@@ -51,9 +51,9 @@ html, body {
 
 /*--------------- navigation --------------- */
 nav {
-      font-weight: 800;
+      font-weight: 300;
       width: 100%;
-      background: #cde1e2;
+      background: #fff;
       height: 100px;
       position: absolute;
       z-index: 1;
@@ -62,29 +62,30 @@ nav {
 nav #brand {
       float: left;
       display: block;
-      margin-left: 275px;
+      margin-left: 280px;
       line-height: 100px;
-      font-weight: bold;
+      font-weight: 100;
 }
 
 nav #brand a {
-      color: #666766;
+      color: #b8d3d3;
       width: 80px;
       transition: all 0.3s ease-out;
 }
 
 nav #brand a:hover {
-      color: #fff;
+      color: #b8d3d3;
       text-decoration: none;
 }
 
 nav #menu {
       float: left;
-      right: 250px;
+      right: 280px;
       position: absolute;
 }
 
 nav #menu li {
+      padding-top: 10px;
       padding-left: 40px;
       display: inline-block;
       cursor: pointer;
@@ -99,19 +100,21 @@ nav #menu li span {
 }
 
 nav #menu li a {
-      color: #fff;
+      color: #b8d3d3;
 }
 
 nav #menu li a:hover {
       color: #666766;
       text-decoration: none;
+        transition: all .2s ease-out;
+
 }
 
 #toggle {
       position: absolute;
       right: 35px;
       top: 25px;
-      font-weight: 300;
+      font-weight: lighter;
       z-index: 2;
       cursor: pointer;
       float: right;
@@ -166,7 +169,7 @@ nav #menu li a:hover {
       padding: 50px 0;
       font-size: 50px;
       min-height: 20px;
-      font-weight: bold;
+      font-weight: lighter;
       cursor: pointer;
       transition: all 0.3s ease-out;
 }
@@ -197,16 +200,16 @@ nav #menu li a:hover {
       }
 
       nav #brand {
-            margin-left: 24px;
+            margin-left: 30px;
       }
 
       #menu a {
             font-size: 20px;
-            font-weight: 300;
+            font-weight: lighter;
       }
 
       #resize li span {
-            font-weight: bolder;
+            font-weight: lighter;
       }
 
       nav #menu {
@@ -229,7 +232,7 @@ nav #menu li a:hover {
       height: 100%;
       display: block;
       align-items: center;
-      background-color: #cde1e2;
+      background-color: #b8d3d3;
       justify-content: center;
 }
 
@@ -257,7 +260,7 @@ nav #menu li a:hover {
       width: 100%;
       font-size: 20pt;
       font-weight: bold;
-      color: #a2b3b4;
+      color: #b8d3d3;
       float: left;
     }
 }
@@ -282,7 +285,7 @@ nav #menu li a:hover {
 
 /*--------------- projects section --------------- */
 .section {
-  width: 65%;
+  width: 81%;
   text-align: center;
   margin: 0 auto;
   border-top: 1px solid #666766;
@@ -309,7 +312,7 @@ nav #menu li a:hover {
     font-family: sans-serif;
     font-size: .25em;
     font-weight: 400;
-    background-color: #cde1e2;
+    background-color: #b8d3d3;
     position: absolute;
     z-index: 100;
     -webkit-transition: all 300ms ease-out;
@@ -338,13 +341,14 @@ nav #menu li a:hover {
   font-size: 8pt;
   color: #666767;
   position: relative;
-  top: 30%;
+  top: 40%;
 }
 
 
 
  .project:hover .fade-caption {
     opacity: .95;
+
 }
 
 .project1 {
@@ -354,6 +358,7 @@ nav #menu li a:hover {
 }
 
 .project1::after {
+      filter: none;
       content: "";
       font-family: sans-serif;
       font-weight: bolder;
@@ -364,6 +369,7 @@ nav #menu li a:hover {
       top: 80%;
       right: 0;
       bottom: 0;
+
 }
 
 .project2 {
@@ -621,7 +627,7 @@ nav #menu li a:hover {
 
 .hero-content a {
   color: #a2b2b4;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 @media(max-width: 768px) {
@@ -646,7 +652,7 @@ nav #menu li a:hover {
 
 .bio-image {
       height: 700px;
-      margin-top: 120px;
+      margin-top: 50px;
       background: url('../8.png') no-repeat center;
       position: relative;
 }
