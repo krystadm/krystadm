@@ -55,7 +55,8 @@ nav {
       width: 100%;
       background: #fff;
       height: 100px;
-      position: absolute;
+      position: fixed;
+      opacity: 95%;
       z-index: 1;
 }
 

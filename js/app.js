@@ -1,9 +1,9 @@
 
-$('#myCarousel').carousel();
+$('#myCarousel1', '#myCarousel2', '#myCarousel3', '#myCarousel4').carousel();
 
 $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
-        if( $(this).attr("href")=="#myCarousel") return;//This is the exception
+        if( $(this).attr("href")=="#myCarousel1", '#myCarousel2', '#myCarousel3', '#myCarousel4') return;//This is the exception
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
