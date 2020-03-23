@@ -63,7 +63,7 @@ nav {
 nav #brand {
       float: left;
       display: block;
-      margin-left: 280px;
+      margin-left: 260px;
       line-height: 100px;
       font-weight: 100;
 }
@@ -81,7 +81,7 @@ nav #brand a:hover {
 
 nav #menu {
       float: left;
-      right: 280px;
+      right: 265px;
       position: absolute;
 }
 
