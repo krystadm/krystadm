@@ -289,7 +289,6 @@ nav #menu li a:hover {
   width: 81%;
   text-align: center;
   margin: 0 auto;
-  border-top: 1px solid #666766;
   animation: fadeIn 2s ease-in-out 0s forwards;
 
 }
