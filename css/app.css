@@ -738,3 +738,16 @@ nav #menu li a:hover {
     height: none;
     width:  100%;
 }
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.sticky:before,
+.sticky:after {
+    content: '';
+    padding-top: 95px;
+    display: flex;
+}
