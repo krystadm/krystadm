@@ -117,7 +117,7 @@ nav #menu li a:hover {
 
 #toggle {
       position: absolute;
-      right: 35px;
+      right: 25px;
       top: 25px;
       font-weight: lighter;
       z-index: 2;
@@ -134,7 +134,7 @@ nav #menu li a:hover {
 
 .close-btn {
       position: absolute;
-      right: 35px;
+      right: 25px;
       z-index: 1;
       cursor: pointer;
       top: 0px;
@@ -205,7 +205,7 @@ nav #menu li a:hover {
       }
 
       nav #brand {
-            margin-left: 30px;
+            margin-left: 10px;
       }
 
       #menu a {
