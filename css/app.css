@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Acumin Pro";
+    src: url(https://use.typekit.net/aal6sfn.css);
+}
+p.customfont {
+    font-family: acumin-pro, sans-serif;
+}
 
 /*--------------- basic styling --------------- */
 html, body {
@@ -5,7 +12,7 @@ html, body {
       padding: 0;
       width: 100%;
       height: 100%;
-      font-family: sans-serif !important;
+      font-family: acumin-pro, sans-serif !important;
       background: #fefefa !important;
       color: #666766 !important;
 
@@ -51,13 +58,15 @@ html, body {
 
 /*--------------- navigation --------------- */
 nav {
-      font-weight: 300;
+      font-family: acumin-pro, sans-serif !important;
+      font-style: normal;
       width: 100%;
-      background: #fefefa;
+      background: #3B3B3B;
       height: 100px;
       position: fixed;
       opacity: 98%;
       z-index: 1;
+      filter: drop-shadow(0px 0px 1px #3B3B3B);
 }
 
 nav #brand {
@@ -65,11 +74,10 @@ nav #brand {
       display: block;
       margin-left: 280px;
       line-height: 100px;
-      font-weight: 300;
 }
 
 nav #brand img {
-      width: 300px;
+      width: 70px;
 }
 
 nav #brand a {
@@ -94,7 +102,6 @@ nav #menu li {
       padding-left: 40px;
       display: inline-block;
       cursor: pointer;
-      font-weight: 500;
       line-height: 100px;
       position: relative;
       transition: all 0.3s ease-out;
@@ -105,7 +112,11 @@ nav #menu li span {
 }
 
 nav #menu li a {
-      color: #b8d3d3;
+      font-family: 'Acumin Pro', sans-serif !important;
+      font-style: normal;
+      font-weight: light;
+      font-size: 11pt;
+      color: #fefefa;
 }
 
 nav #menu li a:hover {
@@ -230,28 +241,76 @@ nav #menu li a:hover {
 
 /*--------------- hero section --------------- */
 .container {
-  width: 1400px;
+  width: 100%;
+  height: 425px;
 }
 
 .hero {
-      height: 100%;
-      display: block;
-      align-items: center;
-      background-color: #b8d3d3;
-      justify-content: center;
+      width: 100%;
+      background-color: #fefefa;
+      z-index: 1;
 }
 
-.hero h1 {
-      font-weight: bolder;
-      text-align: center;
+.hero-content {
+      padding-top: 50px;
+}
+
+.hero-content #title {
+      padding-bottom: 25px;
+      border-bottom: 5px solid #94A8A8;
+      }
+
+.hero-content h1 {
+      font-family: acumin-pro-condensed, sans-serif !important;
+      font-weight: 700;
+      font-size: 48pt;
+      color: #3B3B3B;
+      text-align: left;
       letter-spacing: 2px;
       line-height: 58px;
 }
 
+.hero-content #project-title h1 {
+      padding-bottom: 25px;
+      border-bottom: 5px solid #94A8A8;
+      font-family: acumin-pro-condensed, sans-serif !important;
+      font-weight: 700;
+      font-size: 24pt;
+      color: #3B3B3B;
+      text-align: left;
+      letter-spacing: 2px;
+      }
+
+
+.hero-content #specialty {
+      padding-top: 10px;
+      }
+
+.hero-content h4 {
+      font-family: acumin-pro, sans-serif !important;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 10pt;
+      color: #3B3B3B;
+      text-align: left;
+      line-height: 58px;
+      border-bottom: 1px;
+}
+
+.hero-content #blurb p {
+      font-family: 'Acumin Pro', sans-serif !important;
+      font-style: normal;
+      font-weight: light;
+      font-size: 12pt;
+      line-height: 20pt;
+      color: #3B3B3B;
+      text-align: left;
+}
+
 .about-content {
       width: 100%;
-      font-size: 11pt;
-      padding-top: 163px;
+      font-size: 16pt;
+      padding-top: 130px;
       display: block;
       font-weight: lighter;
       text-align: left;
@@ -262,10 +321,11 @@ nav #menu li a:hover {
 }
 
 .about-content h3, .hero-content h3{
+      font-family: acumin-pro, sans-serif !important;
       width: 100%;
-      font-size: 20pt;
+      font-size: 12pt;
       font-weight: bold;
-      color: #b8d3d3;
+      color: #3B3B3B;
       float: left;
     }
 }
@@ -313,12 +373,12 @@ nav #menu li a:hover {
 }
 
 .project .caption {
-    font-family: sans-serif;
-    font-size: .25em;
+    font-family: acumin-pro, sans-serif !important;
+    font-size: 24pt;
     font-weight: 400;
     background-color: #b8d3d3;
     position: absolute;
-    z-index: 100;
+    z-index: 0;
     -webkit-transition: all 300ms ease-out;
     -moz-transition: all 300ms ease-out;
     -o-transition: all 300ms ease-out;
@@ -364,7 +424,7 @@ nav #menu li a:hover {
 .project1::after {
       filter: none;
       content: "";
-      font-family: sans-serif;
+      font-family: acumin-pro, sans-serif !important;
       font-weight: bolder;
       font-size: 36px;
       position: relative;
@@ -383,7 +443,7 @@ nav #menu li a:hover {
 
 .project2::after {
       content: "";
-      font-family: sans-serif;
+      font-family: acumin-pro, sans-serif !important;
       font-weight: bolder;
       font-size: 36px;
       position: relative;
@@ -401,7 +461,7 @@ nav #menu li a:hover {
 
 .project3::after {
       content: "";
-      font-family: sans-serif;
+      font-family: acumin-pro, sans-serif !important;
       font-weight: bolder;
       font-size: 36px;
       position: relative;
@@ -419,7 +479,7 @@ nav #menu li a:hover {
 
 .project4::after {
       content: "";
-      font-family: sans-serif;
+      font-family: acumin-pro, sans-serif !important;
       font-weight: bolder;
       font-size: 36px;
       position: relative;
@@ -437,7 +497,7 @@ nav #menu li a:hover {
 
 .project5::after {
       content: "";
-      font-family: sans-serif;
+      font-family: acumin-pro, sans-serif !important;
       font-weight: bolder;
       font-size: 36px;
       position: relative;
@@ -455,7 +515,7 @@ nav #menu li a:hover {
 
 .project6::after {
       content: "";
-      font-family: sans-serif;
+      font-family: acumin-pro, sans-serif !important;
       font-weight: bolder;
       font-size: 36px;
       position: relative;
@@ -473,7 +533,7 @@ nav #menu li a:hover {
 
 .project7::after {
       content: "";
-      font-family: sans-serif;
+      font-family: acumin-pro, sans-serif !important;
       font-weight: bolder;
       font-size: 36px;
       position: relative;
@@ -491,7 +551,7 @@ nav #menu li a:hover {
 
 .project8::after {
       content: "";
-      font-family: sans-serif;
+      font-family: acumin-pro, sans-serif !important;
       font-weight: bolder;
       font-size: 36px;
       position: relative;
@@ -509,7 +569,7 @@ nav #menu li a:hover {
 
 .project9::after {
       content: "";
-      font-family: sans-serif;
+      font-family: acumin-pro, sans-serif !important;
       font-weight: bolder;
       font-size: 36px;
       position: relative;
@@ -534,12 +594,13 @@ nav #menu li a:hover {
 /*--------------- footer section --------------- */
 
 .footer {
+      position: fixed;
+      bottom: 0;
       width: 100%;
       padding-top: 20px;
-      padding-bottom: 20px;
       font-weight: lighter:
       animation: fadeIn 2.5s ease-in-out 0s forwards;
-      background-color: #fefefa;
+      background-color: #94A8A8;
 }
 .info h4 {
       text-align: center;
@@ -622,17 +683,50 @@ nav #menu li a:hover {
   }
 }
 
-.hero-content h6 {
-      font-size: 6pt !important;
+.project-content  #title {
+        padding-bottom: 25px !important;
+        border-bottom: 5px solid #94A8A8;
+        }
+
+.project-content h1 {
+      font-family: acumin-pro-condensed, sans-serif !important;
+      font-size: 36pt !important;
       text-align: left;
-      font-weight: lighter;
-      font-style: italic;
-      color: #000;
+      font-weight: bold;
+      font-style: normal;
+      color: #3b3b3b;
+      padding-bottom: 15px !important;
+      border-bottom: 5px solid #94A8A8 !important;
+      }
 }
 
-.hero-content a {
+.project-content #specialty  {
+}
+
+.project-content #specialty h4 {
+      font-family: acumin-pro, sans-serif !important;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 10pt;
+      color: #3B3B3B;
+      text-align: left;
+      line-height: 58px;
+    }
+}
+
+.project-content a {
   color: #a2b2b4;
   font-weight: 200;
+}
+
+.project-content #blurb p{
+      font-family: acumin-pro, sans-serif !important;
+      font-style: normal;
+      font-weight: thin;
+      font-size: 12pt;
+      color: #3B3B3B;
+      text-align: left;
+      border-bottom: 1px;
 }
 
 @media(max-width: 768px) {
@@ -645,55 +739,64 @@ nav #menu li a:hover {
 /*---------------about page --------------- */
 
 
-.about {
-        height: 100vh;
-        margin-top: 120px;
-
-}
-
 .about a {
   color: #c3c3c3;
 }
 
 .bio-image {
       height: 700px;
-      margin-top: 50px;
+      margin-top: 100px;
       background: url('../8.png') no-repeat center;
       position: relative;
 }
 
-@media(max-width: 768px) {
-      .about-content {
-            padding-top: 0px;
-            width: 100%;
-            margin: 0 auto;
+.about #title {
+      padding-bottom: 15px !important;
+      border-bottom: 5px solid #94A8A8;
       }
+
+.about h1 {
+      font-family: acumin-pro-condensed, sans-serif !important;
+      font-weight: 700;
+      font-size: 48pt;
+      color: #3B3B3B;
+      text-align: left;
+      letter-spacing: 2px;
 }
+
+.about #specialty {
+      padding-top: 10px;
+      }
+
+.about h4 {
+      font-family: acumin-pro, sans-serif !important;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16pt;
+      color: #3B3B3B;
+      text-align: left;
+      line-height: 58px;
+      border-bottom: 1px;
+}
+
+.about #blurb p{
+      font-family: acumin-pro, sans-serif !important;
+      font-style: normal;
+      font-weight: thin;
+      font-size: 12pt;
+      color: #3B3B3B;
+      text-align: left;
+      border-bottom: 1px;
+}
+
+/* @media(max-width: 768px) {
+      .about-content {
+            width: 100%;
+      }
+} */
 
 
 /*--------------- work page --------------- */
-
-.hero-content {
-      margin-left: 0%;
-      animation: fadeIn 1.5s ease-in-out 0s forwards;
-}
-
-.hero-content p {
-      font-size: 10pt;
-      text-align: left;
-      margin: 0 auto;
-      font-weight: 300;
-      line-height: 1.25;
-      color: grey;
-}
-
-@media(max-width: 768px) {
-      .hero-content {
-            padding-top: 0px;
-            width: 100%;
-            margin: 0 auto;
-      }
-}
 
 
 
