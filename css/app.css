@@ -8,13 +8,12 @@ p.customfont {
 
 /*--------------- basic styling --------------- */
 html, body {
-      margin: 0;
-      padding: 0;
       width: 100%;
       height: 100%;
       font-family: acumin-pro, sans-serif !important;
       background: #fefefa !important;
       color: #666766 !important;
+      margin-bottom: 50px;
 
 }
 
@@ -29,8 +28,8 @@ html, body {
 }
 
 @media(max-width: 768px) {
-      .whitespace
-        height: 50px;
+      .whitespace{
+        height: 100%;
       }
     }
 
@@ -594,14 +593,16 @@ nav #menu li a:hover {
 /*--------------- footer section --------------- */
 
 .footer {
+      height: 50px;
       position: fixed;
       bottom: 0;
       width: 100%;
-      padding-top: 20px;
+      padding-top: 10px;
       font-weight: lighter:
       animation: fadeIn 2.5s ease-in-out 0s forwards;
-      background-color: #94A8A8;
+      background-color: #94A8A8 !important;
 }
+
 .info h4 {
       text-align: center;
       padding-top: 5px;
@@ -655,9 +656,9 @@ nav #menu li a:hover {
       display: inline-block;
 }
 
-@media(max-width: 768px) {
-      .collab, #media {
+@media(max-width: 768px) { #media {
             text-align: center;
+            padding-bottom: 15px;
       }
 
       .info ul {
@@ -700,8 +701,7 @@ nav #menu li a:hover {
       }
 }
 
-.project-content #specialty  {
-}
+
 
 .project-content #specialty h4 {
       font-family: acumin-pro, sans-serif !important;
@@ -731,7 +731,7 @@ nav #menu li a:hover {
 
 @media(max-width: 768px) {
       .hero-content {
-        height: 100vh;
+        height: 100%;
       }
     }
 }
@@ -789,11 +789,11 @@ nav #menu li a:hover {
       border-bottom: 1px;
 }
 
-/* @media(max-width: 768px) {
+@media(max-width: 768px) {
       .about-content {
             width: 100%;
       }
-} */
+}
 
 
 /*--------------- work page --------------- */
@@ -819,6 +819,7 @@ nav #menu li a:hover {
       text-align: right !important;
     }
 }
+
 
 /* slide */
 
