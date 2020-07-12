@@ -13,7 +13,7 @@ html, body {
       font-family: acumin-pro, sans-serif !important;
       background: #fefefa !important;
       color: #666766 !important;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
 
 }
 
@@ -97,7 +97,6 @@ nav #menu {
 }
 
 nav #menu li {
-      padding-top: 10px;
       padding-left: 40px;
       display: inline-block;
       cursor: pointer;
@@ -241,7 +240,7 @@ nav #menu li a:hover {
 /*--------------- hero section --------------- */
 .container {
   width: 100%;
-  height: 425px;
+  height: 350px;
 }
 
 .hero {
@@ -258,21 +257,21 @@ nav #menu li a:hover {
 }
 
 .hero #project2 {
-  background: url('../menu.png') no-repeat 50% 50%;
+  background: url('../STredesignmockup.jpg') no-repeat 50% 50%;
   background-size: cover;
   filter: opacity(75%);
 
 }
 
 .hero #project3 {
-  background: url('../warmcozy2.jpg') no-repeat 50% 50%;
+  background: url('../ryu.png') no-repeat 50% 50%;
   background-size: cover;
   filter: opacity(75%);
 
 }
 
 .hero #project4 {
-  background: url('../plushegg.jpg') no-repeat 50% 50%;
+  background: url('../bubblekitty.png') no-repeat 50% 50%;
   background-size: cover;
   filter: opacity(75%);
 
@@ -285,28 +284,7 @@ nav #menu li a:hover {
 }
 
 .hero #project6 {
-  background: url('../bubblekitty.png') no-repeat 50% 50%;
-  background-size: cover;
-  filter: opacity(75%);
-
-}
-
-.hero #project7 {
-  background: url('../dinner.png') no-repeat 50% 50%;
-  background-size: cover;
-  filter: opacity(75%);
-
-}
-
-.hero #project8 {
-  background: url('../piedmont.png') no-repeat 50% 50%;
-  background-size: cover;
-  filter: opacity(75%);
-
-}
-
-.hero #project9 {
-  background: url('../st3.png') no-repeat 50% 50%;
+  background: url('../warmcozy.jpg') no-repeat 50% 50%;
   background-size: cover;
   filter: opacity(75%);
 
@@ -498,7 +476,7 @@ nav #menu li a:hover {
 }
 
 .project2 {
-      background: url('../menu.png') no-repeat 50% 50%;
+      background: url('../stredesignmockup.jpg') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -516,7 +494,7 @@ nav #menu li a:hover {
 }
 
 .project3 {
-      background: url('../warmcozy2.JPG') no-repeat 50% 50%;
+      background: url('../menu.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -534,7 +512,7 @@ nav #menu li a:hover {
 }
 
 .project4 {
-      background: url('../plushegg.jpg') no-repeat 50% 50%;
+      background: url('../bubblekitty.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -570,7 +548,7 @@ nav #menu li a:hover {
 }
 
 .project6 {
-      background: url('../dinner2.png') no-repeat 50% 50%;
+      background: url('../warmcozy2.JPG') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -584,62 +562,8 @@ nav #menu li a:hover {
       display: block;
       top: 80%;
       right: 0;
-      bottom: 0;
 }
 
-.project7 {
-      background: url('../bubblekitty.png') no-repeat 50% 50%;
-      background-size: cover;
-}
-
-.project7::after {
-      content: "";
-      font-family: acumin-pro, sans-serif !important;
-      font-weight: bolder;
-      font-size: 36px;
-      position: relative;
-      color: #000;
-      display: block;
-      top: 80%;
-      right: 0;
-      bottom: 0;
-}
-
-.project8 {
-      background: url('../piedmont.png') no-repeat 50% 50%;
-      background-size: cover;
-}
-
-.project8::after {
-      content: "";
-      font-family: acumin-pro, sans-serif !important;
-      font-weight: bolder;
-      font-size: 36px;
-      position: relative;
-      color: #fefefa;
-      display: block;
-      top: 80%;
-      right: 0;
-      bottom: 0;
-}
-
-.project9 {
-      background: url('../st3.png') no-repeat 50% 50%;
-      background-size: cover;
-}
-
-.project9::after {
-      content: "";
-      font-family: acumin-pro, sans-serif !important;
-      font-weight: bolder;
-      font-size: 36px;
-      position: relative;
-      color: #fefefa;
-      display: block;
-      top: 80%;
-      right: 0;
-      bottom: 0;
-}
 
 @media(max-width: 768px) {
       .project {
@@ -663,12 +587,11 @@ nav #menu li a:hover {
       font-weight: lighter:
       animation: fadeIn 2.5s ease-in-out 0s forwards;
       background-color: #94A8A8 !important;
-      z-index: inherit;
 }
 
-.info h4 {
+.info #credit h4 {
       text-align: center;
-      padding-top: 5px;
+      padding-top: 10px;
       font-size: 8px;
       font-weight: lighter;
       color: #666766
@@ -720,6 +643,7 @@ nav #menu li a:hover {
 }
 
 @media(max-width: 768px) { #media {
+            max-height: 100px;
             text-align: center;
             padding-bottom: 15px;
       }
@@ -762,11 +686,10 @@ nav #menu li a:hover {
       padding-bottom: 15px !important;
       border-bottom: 5px solid #94A8A8 !important;
       }
-}
 
 
 
-.project-content #specialty h4 {
+.project-content h4 {
       font-family: acumin-pro, sans-serif !important;
       font-style: normal;
       font-weight: bold;
@@ -774,7 +697,6 @@ nav #menu li a:hover {
       color: #3B3B3B;
       text-align: left;
       line-height: 58px;
-    }
 }
 
 .project-content a {
@@ -811,7 +733,7 @@ nav #menu li a:hover {
       margin-top: 100px;
       background: url('../IMG_5559.JPG') no-repeat center;
       background-size: contain;
-      filter: saturate(75%); 
+      filter: saturate(75%);
       position: relative;
 }
 
@@ -867,6 +789,11 @@ nav #menu li a:hover {
 
 /*--------------- project page --------------- */
 
+.projectblurb {
+  animation: fadeIn 1s ease-in-out 0s forwards;
+  }
+
+
 .prev a, .next a{
 
   display: block;
@@ -902,7 +829,7 @@ nav #menu li a:hover {
         }
 
 .carousel .carousel-item {
-  animation: fadeIn 1s ease-in-out 0s forwards;
+    animation: fadeIn 1s ease-in-out 0s forwards;
     overflow:hidden;
     margin-bottom:1em;
     margin-top:1em;
