@@ -12,7 +12,7 @@ html, body {
       height: 100%;
       font-family: acumin-pro, sans-serif !important;
       background: #fefefa !important;
-      color: #666766 !important;
+      color: #3B3B3B !important;
       margin-bottom: 100px;
 
 }
@@ -80,13 +80,13 @@ nav #brand img {
 }
 
 nav #brand a {
-      color: #b8d3d3;
+      color: #FEFEFA;
       width: 80px;
       transition: all 0.3s ease-out;
 }
 
 nav #brand a:hover {
-      color: #b8d3d3;
+      color: #94A8A8;
       text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ nav #menu li a {
 }
 
 nav #menu li a:hover {
-      color: #666766;
+      color: #94A8A8;
       text-decoration: none;
         transition: all .2s ease-out;
 
@@ -355,7 +355,7 @@ nav #menu li a:hover {
       text-align: left;
       letter-spacing: -.5px;
       line-height: 1.5;
-      color: #666766;
+      color: #3B3B3B;
       float: left;
 }
 
@@ -378,7 +378,7 @@ nav #menu li a:hover {
       font-weight: lighter;
       text-align: left;
       line-height: 10px;
-      color: #666766;
+      color: #3B3B3B;
       float: left;
 }
 
@@ -415,7 +415,7 @@ nav #menu li a:hover {
     font-family: acumin-pro, sans-serif !important;
     font-size: 24pt;
     font-weight: 400;
-    background-color: #b8d3d3;
+    background-color: #94A8A8;
     position: absolute;
     z-index: 0;
     -webkit-transition: all 300ms ease-out;
@@ -442,7 +442,7 @@ nav #menu li a:hover {
 
 .project .caption p {
   font-size: 8pt;
-  color: #666767;
+  color: #3B3B3B;
   position: relative;
   top: 40%;
 }
@@ -700,7 +700,7 @@ nav #menu li a:hover {
 }
 
 .project-content a {
-  color: ##94A8A8;
+  color: #94A8A8;
   font-weight: 200;
 }
 
