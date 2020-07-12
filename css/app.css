@@ -700,7 +700,7 @@ nav #menu li a:hover {
 }
 
 .project-content a {
-  color: #a2b2b4;
+  color: ##94A8A8;
   font-weight: 200;
 }
 
@@ -725,7 +725,7 @@ nav #menu li a:hover {
 
 
 .about a {
-  color: #c3c3c3;
+  color: #3B3B3B;
 }
 
 .bio-image {
@@ -798,7 +798,7 @@ nav #menu li a:hover {
 
   display: block;
   font-weight: bold;
-  color: #a2b2b4 !important;
+  color: ##94A8A8 !important;
   font-size: 10pt;
 
 }
