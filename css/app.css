@@ -33,27 +33,6 @@ html, body {
       }
     }
 
-.header {
-  text-align: center;
-  background-color: #;
-  width: 100%
-  height: 100%;
-
-}
-
-.header img {
-  padding-top: 10%;
-  max-width: 100%;
-  margin: 0 auto;
-  animation: fadeIn 1s ease-in-out 0s forwards;
-}
-
-@media(max-width: 768px) {
-      .header img {
-        padding-top: 50%;
-      }
-}
-
 
 /*--------------- navigation --------------- */
 nav {
@@ -349,7 +328,6 @@ nav #menu li a:hover {
 .about-content {
       width: 100%;
       font-size: 16pt;
-      padding-top: 130px;
       display: block;
       font-weight: lighter;
       text-align: left;
@@ -389,7 +367,7 @@ nav #menu li a:hover {
 
 /*--------------- projects section --------------- */
 .section {
-  width: 81%;
+  width: 1400px;
   text-align: center;
   margin: 0 auto;
   animation: fadeIn 2s ease-in-out 0s forwards;
@@ -566,7 +544,7 @@ nav #menu li a:hover {
 
 
 @media(max-width: 768px) {
-      .project {
+      .section {
             width: 100% !important;
             margin: 1px auto;
       }
@@ -728,9 +706,13 @@ nav #menu li a:hover {
   color: #3B3B3B;
 }
 
+.bio-section {
+      padding-top: 50px;
+}
+
 .bio-image {
+      width: 100%;
       height: 700px;
-      margin-top: 100px;
       background: url('../IMG_5559.JPG') no-repeat center;
       background-size: contain;
       filter: saturate(75%);
@@ -745,7 +727,7 @@ nav #menu li a:hover {
 .about h1 {
       font-family: acumin-pro-condensed, sans-serif !important;
       font-weight: 700;
-      font-size: 48pt;
+      font-size: 36pt;
       color: #3B3B3B;
       text-align: left;
       letter-spacing: 2px;
@@ -759,7 +741,7 @@ nav #menu li a:hover {
       font-family: acumin-pro, sans-serif !important;
       font-style: normal;
       font-weight: bold;
-      font-size: 16pt;
+      font-size: 10pt;
       color: #3B3B3B;
       text-align: left;
       line-height: 58px;
@@ -779,6 +761,12 @@ nav #menu li a:hover {
 @media(max-width: 768px) {
       .about-content {
             width: 100%;
+      }
+
+      .bio-image {
+        max-width: 95%;
+        margin: 0 auto;
+
       }
 }
 
