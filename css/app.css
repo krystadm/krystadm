@@ -39,12 +39,12 @@ nav {
       font-family: acumin-pro, sans-serif !important;
       font-style: normal;
       width: 100%;
-      background: #3B3B3B;
+      background: #fefefa;
       height: 100px;
       position: fixed;
       opacity: 98%;
       z-index: 1;
-      filter: drop-shadow(0px 0px 1px #3B3B3B);
+      filter: drop-shadow(0px 0px 3px #fefefa);
 }
 
 nav #brand {
@@ -59,7 +59,7 @@ nav #brand img {
 }
 
 nav #brand a {
-      color: #FEFEFA;
+      color: #94A8A8;
       width: 80px;
       transition: all 0.3s ease-out;
 }
@@ -93,7 +93,7 @@ nav #menu li a {
       font-style: normal;
       font-weight: light;
       font-size: 11pt;
-      color: #fefefa;
+      color: #94A8A8;
 }
 
 nav #menu li a:hover {
@@ -367,13 +367,27 @@ nav #menu li a:hover {
 
 /*--------------- projects section --------------- */
 .section {
-  width: 1400px;
+  width: 1300px;
   text-align: center;
   margin: 0 auto;
   animation: fadeIn 2s ease-in-out 0s forwards;
 
 }
 
+.project-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.project-container #title h1 {
+      padding-bottom: 25px;
+      font-family: acumin-pro-condensed, sans-serif !important;
+      font-weight: 300;
+      font-size: 24pt;
+      color: #94A8A8;
+      text-align: center;
+      letter-spacing: 1px;
+      }
 
 
 .vertical {
@@ -390,9 +404,6 @@ nav #menu li a:hover {
 }
 
 .project .caption {
-    font-family: acumin-pro, sans-serif !important;
-    font-size: 24pt;
-    font-weight: 400;
     background-color: #94A8A8;
     position: absolute;
     z-index: 0;
@@ -410,19 +421,21 @@ nav #menu li a:hover {
 }
 
 .project .caption h1 {
+  font-family: acumin-pro-condensed, sans-serif !important;
+  weight: 700;
   position: relative;
   font-weight: bolder;
   display: block;
   color: #fefefa;
-  top: 35%;
+  top: 30%;
   animation: fadeIn 2s ease-in-out 0s forwards;
 }
 
 .project .caption p {
-  font-size: 8pt;
-  color: #3B3B3B;
+  font-size: 9pt;
+  color: #3b3b3b;
   position: relative;
-  top: 40%;
+  top: 35%;
 }
 
 
@@ -554,83 +567,6 @@ nav #menu li a:hover {
       }
 }
 
-/*--------------- footer section --------------- */
-
-.footer {
-      height: 50px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      padding-top: 10px;
-      font-weight: lighter:
-      animation: fadeIn 2.5s ease-in-out 0s forwards;
-      background-color: #94A8A8 !important;
-}
-
-.info #credit h4 {
-      text-align: center;
-      padding-top: 10px;
-      font-size: 8px;
-      font-weight: lighter;
-      color: #666766
-}
-
-.info li {
-      font-weight: lighter;
-      font-size: 18px;
-      padding-left: 0px;
-}
-
-#li::before {
-      display: inline-block;
-      content: '';
-      border-radius: 100%;
-      height: 4px;
-      width: 4px;
-
-}
-
-
-#ig::before {
-      display: inline-block;
-      content: '';
-      border-radius: 100%;
-      height: 4px;
-      width: 4px;
-
-}
-
-
-#em::before {
-      display: inline-block;
-      content: '';
-      border-radius: 100%;
-      height: 4px;
-      width: 4px;
-
-}
-
-#media {
-      text-align: center;
-}
-
-
-
-#media ul li {
-      display: inline-block;
-}
-
-@media(max-width: 768px) { #media {
-            max-height: 100px;
-            text-align: center;
-            padding-bottom: 15px;
-      }
-
-      .info ul {
-            margin: 0 auto;
-            padding: 0;
-      }
-}
 
 /*--------------- work page --------------- */
 
@@ -708,11 +644,12 @@ nav #menu li a:hover {
 
 .bio-section {
       padding-top: 50px;
+      max-width: 1400px;
+      margin: 0 auto;
 }
 
 .bio-image {
-      width: 100%;
-      height: 700px;
+      width: 50%;
       background: url('../IMG_5559.JPG') no-repeat center;
       background-size: contain;
       filter: saturate(75%);
@@ -761,10 +698,12 @@ nav #menu li a:hover {
 @media(max-width: 768px) {
       .about-content {
             width: 100%;
+            padding-top: 20px;
       }
 
       .bio-image {
-        max-width: 95%;
+        max-width: 100%;
+        height: 650px;
         margin: 0 auto;
 
       }
@@ -839,4 +778,70 @@ nav #menu li a:hover {
     content: '';
     padding-top: 95px;
     display: flex;
+}
+
+/*--------------- footer section --------------- */
+
+.footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding-top: 10px;
+      font-weight: lighter:
+      animation: fadeIn 2.5s ease-in-out 0s forwards;
+      background-color: #94A8A8 !important;
+}
+
+.hr {
+  width: 1200px;
+  height: 50px;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+
+.info #credit h4 {
+      text-align: right;
+      padding-top: 10px;
+      padding-right: 50px;
+      font-size: 8px;
+      font-weight: lighter;
+      color: #666766;
+}
+
+.info #media li {
+      font-weight: lighter;
+      font-size: 18px;
+}
+
+.info #media {
+      text-align: left;
+}
+
+
+
+.info #media ul li {
+      display: inline-block;
+}
+
+@media(max-width: 768px) { .footer {
+      height: 75px;
+}
+
+      .info #credit h4 {
+            text-align: center;
+            padding-right: 0 !important;
+      }
+
+      .info #media {
+            text-align: center;
+      }
+
+      .hr {
+        width: 100%;
+      }
+
+      .info ul {
+            margin: 0 auto;
+            padding: 0;
+      }
 }
