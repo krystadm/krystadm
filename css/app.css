@@ -27,7 +27,8 @@ html, body {
       height: 35px;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1280px) {
+
       .whitespace{
         height: 100%;
       }
@@ -556,10 +557,17 @@ nav #menu li a:hover {
 }
 
 
-@media(max-width: 768px) {
+@media(max-width: 1280px) {
       .section {
             width: 100% !important;
-            margin: 1px auto;
+            margin: 0px auto;
+            text-align: center;
+      }
+
+      .project-container {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
       }
 
       .vertical {
@@ -628,8 +636,8 @@ nav #menu li a:hover {
       border-bottom: 1px;
 }
 
-@media(max-width: 768px) {
-      .hero-content {
+@media(max-width: 1280px) {
+      .project-content {
         height: 100%;
       }
     }
@@ -695,7 +703,7 @@ nav #menu li a:hover {
       border-bottom: 1px;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1280px) {
       .about-content {
             width: 100%;
             padding-top: 20px;
@@ -748,7 +756,7 @@ nav #menu li a:hover {
 
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1280px) {
       #myCarousel {
             width: 100% !important;
 
@@ -823,7 +831,7 @@ nav #menu li a:hover {
       display: inline-block;
 }
 
-@media(max-width: 768px) { .footer {
+@media(max-width: 1280px) { .footer {
       height: 75px;
 }
 
