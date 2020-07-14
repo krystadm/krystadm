@@ -97,7 +97,7 @@ nav #menu li a {
 }
 
 nav #menu li a:hover {
-      color: #94A8A8;
+      color: #3b3b3b;
       text-decoration: none;
         transition: all .2s ease-out;
 
@@ -805,7 +805,7 @@ nav #menu li a:hover {
       padding-right: 50px;
       font-size: 8px;
       font-weight: lighter;
-      color: #666766;
+      color: #3b3b3b;
 }
 
 .info #media li {
