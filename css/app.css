@@ -866,6 +866,12 @@ nav #menu li a:hover {
       text-align: left;
 }
 
+.info img {
+      height: 15px;
+      padding-left: 10px;
+
+}
+
 
 
 .info #media ul li {
@@ -885,8 +891,16 @@ nav #menu li a:hover {
             text-align: center;
       }
 
+      .info img {
+            height: 20px;
+            padding-left: 0px;
+
+      }
+
+
       .hr {
         width: 100%;
+        padding-top: 0px;
       }
 
       .info ul {
