@@ -805,7 +805,6 @@ nav #menu li a:hover {
         }
 
 .carousel .carousel-item {
-    animation: fadeIn 1s ease-in-out 0s forwards;
     overflow:hidden;
     margin-bottom:1em;
     margin-top:1em;
