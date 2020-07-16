@@ -2,6 +2,7 @@
     font-family: "Acumin Pro";
     src: url(https://use.typekit.net/aal6sfn.css);
 }
+
 p.customfont {
     font-family: acumin-pro, sans-serif;
 }
@@ -815,18 +816,7 @@ nav #menu li a:hover {
     width:  100%;
 }
 
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
 
-.sticky:before,
-.sticky:after {
-    content: '';
-    padding-top: 95px;
-    display: flex;
-}
 
 /*--------------- footer section --------------- */
 
