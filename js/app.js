@@ -1,9 +1,9 @@
 
-$('#myCarousel1', '#myCarousel2', '#myCarousel3', '#myCarousel4').carousel();
+$('#myCarousel1').carousel();
 
 $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
-        if( $(this).attr("href")=="#myCarousel1", '#myCarousel2', '#myCarousel3', '#myCarousel4') return;//This is the exception
+        if( $(this).attr("href")=="#myCarousel1") return;//This is the exception
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -52,13 +52,3 @@ $(function() {
       }, 0.1);
 
       // nav animation ends
-
-
-
-      new WOW().init();
-
-      var stickyElements = document.getElementsByClassName('sticky');
-
-      for (var i = stickyElements.length - 1; i >= 0; i--) {
-          Stickyfill.add(stickyElements[i]);
-      }
