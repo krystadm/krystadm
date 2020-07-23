@@ -238,7 +238,7 @@ nav #menu li a:hover {
 }
 
 .hero #project2 {
-  background: url('../STredesignmockup.jpg') no-repeat 50% 50%;
+  background: url('../../STredesignmockup.jpg') no-repeat 50% 50%;
   background-size: cover;
   filter: opacity(75%);
 
@@ -443,7 +443,7 @@ nav #menu li a:hover {
 }
 
 .project1 {
-      background: url('../boxes.jpg') no-repeat 50% 50%;
+      background: url('../STredesignmockup.jpg') no-repeat 50% 50%;
       background-size: cover;
 
 }
@@ -464,7 +464,7 @@ nav #menu li a:hover {
 }
 
 .project2 {
-      background: url('../STredesignmockup.jpg') no-repeat 50% 50%;
+      background: url('../boxes.jpg') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -574,6 +574,28 @@ nav #menu li a:hover {
 
 /*--------------- work page --------------- */
 
+.project-row {
+  padding-top: 50px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.project-row #section h2 {
+      padding-bottom: 25px;
+      font-family: acumin-pro-condensed, sans-serif !important;
+      font-weight: 300;
+      font-size: 24pt;
+      color: #94A8A8;
+      text-align: center;
+      letter-spacing: 1px;
+      }
+
+.project-row img {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
 
 
 .project-img  {
@@ -582,6 +604,13 @@ nav #menu li a:hover {
 
 }
 
+.page-mockup img {
+  max-width: 75%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+
 .project-img img {
   max-width: 75% !important;
   margin: 0 auto;
@@ -589,7 +618,7 @@ nav #menu li a:hover {
   }
 }
 
-.project-content  #title {
+.project-content #title {
         padding-bottom: 25px !important;
         border-bottom: 5px solid #94A8A8;
         }
@@ -604,7 +633,6 @@ nav #menu li a:hover {
       padding-bottom: 15px !important;
       border-bottom: 5px solid #94A8A8 !important;
       }
-
 
 
 .project-content h4 {
