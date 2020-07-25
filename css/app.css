@@ -820,14 +820,14 @@ nav #menu li a:hover {
 
 /* slide */
 
-#myCarousel {
+#myCarousel1 {
   width: 786px;
   margin: 0 auto;
 
 }
 
 @media(max-width: 1280px) {
-      #myCarousel {
+      #myCarousel1 {
             width: 100% !important;
 
           }

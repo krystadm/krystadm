@@ -1,21 +1,9 @@
 
-$('#myCarousel1').carousel();
-
-$(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-        if( $(this).attr("href")=="#myCarousel1") return;//This is the exception
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
-        }
-    });
+$('#myCarousel1').carousel({
+  interval: false,
 });
+
+
 
 
       // navigation starts here
