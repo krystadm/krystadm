@@ -28,7 +28,7 @@ $('#myCarousel1').carousel({
 
       TweenMax.from("#brand", 1, {
             delay: 0.4,
-            y: 10,
+            y: -10,
             opacity: 0,
             ease: Expo.easeInOut
       })
