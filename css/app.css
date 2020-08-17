@@ -587,9 +587,14 @@ nav #menu li a:hover {
       font-weight: 300;
       font-size: 24pt;
       color: #94A8A8;
-      text-align: center;
+      text-align: left;
       letter-spacing: 1px;
       }
+
+.project-row #sectionblurb {
+   text-align: left;
+   padding-bottom: 50px;
+}
 
 .project-row img {
   max-width: 50%;
