@@ -830,6 +830,12 @@ nav #menu li a:hover {
 
 }
 
+}
+.carousel-control-next, .carousel-control-prev {
+  color: #000;
+
+}
+
 @media(max-width: 1280px) {
       #myCarousel1 {
             width: 100% !important;
