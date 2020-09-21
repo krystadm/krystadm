@@ -14,8 +14,6 @@ html, body {
       font-family: acumin-pro, sans-serif !important;
       background: #fefefa !important;
       color: #3B3B3B !important;
-      margin-bottom: 100px;
-
 }
 
 .whitespace1 {
@@ -50,7 +48,7 @@ nav {
 nav.scrolled {
   background-color: #fefefa !important;
   transition: background-color 200ms linear;
-  opacity: 100%;
+  opacity: 95%;
 }
 
 nav #brand {
@@ -842,7 +840,7 @@ nav #menu li a:hover {
             width: 100% !important;
 
           }
-
+        }
 
 .carousel-indicators li {
 }
