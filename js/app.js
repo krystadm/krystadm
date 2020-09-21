@@ -40,3 +40,10 @@ $('#myCarousel1').carousel({
       }, 0.1);
 
       // nav animation ends
+
+      $(function () {
+        $(document).scroll(function () {
+      	  var $nav = $("nav");
+      	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      	});
+      });
