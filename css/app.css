@@ -26,13 +26,6 @@ html, body {
       height: 35px;
 }
 
-@media(max-width: 1280px) {
-
-      .whitespace{
-        height: 100%;
-      }
-    }
-
 
 /*--------------- navigation --------------- */
 nav {
@@ -279,7 +272,7 @@ nav #menu li a:hover {
 }
 
 .hero-content #title {
-      padding-bottom: 25px;
+      padding-bottom: 22px;
       border-bottom: 5px solid #94A8A8;
       }
 
@@ -290,11 +283,11 @@ nav #menu li a:hover {
       color: #3B3B3B;
       text-align: left;
       letter-spacing: 2px;
-      line-height: 58px;
+      line-height: 55px;
 }
 
 .hero-content #project-title h1 {
-      padding-bottom: 25px;
+      padding-bottom: 22px;
       border-bottom: 5px solid #94A8A8;
       font-family: acumin-pro-condensed, sans-serif !important;
       font-weight: 700;
@@ -337,7 +330,7 @@ nav #menu li a:hover {
       font-weight: lighter;
       text-align: left;
       letter-spacing: -.5px;
-      line-height: 1.5;
+      line-height: 18pt;
       color: #3B3B3B;
       float: left;
 }
@@ -582,12 +575,13 @@ nav #menu li a:hover {
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
+  font-size: 10pt;
 }
 
 .project-row #section h2 {
       font-family: acumin-pro-condensed, sans-serif !important;
       font-weight: 300;
-      font-size: 24pt;
+      font-size: 16pt;
       color: #94A8A8;
       text-align: left;
       letter-spacing: 1px;
@@ -595,7 +589,7 @@ nav #menu li a:hover {
 
 .project-row #sectionblurb {
    text-align: left;
-   padding-bottom: 50px;
+   padding-bottom: 30px;
 }
 
 .project-row img {
@@ -612,7 +606,7 @@ nav #menu li a:hover {
 }
 
 .page-mockup img {
-  max-width: 50%;
+  max-width: 100%;
   margin: 0 auto;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
 }
@@ -660,8 +654,8 @@ nav #menu li a:hover {
 .project-content #blurb p{
       font-family: acumin-pro, sans-serif !important;
       font-style: normal;
-      font-weight: thin;
-      font-size: 12pt;
+      font-weight: lighter;
+      font-size: 10pt;
       color: #3B3B3B;
       text-align: left;
       border-bottom: 1px;
@@ -728,7 +722,7 @@ nav #menu li a:hover {
       font-family: acumin-pro, sans-serif !important;
       font-style: normal;
       font-weight: thin;
-      font-size: 12pt;
+      font-size: 11pt;
       color: #3B3B3B;
       text-align: left;
       border-bottom: 1px;
@@ -880,7 +874,7 @@ nav #menu li a:hover {
 
 .info #credit h4 {
       text-align: right;
-      padding-top: 10px;
+      padding-top: 25px;
       padding-right: 50px;
       font-size: 8px;
       font-weight: lighter;
@@ -890,6 +884,7 @@ nav #menu li a:hover {
 .info #media li {
       font-weight: lighter;
       font-size: 18px;
+      padding-top: 10px;
 }
 
 .info #media {
