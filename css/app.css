@@ -31,17 +31,18 @@ html, body {
 nav {
       font-family: acumin-pro, sans-serif !important;
       font-style: normal;
+      background-color: #fefefa !important;
       width: 100%;
       height: 100px;
       position: fixed;
-      opacity: 98%;
+      opacity: 95%;
       z-index: 1;
 }
 
 nav.scrolled {
   background-color: #fefefa !important;
-  transition: background-color 200ms linear;
-  opacity: 95%;
+  transition: background-color 200ms ease-out;
+  opacity: 100%;
 }
 
 nav #brand {
@@ -858,7 +859,6 @@ nav #menu li a:hover {
       position: fixed;
       bottom: 0;
       width: 100%;
-      padding-top: 10px;
       font-weight: lighter:
       animation: fadeIn 2.5s ease-in-out 0s forwards;
       background-color: #94A8A8 !important;
@@ -868,13 +868,12 @@ nav #menu li a:hover {
 .hr {
   width: 1200px;
   height: 50px;
-  padding-top: 5px;
   margin: 0 auto;
 }
 
 .info #credit h4 {
       text-align: right;
-      padding-top: 25px;
+      padding-top: 20px;
       padding-right: 50px;
       font-size: 8px;
       font-weight: lighter;
@@ -909,6 +908,7 @@ nav #menu li a:hover {
 
       .info #credit h4 {
             text-align: center;
+            padding-top: 10px;
             padding-right: 0 !important;
       }
 
