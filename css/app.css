@@ -12,7 +12,7 @@ html, body {
       width: 100%;
       height: 100%;
       font-family: acumin-pro, sans-serif !important;
-      background: #fefefa !important;
+      background: linear-gradient(to right bottom, #fefefa 75%, #fefefa 25%) no-repeat fixed !important;
       color: #3B3B3B !important;
 }
 
@@ -31,18 +31,19 @@ html, body {
 nav {
       font-family: acumin-pro, sans-serif !important;
       font-style: normal;
-      background-color: #fefefa !important;
       width: 100%;
       height: 100px;
       position: fixed;
-      opacity: 95%;
+      opacity: 100%;
       z-index: 1;
 }
 
 nav.scrolled {
   background-color: #fefefa !important;
-  transition: background-color 200ms ease-out;
-  opacity: 100%;
+  color: #94A8A8 !important;
+  transition: background-color 0.3s ease-out 0s forwards;
+  opacity: 95%;
+  z-index: 2;
 }
 
 nav #brand {
@@ -91,7 +92,7 @@ nav #menu li a {
       font-style: normal;
       font-weight: light;
       font-size: 11pt;
-      color: #94A8A8;
+      color: #94a8ab;
 }
 
 nav #menu li a:hover {
@@ -217,14 +218,14 @@ nav #menu li a:hover {
 /*--------------- hero section --------------- */
 .container {
   width: 100%;
-  height: 350px;
+  height: 100%;
   position: relative;
+  animation: fadeIn 1s ease-in-out 0s forwards;
 }
 
 .hero {
       width: 100%;
-      background-color: #fefefa;
-      z-index: 1;
+      z-index: 0;
 }
 
 .hero #project1 {
@@ -640,11 +641,11 @@ nav #menu li a:hover {
 .project-content h4 {
       font-family: acumin-pro, sans-serif !important;
       font-style: normal;
-      font-weight: bold;
-      font-size: 10pt;
-      color: #3B3B3B;
+      font-weight: 700;
+      font-size: 9pt;
+      color: #3b3b3b;
       text-align: left;
-      line-height: 58px;
+      line-height: 40px;
 }
 
 .project-content a {
@@ -659,7 +660,6 @@ nav #menu li a:hover {
       font-size: 10pt;
       color: #3B3B3B;
       text-align: left;
-      border-bottom: 1px;
 }
 
 @media(max-width: 1280px) {
@@ -722,8 +722,8 @@ nav #menu li a:hover {
 .about #blurb p{
       font-family: acumin-pro, sans-serif !important;
       font-style: normal;
-      font-weight: thin;
-      font-size: 11pt;
+      font-weight: lighter;
+      font-size: 10pt;
       color: #3B3B3B;
       text-align: left;
       border-bottom: 1px;
@@ -856,19 +856,16 @@ nav #menu li a:hover {
 /*--------------- footer section --------------- */
 
 .footer {
-      position: fixed;
       bottom: 0;
       width: 100%;
-      font-weight: lighter:
-      animation: fadeIn 2.5s ease-in-out 0s forwards;
-      background-color: #94A8A8 !important;
-      z-index: 2;
+      font-weight: lighter;
 }
 
 .hr {
   width: 1200px;
   height: 50px;
   margin: 0 auto;
+  animation: fadeIn 1.5s ease-in-out 0s forwards;
 }
 
 .info #credit h4 {
