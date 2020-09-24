@@ -1,18 +1,18 @@
 @font-face {
-    font-family: "Acumin Pro";
+    font-family: 'Acumin Pro', sans-serif;
     src: url(https://use.typekit.net/aal6sfn.css);
 }
 
-p.customfont {
-    font-family: acumin-pro, sans-serif;
-}
-
+@font-face {
+    font-family: 'Vidaloka', serif;
+    src: url(https://fonts.googleapis.com/css2?family=Vidaloka&display=swap);
+  }
 /*--------------- basic styling --------------- */
 html, body {
       width: 100%;
       height: 100%;
       font-family: acumin-pro, sans-serif !important;
-      background: linear-gradient(to right bottom, #fefefa 75%, #fefefa 25%) no-repeat fixed !important;
+      background: linear-gradient(to right bottom, #fffff5 75%, #fffff5 25%) no-repeat fixed !important;
       color: #3B3B3B !important;
 }
 
@@ -29,21 +29,21 @@ html, body {
 
 /*--------------- navigation --------------- */
 nav {
-      font-family: acumin-pro, sans-serif !important;
-      background-color: #fefefa !important;
+      font-family: 'Acumin Pro', sans-serif !important;
+      background-color: #fffff5 !important;
       font-style: normal;
       width: 100%;
       height: 100px;
       position: fixed;
-      opacity: 75%;
+      opacity: 65%;
       z-index: 1;
 }
 
 nav.scrolled {
-  background-color: #fefefa !important;
+  background-color: #fffff5 !important;
   color: #94A8A8 !important;
   transition: background-color 0.3s ease-out 0s forwards;
-  opacity: 95%;
+  opacity: 75%;
   z-index: 2;
 }
 
@@ -82,9 +82,6 @@ nav #menu li {
       transition: all 0.3s ease-out;
 }
 
-nav #menu li span {
-
-}
 
 nav #menu li a {
       font-family: 'Acumin Pro', sans-serif !important;
@@ -174,7 +171,7 @@ nav #menu li a:hover {
 }
 
 #resize #menu li a {
-      color: #fefefa;
+      color: #fffff5;
 }
 
 #resize #menu li a:hover {
@@ -223,11 +220,11 @@ nav #menu li a:hover {
 .hero-container {
   width: 100%;
   height: 350px;
+  padding-top: 50px;
 }
 
 .hero {
       width: 100%;
-      background-color: #fefefa;
       z-index: 1;
 }
 .hero #project1 {
@@ -271,18 +268,13 @@ nav #menu li a:hover {
 
 }
 
-.hero-content {
-      padding-top: 50px;
-}
-
-
-.hero-content #title {
+.content #title {
       padding-bottom: 22px;
       border-bottom: 5px solid #94A8A8;
       }
 
-.hero-content h1 {
-      font-family: acumin-pro-condensed, sans-serif !important;
+.content h1 {
+      font-family: 'acumin-pro-condensed', sans-serif !important;
       font-weight: 700;
       font-size: 48pt;
       color: #3B3B3B;
@@ -292,45 +284,26 @@ nav #menu li a:hover {
 }
 
 
-
-.hero-content #specialty {
-      padding-top: 10px;
-      }
-
-.hero-content h4 {
-      font-family: acumin-pro, sans-serif !important;
+.content #specialty h4 {
+      font-family: 'Acumin Pro', sans-serif !important;
       font-style: normal;
       font-weight: bold;
       font-size: 10pt;
       color: #3B3B3B;
       text-align: left;
-      line-height: 55px;
       border-bottom: 1px;
+      padding-top: 20px;
 }
 
-.hero-content #blurb {
+#blurb {
         width: 100%;
         font-size: 10pt;
-        display: block;
         font-weight: lighter;
         text-align: left;
         line-height: 16pt;
         color: #3B3B3B;
         float: left;
   }
-
-
-.about-content {
-      width: 100%;
-      font-size: 12pt;
-      display: block;
-      font-weight: lighter;
-      text-align: left;
-      line-height: 14pt;
-      color: #3B3B3B;
-      float: left;
-}
-
 
 
 /*--------------- projects section --------------- */
@@ -349,7 +322,7 @@ nav #menu li a:hover {
 
 .project-container #title h1 {
       padding-bottom: 25px;
-      font-family: acumin-pro-condensed, sans-serif !important;
+      font-family: 'acumin-pro-condensed', sans-serif !important;
       font-weight: 300;
       font-size: 24pt;
       color: #94A8A8;
@@ -360,7 +333,7 @@ nav #menu li a:hover {
 
 .vertical {
       margin-top: 40px;
-      border-left: 1px solid #fefefa;
+      border-left: 1px solid  #fffff5;
       height: 80px;
       position: absolute;
       left: 50%;
@@ -368,7 +341,7 @@ nav #menu li a:hover {
 
 .project {
       height: 250px;
-            border: 5px solid #fefefa;
+      margin: 5px;
 }
 
 .project .caption {
@@ -389,12 +362,12 @@ nav #menu li a:hover {
 }
 
 .project .caption h1 {
-  font-family: acumin-pro-condensed, sans-serif !important;
+  font-family: 'acumin-pro-condensed', sans-serif !important;
   weight: 700;
   position: relative;
   font-weight: bolder;
   display: block;
-  color: #fefefa;
+  color:  #fffff5;
   top: 30%;
   animation: fadeIn 2s ease-in-out 0s forwards;
 }
@@ -422,7 +395,7 @@ nav #menu li a:hover {
 .project1::after {
       filter: none;
       content: "";
-      font-family: acumin-pro, sans-serif !important;
+      font-family: 'Acumin Pro', sans-serif !important;
       font-weight: bolder;
       font-size: 36px;
       position: relative;
@@ -441,7 +414,7 @@ nav #menu li a:hover {
 
 .project2::after {
       content: "";
-      font-family: acumin-pro, sans-serif !important;
+      font-family: 'Acumin Pro', sans-serif !important;
       font-weight: bolder;
       font-size: 36px;
       position: relative;
@@ -453,7 +426,7 @@ nav #menu li a:hover {
 }
 
 .project3 {
-      background: url('../menu.png') no-repeat 50% 50%;
+      background: url('../LGGwebbanner.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -476,7 +449,6 @@ nav #menu li a:hover {
 }
 
 .project4::after {
-      content: "";
       font-family: acumin-pro, sans-serif !important;
       font-weight: bolder;
       font-size: 36px;
@@ -486,41 +458,6 @@ nav #menu li a:hover {
       top: 80%;
       right: 0;
       bottom: 0;
-}
-
-.project5 {
-      background: url('../LGGwebbanner.png') no-repeat 50% 50%;
-      background-size: cover;
-}
-
-.project5::after {
-      content: "";
-      font-family: acumin-pro, sans-serif !important;
-      font-weight: bolder;
-      font-size: 36px;
-      position: relative;
-      color: #000;
-      display: block;
-      top: 80%;
-      right: 0;
-      bottom: 0;
-}
-
-.project6 {
-      background: url('../warmcozy2.JPG') no-repeat 50% 50%;
-      background-size: cover;
-}
-
-.project6::after {
-      content: "";
-      font-family: acumin-pro, sans-serif !important;
-      font-weight: bolder;
-      font-size: 36px;
-      position: relative;
-      color: #000;
-      display: block;
-      top: 80%;
-      right: 0;
 }
 
 
@@ -562,11 +499,6 @@ nav #menu li a:hover {
       letter-spacing: 1px;
       }
 
-.project-row #sectionblurb {
-   text-align: left;
-   padding-bottom: 30px;
-}
-
 .project-row img {
   max-width: 50%;
   margin: 0 auto;
@@ -588,8 +520,8 @@ nav #menu li a:hover {
 
 
 .project-img img {
-  max-width: 75% !important;
-  margin: 0 auto;
+    max-width: 75% !important;
+    margin: 0 auto;
 
   }
 }
@@ -612,8 +544,7 @@ nav #menu li a:hover {
 
 
 .project-content h4 {
-      font-family: acumin-pro, sans-serif !important;
-      font-style: normal;
+      font-family: 'Acumin Pro' sans-serif !important;
       font-weight: 700;
       font-size: 9pt;
       color: #3b3b3b;
@@ -626,13 +557,14 @@ nav #menu li a:hover {
   font-weight: 200;
 }
 
-.project-content #blurb p{
-      font-family: acumin-pro, sans-serif !important;
+.project-content #sectionblurb p{
+      font-family: 'acumin-pro', sans-serif !important;
       font-style: normal;
       font-weight: lighter;
       font-size: 10pt;
       color: #3B3B3B;
       text-align: left;
+      padding-bottom: 30px;
 }
 
 x {
@@ -648,10 +580,6 @@ x {
 /*---------------about page --------------- */
 
 
-.about a {
-  color: #3B3B3B;
-}
-
 .bio-section {
       padding-top: 50px;
       max-width: 1400px;
@@ -666,47 +594,8 @@ x {
       position: relative;
 }
 
-.about #title {
-      padding-bottom: 15px !important;
-      border-bottom: 5px solid #94A8A8;
-      }
-
-.about h1 {
-      font-family: acumin-pro-condensed, sans-serif !important;
-      font-weight: 700;
-      font-size: 36pt;
-      color: #3B3B3B;
-      text-align: left;
-      letter-spacing: 2px;
-}
-
-.about #specialty {
-      padding-top: 10px;
-      }
-
-.about h4 {
-      font-family: acumin-pro, sans-serif !important;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 10pt;
-      color: #3B3B3B;
-      text-align: left;
-      line-height: 58px;
-      border-bottom: 1px;
-}
-
-.about #blurb {
-      font-family: acumin-pro, sans-serif !important;
-      font-style: normal;
-      font-weight: lighter;
-      font-size: 10pt;
-      color: #3B3B3B;
-      text-align: left;
-      border-bottom: 1px;
-}
-
 @media(max-width: 1280px) {
-      .about-content {
+      .content {
             width: 100%;
             padding-top: 20px;
       }
@@ -834,7 +723,7 @@ x {
 .footer {
       bottom: 0;
       position: fixed;
-      background-color: #fefefa;
+      background-color:  #fffff5;
       opacity: 75%;
       width: 100%;
       font-weight: lighter;
