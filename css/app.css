@@ -284,13 +284,14 @@ nav #menu li a:hover {
 }
 
 
-.content #specialty h4 {
+#specialty h4 {
       font-family: 'Acumin Pro', sans-serif !important;
       font-style: normal;
       font-weight: bold;
       font-size: 10pt;
       color: #3B3B3B;
       text-align: left;
+      line-height: 55px;
       border-bottom: 1px;
       padding-top: 20px;
 }
@@ -309,7 +310,6 @@ nav #menu li a:hover {
 /*--------------- projects section --------------- */
 .section {
   width: 1300px;
-  text-align: center;
   margin: 0 auto;
   animation: fadeIn 2s ease-in-out 0s forwards;
 
@@ -557,7 +557,11 @@ nav #menu li a:hover {
   font-weight: 200;
 }
 
-.project-content #sectionblurb p{
+.project-content caption li {
+  text-align: left;
+}
+
+.project-content #sectionblurb {
       font-family: 'acumin-pro', sans-serif !important;
       font-style: normal;
       font-weight: lighter;
@@ -580,6 +584,10 @@ x {
 /*---------------about page --------------- */
 
 
+.about a {
+  color: #3B3B3B;
+}
+
 .bio-section {
       padding-top: 50px;
       max-width: 1400px;
@@ -594,8 +602,43 @@ x {
       position: relative;
 }
 
+.about #title {
+      padding-bottom: 15px !important;
+      border-bottom: 5px solid #94A8A8;
+      }
+
+.about h1 {
+      font-family: acumin-pro-condensed, sans-serif !important;
+      font-weight: 700;
+      font-size: 36pt;
+      color: #3B3B3B;
+      text-align: left;
+      letter-spacing: 2px;
+}
+
+.about h4 {
+      font-family: acumin-pro, sans-serif !important;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 10pt;
+      color: #3B3B3B;
+      text-align: left;
+      padding-top: 10px;
+      }
+}
+
+.about #blurb {
+      font-family: acumin-pro, sans-serif !important;
+      font-style: normal;
+      font-weight: lighter;
+      font-size: 10pt;
+      color: #3B3B3B;
+      text-align: left;
+      border-bottom: 1px;
+}
+
 @media(max-width: 1280px) {
-      .content {
+      .about-content {
             width: 100%;
             padding-top: 20px;
       }
