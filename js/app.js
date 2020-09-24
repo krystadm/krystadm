@@ -41,9 +41,19 @@ $('#myCarousel1').carousel({
 
       // nav animation ends
 
+      // nav scroll transition
+
       $(function () {
         $(document).scroll(function () {
       	  var $nav = $("nav");
       	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
       	});
       });
+
+    // active links
+
+      $( document ).ready(function() {
+    var urlArray = window.location.pathname.split( '/' );
+    var pagAtual =urlArray[urlArray.length -1];
+    $("a[href*="+pagAtual+"]").css("color","#67E8A7");
+  });
