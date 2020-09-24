@@ -765,7 +765,7 @@ x {
 
 .footer {
       bottom: 0;
-      position: fixed;
+      position: relative;
       background-color:  #fffff5;
       opacity: 75%;
       width: 100%;
