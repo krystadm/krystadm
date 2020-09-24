@@ -30,11 +30,12 @@ html, body {
 /*--------------- navigation --------------- */
 nav {
       font-family: acumin-pro, sans-serif !important;
+      background-color: #fefefa !important;
       font-style: normal;
       width: 100%;
       height: 100px;
       position: fixed;
-      opacity: 100%;
+      opacity: 75%;
       z-index: 1;
 }
 
@@ -58,13 +59,11 @@ nav #brand img {
 }
 
 nav #brand a {
-      color: #94A8A8;
       width: 80px;
       transition: all 0.3s ease-out;
 }
 
 nav #brand a:hover {
-      color: #94A8A8;
       text-decoration: none;
 }
 
@@ -228,41 +227,41 @@ nav #menu li a:hover {
 .hero #project1 {
   background: url('../boxes.jpg') no-repeat 50% 50%;
   background-size: cover;
-  filter: opacity(75%);
+  filter: opacity(50%);
 
 }
 
 .hero #project2 {
   background: url('../../STredesignmockup.jpg') no-repeat 50% 50%;
   background-size: cover;
-  filter: opacity(75%);
+  filter: opacity(50%);
 
 }
 
 .hero #project3 {
   background: url('../ryu.png') no-repeat 50% 50%;
   background-size: cover;
-  filter: opacity(75%);
+  filter: opacity(50%);
 
 }
 
 .hero #project4 {
   background: url('../bubblekittymockup.png') no-repeat 50% 50%;
   background-size: cover;
-  filter: opacity(75%);
+  filter: opacity(50%);
 
 }
 
 .hero #project5 {
   background: url('../LGGwebbanner.png') no-repeat 50% 50%;
   background-size: cover;
-  filter: opacity(75%);
+  filter: opacity(50%);
 }
 
 .hero #project6 {
   background: url('../warmcozy.jpg') no-repeat 50% 50%;
   background-size: cover;
-  filter: opacity(75%);
+  filter: opacity(50%);
 
 }
 
@@ -646,6 +645,9 @@ nav #menu li a:hover {
       text-align: left;
 }
 
+x {
+  color: #94A8A8;
+}
 @media(max-width: 1280px) {
       .project-content {
         height: 100%;
