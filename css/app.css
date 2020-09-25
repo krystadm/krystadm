@@ -137,6 +137,7 @@ nav #menu li a:hover {
 
 #resize {
       z-index: 2;
+      background: #FFFBFA;
       top: 0;
       position: fixed;
       width: 100%;
@@ -147,6 +148,7 @@ nav #menu li a:hover {
 }
 
 #resize #menu {
+      height: px;
       position: absolute;
       left: 45%;
       transform: translateX(-40%);
@@ -163,6 +165,7 @@ nav #menu li a:hover {
       min-height: 20px;
       font-weight: lighter;
       cursor: pointer;
+      transition: all 0.3s ease-out;
 }
 
 #resize li:nth-child(1) {
@@ -170,7 +173,7 @@ nav #menu li a:hover {
 }
 
 #resize #menu li a {
-      color: #fffbfa;
+      color: #3B3B3B;
 }
 
 #resize #menu li a:hover {
@@ -180,7 +183,8 @@ nav #menu li a:hover {
 
 #resize.active {
       visibility: visible;
-      opacity: .90;
+      opacity: .75;
+      border-bottom: 2px solid #94A8A8;
 }
 
 @media(max-width: 768px) {
@@ -203,6 +207,7 @@ nav #menu li a:hover {
       #resize li span {
             font-weight: lighter;
       }
+
 
       nav #menu {
             display: none;
