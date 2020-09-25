@@ -92,15 +92,15 @@ nav #menu li a {
 }
 
 nav #menu li a:hover {
-      color: #677d83;
+      color: #3b3b3b;
       text-decoration: none;
       transition: all .2s ease-out;
-      border-bottom: 2px solid #94A8A8;
+      border-bottom: 2pt solid #677d83;
 }
 
 #menu a.active {
       color: #3b3b3b;
-      border-bottom: 2px solid #94A8A8;
+      border-bottom: 2pt solid #94A8A8;
 
 }
 
@@ -184,7 +184,7 @@ nav #menu li a:hover {
 #resize.active {
       visibility: visible;
       opacity: .75;
-      border-bottom: 2px solid #94A8A8;
+      border-bottom: 2pt solid #94A8A8;
 }
 
 @media(max-width: 768px) {
@@ -295,15 +295,6 @@ nav #menu li a:hover {
       text-align: center;
       letter-spacing: 1px;
       }
-
-
-.vertical {
-      margin-top: 40px;
-      border-left: 1px solid  #fffbfa;
-      height: 80px;
-      position: absolute;
-      left: 50%;
-}
 
 .project {
       height: 250px;
@@ -498,7 +489,7 @@ nav #menu li a:hover {
       color: #3b3b3b;
       text-align: left;
       padding-bottom: 25px;
-      border-bottom: 5px dotted #94A8A8;
+      border-bottom: 4pt dotted #94A8A8;
 }
 
 .project-content {
