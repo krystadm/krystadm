@@ -23,7 +23,7 @@ html, body {
 
 .whitespace {
       width: 100%;
-      height: 35px;
+      height: 50px;
 }
 
 
@@ -444,7 +444,7 @@ nav #menu li a:hover {
 /*--------------- work page --------------- */
 
 .project-row {
-  padding-top: 50px;
+  padding-top: 35px;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -452,44 +452,11 @@ nav #menu li a:hover {
   animation: fadeIn 2s ease-in-out 0s forwards;
 }
 
-.project-row #section h2 {
-      font-family: acumin-pro-condensed, sans-serif !important;
-      font-weight: 300;
-      font-size: 16pt;
-      color: #94A8A8;
-      text-align: left;
-      letter-spacing: 1px;
-      }
-
-.project-row img {
-  max-width: 50%;
-  margin: 0 auto;
-}
-
-
-
-.project-img  {
-  position: relative;
-  text-align: center;
-
-}
-
-.page-mockup img {
+.project-image img {
   max-width: 100%;
   margin: 0 auto;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
 }
-
-
-.project-img img {
-    max-width: 75% !important;
-    margin: 0 auto;
-
-  }
-}
-
-.project-content #title {
-        }
 
 .project-content h1 {
       font-family: acumin-pro-condensed, sans-serif !important;
@@ -501,6 +468,23 @@ nav #menu li a:hover {
       padding-bottom: 5px;
       }
 
+  .project-row #section h2 {
+      font-family: acumin-pro-condensed, sans-serif !important;
+      font-weight: 300;
+      font-size: 16pt;
+      color: #94A8A8;
+      text-align: left;
+      letter-spacing: 1px;
+      }
+
+.project-content h3 {
+      font-family: 'Acumin Pro' sans-serif !important;
+      font-weight: 700;
+      font-size: 9pt;
+      color: #3b3b3b;
+      text-align: left;
+      padding: 5px;
+      }
 
 .project-content h4 {
       font-family: 'Acumin Pro' sans-serif !important;
@@ -512,28 +496,12 @@ nav #menu li a:hover {
       border-bottom: 5px dotted #94A8A8;
 }
 
-.project-content h3 {
-      font-family: 'Acumin Pro' sans-serif !important;
-      font-weight: 700;
-      font-size: 9pt;
-      color: #3b3b3b;
-      text-align: left;
-      padding: 5px;
-}
-
-.project-content a {
-  color: #94A8A8;
-  font-weight: 200;
+.project-content {
+  animation: fadeIn 2s ease-in-out 0s forwards;
 }
 
 .project-content caption li {
   text-align: left;
-}
-
-.project-content {
-  color: #94A8A8;
-  font-weight: 200;
-  animation: fadeIn 1s ease-in-out 0s forwards;
 }
 
 .project-content #sectionblurb {
@@ -546,42 +514,12 @@ nav #menu li a:hover {
       padding-top: 15px;
 }
 
-x {
-  color: #94A8A8;
-}
 @media(max-width: 1280px) {
       .project-content {
         height: 100%;
       }
     }
 }
-
-/*---------------about page --------------- */
-
-
-
-
-.bio-image {
-      width: 50%;
-      background: url('../IMG_5559.JPG') no-repeat center;
-      background-size: contain;
-      filter: saturate(75%);
-      position: relative;
-}
-
-
-@media(max-width: 1280px) {
-      .bio-image {
-        max-width: 100%;
-        height: 650px;
-        margin: 0 auto;
-
-      }
-}
-
-
-/*--------------- work page --------------- */
-
 
 
 /*--------------- project page --------------- */
