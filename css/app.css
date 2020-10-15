@@ -358,7 +358,7 @@ nav #menu li a:hover {
   position: relative;
   font-weight: bolder;
   display: block;
-  color:  #3b3b3b;
+  color:  #fffbfa;
   letter-spacing: .15pt;
   top: 30%;
   animation: fadeIn 2s ease-in-out 0s forwards;
@@ -562,7 +562,7 @@ nav #menu li a:hover {
       font-style: normal;
       font-weight: bold;
       font-size: 9pt;
-      color: #677d83;;
+      color: #94A8A8;;
       text-align: left;
       padding-bottom: 10px;
 }
@@ -634,13 +634,12 @@ nav #menu li a:hover {
 
 }
 
-.prev a:hover{
+.prev a:hover, .next a:hover{
 
   display: block;
   text-decoration: none;
-  font-weight: bold;
   color: #3b3b3b !important;
-  font-size: 10pt;
+  transition: all 0.3s ease-out;
 
 }
 
@@ -890,14 +889,15 @@ nav #menu li a:hover {
 
 
 .btn.rounded.outline {
-background-color: #3b3b3b;
-margin-top: 25px;
-padding: 2px 10px 3px;
-text-align: center;
-text-decoration: none;
-display: block;
-cursor: pointer;
-  }
+    background-color: #3b3b3b;
+    margin-top: 25px;
+    padding: 2px 10px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
 
 .btn.rounded.outline:hover {
     background-color: #fffbfa;
