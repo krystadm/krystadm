@@ -41,15 +41,6 @@ $('#myCarousel1').carousel({
 
       // nav animation ends
 
-      // nav scroll transition
-
-      $(function () {
-        $(document).scroll(function () {
-      	  var $nav = $("nav");
-      	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-      	});
-      });
-
     // active links
 
       $( document ).ready(function() {
@@ -78,7 +69,7 @@ jQuery(function($) {
     // Check all animatables and animate them if necessary
 		$animatables.each(function(i) {
        var $animatable = $(this);
-			if (($animatable.offset().top + $animatable.height() - 10) < offset) {
+			if (($animatable.offset().top + $animatable.height() - 700 ) < offset) {
         $animatable.removeClass('animatable').addClass('animated');
 			}
     });

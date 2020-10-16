@@ -10,10 +10,9 @@
 /*--------------- basic styling --------------- */
 html, body {
       width: 100%;
-      height: viewport;
+      height: ;
       font-family: acumin-pro, sans-serif !important;
       background-color: #fffbfa;
-      color: #3B3B3B !important;
       overflow-x: hidden;
 }
 
@@ -41,9 +40,8 @@ nav {
 nav #brand {
       float: left;
       display: block;
-      margin-left: 280px;
+      margin-left: 275px;
       line-height: 100px;
-
 }
 
 nav #brand img {
@@ -60,8 +58,8 @@ nav #brand a:hover {
 }
 
 nav #menu {
-      float: left;
-      right: 285px;
+      float: right;
+      right: 275px;
       position: absolute;
 }
 
@@ -76,9 +74,10 @@ nav #menu li {
 
 
 nav #menu li a {
-      font-family: 'Acumin Pro', sans-serif !important;
+      font-family: acumin-pro-semi-condensed, sans-serif !important;
+      font-style: normal;
       font-weight: 600;
-      font-size: 11pt;
+      font-size: 10pt;
       color: #fffbfa;
 }
 
@@ -96,27 +95,13 @@ nav #menu li a:hover {
 
 }
 
-#toggle {
-      position: absolute;
-      right: 25px;
-      top: 27px;
-      font-weight: lighter;
-      z-index: 2;
-      cursor: pointer;
-      float: right;
-      transition: all 0.3s ease-out;
-      visibility: hidden;
-      opacity: 0;
-}
 
 #toggle {
       position: absolute;
-      right: 25px;
-      top: 27px;
-      font-weight: lighter;
+      right: 5px;
+      top: 20px;
       z-index: 2;
       cursor: pointer;
-      float: right;
       transition: all 0.3s ease-out;
       visibility: hidden;
       opacity: 0;
@@ -128,12 +113,10 @@ nav #menu li a:hover {
 
 .close-btn {
       position: absolute;
-      right: 25px;
+      right: 5px;
       z-index: 1;
       cursor: pointer;
-      top: 0;
-      float: right;
-      line-height: 100px;
+      top: 20px;
 }
 
 .close-btn img {
@@ -142,87 +125,73 @@ nav #menu li a:hover {
 
 #resize {
       z-index: 2;
-      background: #94A8A8;
+      background-color: rgba(254,254,250, .8);
       top: 0;
       position: fixed;
-      width: 100%;
+      width: 350px;
       height: 100%;
+      right: 0;
       visibility: hidden;
       opacity: 0;
-      transition: all 1s ease-out;
+      transition: all 0.3s ease-out;
+      box-shadow: 0 0 12px #85888C;
 }
 
+
+
 #resize #menu {
-      height: px;
       position: absolute;
-      left: 45%;
-      transform: translateX(-40%);
-      text-align: center;
-      display: table-cell;
+      left: 30%;
+      transform: translateX(-50%);
       vertical-align: center;
+
 }
 
 #resize #menu li {
       display: block;
-      text-align: center;
-      padding: 50px 0;
-      font-size: 50px;
-      min-height: 20px;
-      font-weight: lighter;
+      text-align: left;
+      margin-top: 175px;
       cursor: pointer;
       transition: all 0.3s ease-out;
 }
 
-#resize li:nth-child(1) {
-      margin-top: 120px;
-}
-
 #resize #menu li a {
-      font-family: 'Acumin Pro', sans-serif !important;
+      font-family: acumin-pro-semi-condensed, sans-serif !important;
       font-style: normal;
-      font-weight: bold;
-      font-size: 12pt;
+      font-weight: 600;
+      font-size: 20pt;
       color: #3b3b3b;
 
 }
 
 #resize #menu li a:hover {
-      color: #fffbfa;
-      border-bottom: 2pt solid #3b3b3b;
+      color: #677d83;
+      border-bottom: 2.5pt solid #3b3b3b;
       text-decoration: none;
-      transition: all .2s ease-out;
+      transition: all .3s ease-out;
 }
 
 #resize #menu li a.active {
-      color: #fff;
-      border-bottom: 2pt solid #fffbfa;
+      color: #677d83;
+      border-bottom: 2.5pt solid #3b3b3b;
 }
 
 #resize.active {
       visibility: visible;
-      opacity: .95;
+      opacity: 1;
 }
 
 
-@media(max-width: 768px) {
+@media(max-width: 1400px) {
       #toggle {
             visibility: visible;
             opacity: 1;
             margin-top: 0px;
-            margin-right: 0px;
+
       }
 
       nav #brand {
-            margin-left: 10px;
-      }
-
-      #menu a {
-            font-size: 20px;
-            font-weight: lighter;
-      }
-
-      #resize li span {
-            font-weight: lighter;
+            margin: 0 auto;
       }
 
 
@@ -231,7 +200,7 @@ nav #menu li a:hover {
       }
 }
 
-@media(min-width: 768px) {
+@media(min-width: 1400px) {
       #resize {
             visibility: hidden !important;
       }
@@ -250,13 +219,14 @@ nav #menu li a:hover {
 }
 
 .hero #sectionblurb p{
-  font-family: 'acumin-pro', sans-serif !important;
-  font-style: normal;
-  font-weight: lighter;
+  font-family: acumin-pro, sans-serif;
   font-size: 10pt;
+  font-weight: 300;
+  font-style: normal;
   line-height: 20px;
   color: #fffbfa;
   text-align: left;
+  letter-spacing: .15pt;
 }
 
 .hero #hero-background {
@@ -287,89 +257,60 @@ nav #menu li a:hover {
 
 
 /*--------------- projects section --------------- */
-.section {
-  width: 1300px;
-  margin: 0 auto;
-}
 
 .project-container {
   width: 100%;
-  margin: 0 auto;
 }
 
 .project-container #title h1 {
       padding-bottom: 25px;
-      font-family: 'acumin-pro-condensed', sans-serif !important;
-      font-weight: 300;
+      font-family: acumin-pro-condensed, sans-serif !important;
+      font-weight: 600;
+      font-style: normal;
       font-size: 24pt;
-      line-height: 20px;
+      line-height: 75px;
       color: #677d83;
-      text-align: center;
-      letter-spacing: 1px;
-}
-
-.sectionblurb #specialty h4 {
-      font-family: 'Acumin Pro' sans-serif !important;
-      font-weight: bold;
-      font-size: 9pt;
-      line-height: 20px;
-      letter-spacing: .15pt;
-      color: #fffbfa;
       text-align: left;
-
-}
-
-.sectionblurb #alt-specialty h4 {
-        font-family: 'Acumin Pro' sans-serif !important;
-        font-weight: bold;
-        font-size: 9pt;
-        color: #3b3b3b;
-        text-align: left;
-        letter-spacing: .15pt;
-        padding-bottom: 25px;
-        border-bottom: 4pt dotted #677d83;;
+      letter-spacing: .15pt;
 }
 
 .project {
       height: 250px;
-      margin: 5px;
+      border: 3pt solid #fffbfa;
 }
 
 .project .caption {
-    background-color: rgba(148,	168,	168, .90);
+    background-color: rgba(102,125,131, .90);
     position: absolute;
     z-index: 0;
-    -webkit-transition: all 300ms ease-out;
-    -moz-transition: all 300ms ease-out;
-    -o-transition: all 300ms ease-out;
-    -ms-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
+    transition: all 0.3s ease-out;
     left: 0;
     opacity: 0;
     width: 100%;
     height: 100%;
-    text-align: center;
-
+    text-align: left;
 }
 
 .project .caption h1 {
   font-family: 'acumin-pro-condensed', sans-serif !important;
-  weight: 700;
   position: relative;
-  font-weight: bolder;
-  display: block;
+  font-weight: 700;
+  font-size: 36pt;
   color:  #fffbfa;
   letter-spacing: .15pt;
   top: 30%;
-  animation: fadeIn 2s ease-in-out 0s forwards;
+  left: 12%;
 }
 
 .project .caption p {
+  font-family: 'acumin-pro-light', sans-serif !important;
   font-size: 9pt;
   color: #fffbfa;
+  font-weight: 300;
   letter-spacing: .25pt;
   position: relative;
-  top: 35%;
+  top: 30%;
+  left: 12%;
 }
 
 .project span:hover {
@@ -382,37 +323,10 @@ nav #menu li a:hover {
 
 }
 
-.project1::after {
-      filter: none;
-      content: "";
-      font-family: 'Acumin Pro', sans-serif !important;
-      font-weight: bolder;
-      font-size: 36px;
-      position: relative;
-      color: #000;
-      display: block;
-      top: 80%;
-      right: 0;
-      bottom: 0;
-
-}
 
 .project2 {
       background: url('../boxes.jpg') no-repeat 50% 50%;
       background-size: cover;
-}
-
-.project2::after {
-      content: "";
-      font-family: 'Acumin Pro', sans-serif !important;
-      font-weight: bolder;
-      font-size: 36px;
-      position: relative;
-      color: #000;
-      display: block;
-      top: 80%;
-      right: 0;
-      bottom: 0;
 }
 
 .project3 {
@@ -420,36 +334,10 @@ nav #menu li a:hover {
       background-size: cover;
 }
 
-.project3::after {
-      content: "";
-      font-family: acumin-pro, sans-serif !important;
-      font-weight: bolder;
-      font-size: 36px;
-      position: relative;
-      color: #000;
-      display: block;
-      top: 80%;
-      right: 0;
-      bottom: 0;
-}
-
 .project4 {
       background: url('../bubblekittymockup.png') no-repeat 50% 50%;
       background-size: cover;
 }
-
-.project4::after {
-      font-family: acumin-pro, sans-serif !important;
-      font-weight: bolder;
-      font-size: 36px;
-      position: relative;
-      color: #000;
-      display: block;
-      top: 80%;
-      right: 0;
-      bottom: 0;
-}
-
 
 @media(max-width: 1280px) {
       .section {
@@ -488,7 +376,7 @@ nav #menu li a:hover {
       font-family: acumin-pro-condensed, sans-serif !important;
       font-size: 36pt !important;
       text-align: left;
-      font-weight: bold;
+      font-weight: 800;
       font-style: normal;
       color: #3b3b3b;
       padding-bottom: 5px;
@@ -497,36 +385,39 @@ nav #menu li a:hover {
 
   .project-row #section h2 {
       font-family: acumin-pro-condensed, sans-serif !important;
-      font-weight: 300;
       font-size: 16pt;
+      font-weight: bold;
+      font-style: normal;
       color: #677d83;
       text-align: left;
-      letter-spacing: 1px;
+      letter-spacing: .75px;
       }
 
       .project-content h2 {
-            font-family: 'Acumin Pro' sans-serif !important;
-            font-weight: lighter;
-            font-size: 9pt;
-            color: #3b3b3b;
-            text-align: left;
-            }
+        font-family: acumin-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 9pt;
+        font-weight: 300;
+        font-style: normal;
+      }
 
 .project-content h3 {
-      font-family: 'Acumin Pro' sans-serif !important;
-      font-weight: 700;
-      font-size: 9pt;
+      font-family: acumin-pro-condensed, sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 10pt;
       color: #3b3b3b;
       text-align: left;
       padding-top: 5px;
       }
 
 .project-content h4 {
-      font-family: 'Acumin Pro' sans-serif !important;
-      font-weight: bold;
-      font-size: 9pt;
+      font-family: acumin-pro-condensed, sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 10pt;
       color: #3b3b3b;
-      letter-spacing: .15pt;
       text-align: left;
       padding-bottom: 25px;
       border-bottom: 4pt dotted #3b3b3b;
@@ -536,7 +427,7 @@ nav #menu li a:hover {
       font-family: acumin-pro-condensed, sans-serif !important;
       font-size: 36pt !important;
       text-align: left;
-      font-weight: bold;
+      font-weight: 800;
       font-style: normal;
       color: #3b3b3b;
       padding-bottom: 5px;
@@ -545,26 +436,29 @@ nav #menu li a:hover {
 
 .project-content caption li {
   text-align: left;
+  color: #3b3b3b;
 }
 
 .project-content #sectionblurb {
-      font-family: 'acumin-pro', sans-serif !important;
-      font-style: normal;
-      font-weight: lighter;
+      font-family: acumin-pro, sans-serif;
       font-size: 10pt;
+      font-weight: 300;
+      font-style: normal;
       color: #3B3B3B;
       text-align: left;
       padding-top: 15px;
 }
 
 .project-content #sectionblurb a{
-      font-family: 'acumin-pro', sans-serif !important;
-      font-style: normal;
-      font-weight: bold;
+      font-family: acumin-pro-semi-condensed, sans-serif;
       font-size: 9pt;
-      color: #94A8A8;;
+      font-weight: 300;
+      font-style: normal;
+      color: #677d83;;
       text-align: left;
       padding-bottom: 10px;
+      letter-spacing: .5pt;
+      margin-left: 5px;
 }
 
 
@@ -575,30 +469,36 @@ nav #menu li a:hover {
 }
 
 
-.sectionblurb #homeblurb {
-      font-family: 'acumin-pro', sans-serif !important;
+.sectionblurb #home {
+      font-family: acumin-pro, sans-serif;
+      font-size: 10pt;
+      font-weight: 300;
       font-style: normal;
-      font-weight: lighter;
-      font-size: 9pt;
-      letter-spacing: .15pt;
       color: #fffbfa;
       text-align: left;
       padding-top: 15px;
-}
+      letter-spacing: .15pt;
+    }
 
-.sectionblurb #homeblurb a{
-      font-family: 'acumin-pro', sans-serif !important;
+.sectionblurb #specialty h4 {
+      font-family: acumin-pro-light, sans-serif;
+      font-weight: 300;
       font-style: normal;
-      font-weight: bold;
-      font-size: 9pt;
-      letter-spacing: .5pt;
-      color: #94A8A8;;
+      line-height: 20px;
+      color: #fffbfa;
       text-align: left;
-      padding-bottom: 10px;
+
 }
 
-.sectionblurb #homeblurb a:hover{
-      text-decoration: none;
+.sectionblurb #alt-specialty h4 {
+        font-family: acumin-pro-light, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 10pt;
+        color: #3b3b3b;
+        text-align: left;
+        padding-bottom: 25px;
+        border-bottom: 4pt dotted #677d83;;
 }
 
 @media(max-width: 1280px) {
@@ -626,11 +526,12 @@ nav #menu li a:hover {
 
 
 .prev a, .next a{
-
+  font-family: acumin-pro-condensed, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14pt;
   display: block;
-  font-weight: bold;
-  color: #94A8A8 !important;
-  font-size: 10pt;
+  color: #677d83 !important;
 
 }
 
@@ -727,7 +628,6 @@ nav #menu li a:hover {
 .footer {
       bottom: 0;
       position: relative;
-      background-color:  #fffbfa;
       opacity: 75%;
       width: 100%;
       font-weight: lighter;
@@ -741,11 +641,11 @@ nav #menu li a:hover {
 }
 
 .info #credit h4 {
+      font-family: acumin-pro-wide, sans-serif !important;
       text-align: right;
       padding-top: 20px;
       padding-right: 50px;
-      font-size: 8px;
-      font-weight: lighter;
+      font-size: 10px;
       color: #3b3b3b;
 }
 
@@ -777,12 +677,12 @@ nav #menu li a:hover {
 }
 
 @media(max-width: 1280px) { .footer {
-      height: 75px;
+      height: 100px;
 }
 
       .info #credit h4 {
             text-align: center;
-            padding-top: 10px;
+            padding-top: 20px;
             padding-right: 0 !important;
       }
 
@@ -816,7 +716,7 @@ nav #menu li a:hover {
   visibility: hidden;
 
   /* initially pause animatable objects their animations */
-  -webkit-animation-play-state: paused;
+  -webkit-animation-play-state: pause;
 }
 
 /* show objects being animated */
@@ -834,10 +734,10 @@ nav #menu li a:hover {
 @-webkit-keyframes fadeInUp {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateY(10px);
+		-webkit-transform: translateX(50px);
 	}	100% {
 		opacity: 1;
-		-webkit-transform: translateY(0);
+		-webkit-transform: translateX(0);
 	}
 }
 
@@ -887,18 +787,27 @@ nav #menu li a:hover {
 
 /* button */
 
-
-.btn.rounded.outline {
-    background-color: #3b3b3b;
+.btn.rounded.outline  {
     margin-top: 25px;
-    padding: 2px 10px 3px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    cursor: pointer;
-    transition: all 0.3s ease-out;
+    background-color: #3b3b3b;
+    font-family: acumin-pro-semi-condensed, sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9pt;
+    text-align: left;
+    padding-bottom: 10px;
 }
 
 .btn.rounded.outline:hover {
-    background-color: #fffbfa;
+  background-color: #677d83;
+}
+
+.btn.rounded.outline a {
+  color: #fffbfa;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn.rounded.outline a:hover{
+      text-decoration: none;
 }
