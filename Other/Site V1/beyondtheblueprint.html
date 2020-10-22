@@ -1,0 +1,94 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRYSTA MADEWELL</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen+Mono' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+  </head>
+
+
+<body>
+
+<!-- HEADER -->
+<header class="header-fixed">
+<div class="header-limiter">
+  <h1><a href="index.html"><img src="LOGO.png" alt="logo" id="logo"></a></h1>
+      <nav>
+        <a href="portfolio.html" class="inlined">PORTFOLIO</a> |
+        <a href="about.html" class="inlined">ABOUT</a> |
+        <a href="resume.html" class="inlined">RESUME</a>
+      </nav>
+  </div>
+</header>
+
+<div class="header-fixed-placeholder"></div>
+
+  <!-- CONTENT -->
+  <div class="container">
+  <div class="bio">
+    <section class="bio">
+      <div class="row">
+        <div class="column"
+          <div class="bio-text">
+
+              <div class="bio-image">
+                <img src="brochure.png" alt-"">
+              </div>
+              <h2>BTP: BRACE</h2>
+            <p>
+              The goal of this project was to create a trifold informational brochure while retaining the brand identity created as a group. The biggest challenge in this was creating a target audience less relatable to myself as a person, so I picked a "handyman" key demographic and studied the look of modern home improvement graphics to understand the key aspects which would appeal to my target audience. Bold typography and and rustic imagery were used as key details while I sampled the colors and textures from a construction workshop to use as a background for the informational parts.</p>
+
+          </div>
+        </div>
+      </div>
+
+
+
+<!-- FOOTER -->
+<div id="footer">
+  <h1>KRYSTA MADEWELL 2019</h1>
+  <a href="mailto:contact@krystadm.com"> <img src="email.png" alt="enail"></a>
+  <a href="https://www.instagram.com/gsuskryst" target="_blank"> <img src="ig.png" alt="instagram"></a>
+  <a href="https://www.linkedin.com/in/krysta-madewell-ba5792a6/" target="_blank"> <img src="linkedin.png" alt="linkedin"></a>
+</div>
+
+</div>
+
+    <script src="js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+
+      var showHeaderAt = 150;
+
+      var win = $(window),
+          body = $('body');
+
+      // Show the fixed header only on larger screen devices
+
+      if(win.width() > 400){
+
+        // When we scroll more than 150px down, we set the
+        // "fixed" class on the body element.
+
+        win.on('scroll', function(e){
+
+          if(win.scrollTop() > showHeaderAt) {
+            body.addClass('fixed');
+          }
+          else {
+            body.removeClass('fixed');
+          }
+        });
+
+      }
+
+    });
+    </script>
+  </body>
+</html>

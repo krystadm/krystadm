@@ -74,11 +74,12 @@ nav #menu li {
 
 
 nav #menu li a {
-      font-family: acumin-pro-semi-condensed, sans-serif !important;
+      font-family: acumin-pro-condensed, sans-serif !important;
       font-style: normal;
       font-weight: 600;
-      font-size: 10pt;
+      font-size: 12pt;
       color: #fffbfa;
+      letter-spacing: .15pt;
 }
 
 nav #menu li a:hover {
@@ -125,10 +126,10 @@ nav #menu li a:hover {
 
 #resize {
       z-index: 2;
-      background-color: rgba(254,254,250, .8);
+      background-color: rgba(59,59,59, .8);
       top: 0;
       position: fixed;
-      width: 350px;
+      width: 100%;
       height: 100%;
       right: 0;
       visibility: hidden;
@@ -141,39 +142,40 @@ nav #menu li a:hover {
 
 #resize #menu {
       position: absolute;
-      left: 30%;
+      left: 20%;
       transform: translateX(-50%);
       vertical-align: center;
+      margin-top: 75px;
 
 }
 
 #resize #menu li {
       display: block;
       text-align: left;
-      margin-top: 75px;
       cursor: pointer;
+      margin-top: 60px;
       transition: all 0.3s ease-out;
 }
 
 #resize #menu li a {
-      font-family: acumin-pro-semi-condensed, sans-serif !important;
+      font-family: acumin-pro-condensed, sans-serif !important;
       font-style: normal;
       font-weight: 600;
-      font-size: 16pt;
-      color: #3b3b3b;
+      font-size: 24pt;
+      color: #fffbfa;
 
 }
 
 #resize #menu li a:hover {
-      color: #677d83;
-      border-bottom: 2.5pt solid #3b3b3b;
+      color: #94a7aa;
+      border-bottom: 2.5pt solid #fffbfa;
       text-decoration: none;
       transition: all .3s ease-out;
 }
 
 #resize #menu li a.active {
-      color: #677d83;
-      border-bottom: 2.5pt solid #3b3b3b;
+      color: #fffbfa;
+      border-bottom: 2.5pt solid #94a7aa;
 }
 
 #resize.active {
@@ -229,7 +231,7 @@ nav #menu li a:hover {
 }
 
 .hero #hero-background {
-  background-color: #94A8A8;
+  background-color: #94a7aa;
   clip-path: polygon(0 0%, 100% 0, 100% 90%, 0 100%, 0 0%);
   padding-bottom: 25px;
 }
@@ -241,7 +243,7 @@ nav #menu li a:hover {
 }
 
 .hero #project2 {
-  background-color: #cf6665;
+  background-color: #db7271;
   clip-path: polygon(0 0%, 100% 0, 100% 90%, 0 100%, 0 0%);
 }
 
@@ -268,14 +270,15 @@ nav #menu li a:hover {
 
 .project-container #title h1 {
       padding-bottom: 25px;
-      font-family: acumin-pro-condensed, sans-serif !important;
-      font-weight: 600;
+      font-family: clarendon-urw-extra-narrow, serif !important;
+      font-weight: 400;
       font-style: normal;
       font-size: 24pt;
       line-height: 75px;
       color: #677d83;
       text-align: left;
       letter-spacing: .15pt;
+
 }
 
 .project {
@@ -284,7 +287,7 @@ nav #menu li a:hover {
 }
 
 .project .caption {
-    background-color: rgba(102,125,131, .90);
+    background-color: rgba(102,125,131, .85);
     position: absolute;
     z-index: 0;
     transition: all 0.3s ease-out;
@@ -296,24 +299,26 @@ nav #menu li a:hover {
 }
 
 .project .caption h1 {
-  font-family: 'acumin-pro-condensed', sans-serif !important;
+  font-family: acumin-pro-condensed, sans-serif !important;
   position: relative;
   font-weight: 700;
-  font-size: 36pt;
+  font-size: 24pt;
   color:  #fffbfa;
   letter-spacing: .15pt;
-  top: 30%;
+  top: 35%;
   left: 12%;
 }
 
 .project .caption p {
-  font-family: 'acumin-pro-light', sans-serif !important;
-  font-size: 9pt;
-  color: #fffbfa;
+  font-family: acumin-pro, sans-serif;
   font-weight: 300;
-  letter-spacing: .25pt;
+  font-style: normal;
+  line-height: 20px;
+  color: #fffbfa;
+  text-align: left;
+  font-size: 10pt;
   position: relative;
-  top: 30%;
+  top: 35%;
   left: 12%;
 }
 
@@ -377,15 +382,16 @@ nav #menu li a:hover {
 }
 
 .project-content h1 {
-      font-family: acumin-pro-condensed, sans-serif !important;
-      font-size: 36pt !important;
+      font-family: clarendon-urw-extra-narrow, serif; !important;
+      font-size: 42pt !important;
       text-align: left;
-      font-weight: 800;
+      font-weight: 600;
       font-style: normal;
       color: #3b3b3b;
       padding-bottom: 5px;
       letter-spacing: .15pt;
       }
+
 
   .project-row #section h2 {
       font-family: acumin-pro-condensed, sans-serif !important;
@@ -395,15 +401,6 @@ nav #menu li a:hover {
       color: #677d83;
       text-align: left;
       letter-spacing: .75px;
-      }
-
-      .project-content h2 {
-        font-family: acumin-pro, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 9pt;
-        font-weight: 300;
-        font-style: normal;
       }
 
 .project-content h3 {
@@ -416,24 +413,13 @@ nav #menu li a:hover {
       padding-top: 5px;
       }
 
-.project-content h4 {
-      font-family: acumin-pro-condensed, sans-serif;
-      font-weight: 100;
-      font-style: normal;
-      font-size: 10pt;
-      color: #3b3b3b;
-      text-align: left;
-      padding-bottom: 25px;
-      border-bottom: 4pt dotted #3b3b3b;
-}
-
 .sectionblurb #alt-title h1 {
-      font-family: acumin-pro-condensed, sans-serif !important;
+      font-family: clarendon-urw-extra-narrow, serif !important;
       font-size: 36pt !important;
       text-align: left;
       font-weight: 800;
       font-style: normal;
-      color: #3b3b3b;
+      color: #677d83;
       padding-bottom: 5px;
 
 }
@@ -446,21 +432,22 @@ nav #menu li a:hover {
 .project-content #sectionblurb {
       font-family: acumin-pro, sans-serif;
       font-size: 10pt;
-      font-weight: 300;
+      font-weight: 200;
       font-style: normal;
       color: #3B3B3B;
       text-align: left;
       padding-top: 15px;
+      margin-bottom: 25px;
 }
 
 .project-content #sectionblurb a{
-      font-family: acumin-pro-semi-condensed, sans-serif;
-      font-size: 9pt;
-      font-weight: 300;
+      font-family: acumin-pro-condensed, sans-serif;
+      font-size: 10pt;
+      font-weight: 600;
       font-style: normal;
-      color: #677d83;;
+      color: #94a7aa;;
       text-align: left;
-      padding-bottom: 10px;
+      padding: 10px;
       letter-spacing: .5pt;
       margin-left: 5px;
 }
@@ -473,36 +460,35 @@ nav #menu li a:hover {
 }
 
 
-.sectionblurb #home {
-      font-family: acumin-pro, sans-serif;
-      font-size: 10pt;
-      font-weight: 300;
-      font-style: normal;
-      color: #fffbfa;
-      text-align: left;
-      padding-top: 15px;
-      letter-spacing: .15pt;
-    }
-
 .sectionblurb #specialty h4 {
-      font-family: acumin-pro-light, sans-serif;
-      font-weight: 300;
+      font-family: acumin-pro, sans-serif;
+      font-weight: 700;
       font-style: normal;
       line-height: 20px;
-      color: #fffbfa;
+      color: #3b3b3b;
       text-align: left;
+      font-size: 10pt;
+      padding-bottom: 25px;
 
 }
 
+.project-content h2 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 9pt;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .sectionblurb #alt-specialty h4 {
-        font-family: acumin-pro-light, sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        font-size: 10pt;
-        color: #3b3b3b;
-        text-align: left;
-        padding-bottom: 25px;
-        border-bottom: 4pt dotted #677d83;;
+      font-family: acumin-pro, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      line-height: 20px;
+      font-size: 10pt;
+      color: #677d83;
+      text-align: left;
 }
 
 @media(max-width: 1280px) {
@@ -577,7 +563,7 @@ nav #menu li a:hover {
   .prev a, .next a{
     display: block;
     font-weight: bold;
-    color: #94A8A8 !important;
+    color: #94a7aa !important;
     font-size: 10pt;
 
   }
@@ -645,7 +631,7 @@ nav #menu li a:hover {
 }
 
 .info #credit h4 {
-      font-family: acumin-pro-wide, sans-serif !important;
+      font-family: acumin-pro, sans-serif !important;
       text-align: right;
       padding-top: 20px;
       padding-right: 50px;
@@ -794,7 +780,8 @@ nav #menu li a:hover {
 .btn.rounded.outline  {
     margin-top: 25px;
     background-color: #3b3b3b;
-    font-family: acumin-pro-semi-condensed, sans-serif !important;
+    font-family: acumin-pro--condensed, sans-serif !important;
+    color: #fffbfa;
     font-style: normal;
     font-weight: 600;
     font-size: 9pt;

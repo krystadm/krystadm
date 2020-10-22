@@ -1,2 +1,0 @@
-# krystadm
-portfolio site
