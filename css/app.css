@@ -12,7 +12,7 @@ html, body {
       width: 100%;
       height: ;
       font-family: acumin-pro, sans-serif !important;
-      background-color: #fffbfa;
+      background-color: #fffbfa !important;
       overflow-x: hidden;
 }
 
@@ -135,7 +135,7 @@ nav #menu li a:hover {
       visibility: hidden;
       opacity: 0;
       transition: all 0.3s ease-out;
-      box-shadow: 0 0 12px #85888C;
+      box-shadow: 0 0 12px #3b3b3b;
 }
 
 
@@ -231,7 +231,7 @@ nav #menu li a:hover {
 }
 
 .hero #hero-background {
-  background-color: #94a7aa;
+  background-color: #3b3b3b;
   clip-path: polygon(0 0%, 100% 0, 100% 90%, 0 100%, 0 0%);
   padding-bottom: 25px;
 }
@@ -270,7 +270,7 @@ nav #menu li a:hover {
 
 .project-container #title h1 {
       padding-bottom: 25px;
-      font-family: clarendon-urw-extra-narrow, serif !important;
+      font-family: acumin-pro-condensed, sans-serif !important;
       font-weight: 400;
       font-style: normal;
       font-size: 24pt;
@@ -310,13 +310,13 @@ nav #menu li a:hover {
 }
 
 .project .caption p {
-  font-family: acumin-pro, sans-serif;
-  font-weight: 300;
+  font-family: acumin-pro-condensed, sans-serif;
+  font-weight: 200;
   font-style: normal;
   line-height: 20px;
   color: #fffbfa;
   text-align: left;
-  font-size: 10pt;
+  font-size: 16pt;
   position: relative;
   top: 35%;
   left: 12%;
@@ -382,14 +382,14 @@ nav #menu li a:hover {
 }
 
 .project-content h1 {
-      font-family: clarendon-urw-extra-narrow, serif; !important;
+      font-family: acumin-pro-condensed, sans-serif !important;
       font-size: 42pt !important;
       text-align: left;
-      font-weight: 600;
+      line-height: .75;
+      font-weight: 800;
       font-style: normal;
       color: #3b3b3b;
-      padding-bottom: 5px;
-      letter-spacing: .15pt;
+      padding-bottom: 25px;
       }
 
 
@@ -414,12 +414,13 @@ nav #menu li a:hover {
       }
 
 .sectionblurb #alt-title h1 {
-      font-family: clarendon-urw-extra-narrow, serif !important;
-      font-size: 36pt !important;
+      font-family: acumin-pro-condensed, sans-serif !important;
+      font-size: 42pt !important;
+      line-height: .75;
       text-align: left;
       font-weight: 800;
       font-style: normal;
-      color: #677d83;
+      color: #94a7aa;
       padding-bottom: 5px;
 
 }
@@ -434,7 +435,7 @@ nav #menu li a:hover {
       font-size: 10pt;
       font-weight: 200;
       font-style: normal;
-      color: #3B3B3B;
+      color: #3b3b3b;
       text-align: left;
       padding-top: 15px;
       margin-bottom: 25px;
@@ -454,20 +455,20 @@ nav #menu li a:hover {
 
 
 .project-content #sectionblurb a:hover{
-      color: #3b3b3b;
+      color: #677d83;
       text-decoration: none;
       transition: all .2s ease-out;
 }
 
 
 .sectionblurb #specialty h4 {
-      font-family: acumin-pro, sans-serif;
-      font-weight: 700;
+      font-family: acumin-pro-condensed, sans-serif;
+      font-weight: 200;
       font-style: normal;
       line-height: 20px;
       color: #3b3b3b;
       text-align: left;
-      font-size: 10pt;
+      font-size: 18pt;
       padding-bottom: 25px;
 
 }
@@ -482,13 +483,14 @@ nav #menu li a:hover {
 }
 
 .sectionblurb #alt-specialty h4 {
-      font-family: acumin-pro, sans-serif;
-      font-weight: 700;
+      font-family: acumin-pro-condensed, sans-serif;
+      font-weight: 400;
       font-style: normal;
       line-height: 20px;
-      font-size: 10pt;
-      color: #677d83;
+      font-size: 12pt;
+      color: #94a7aa;
       text-align: left;
+      padding-bottom: 25px;
 }
 
 @media(max-width: 1280px) {
@@ -521,7 +523,7 @@ nav #menu li a:hover {
   font-style: normal;
   font-size: 14pt;
   display: block;
-  color: #677d83 !important;
+  color: #94a7aa !important;
 
 }
 
@@ -529,7 +531,7 @@ nav #menu li a:hover {
 
   display: block;
   text-decoration: none;
-  color: #3b3b3b !important;
+  color: #677d83 !important;
   transition: all 0.3s ease-out;
 
 }
@@ -655,7 +657,7 @@ nav #menu li a:hover {
 }
 
 .info img:hover {
-      filter: invert(100%);
+      filter: invert(75%);
       transition: all .2s ease-out;
 
 }
@@ -779,7 +781,7 @@ nav #menu li a:hover {
 
 .btn.rounded.outline  {
     margin-top: 25px;
-    background-color: #3b3b3b;
+    background-color: #fefefa;
     font-family: acumin-pro--condensed, sans-serif !important;
     color: #fffbfa;
     font-style: normal;
