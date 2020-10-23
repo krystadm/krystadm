@@ -86,13 +86,13 @@ nav #menu li a:hover {
       color: #fffbfa;
       text-decoration: none;
       transition: all .2s ease-out;
-      border-bottom: 2pt solid #677d83;
+      border-bottom: 2pt solid #fffbfa;
 }
 
 
 #menu a.active {
       color: #fffbfa;
-      border-bottom: 2pt solid #677d83;
+      border-bottom: 2pt solid #fffbfa;
 
 }
 
