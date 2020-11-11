@@ -3,16 +3,10 @@
     src: url(https://use.typekit.net/aal6sfn.css);
 }
 
-@font-face {
-    font-family: 'Vidaloka', serif;
-    src: url(https://fonts.googleapis.com/css2?family=Vidaloka&display=swap);
-  }
 /*--------------- basic styling --------------- */
 html, body {
       width: 100%;
-      height: ;
-      font-family: acumin-pro, sans-serif !important;
-      background-color: #f5f5f5 !important;
+      background-color: #fffff8 !important;
       overflow-x: hidden;
 }
 
@@ -50,7 +44,6 @@ nav #brand img {
 
 nav #brand a {
       width: 80px;
-      transition: all 0.3s ease-out;
 }
 
 nav #brand a:hover {
@@ -69,30 +62,28 @@ nav #menu li {
       cursor: pointer;
       line-height: 100px;
       position: relative;
-      transition: all 0.3s ease-out;
 }
 
 
 nav #menu li a {
-      font-family: acumin-pro-condensed, sans-serif !important;
+      font-family: quicksand, sans-serif !important;
       font-style: normal;
       font-weight: 600;
       font-size: 12pt;
-      color: #f5f5f5;
-      letter-spacing: .15pt;
+      color: #555555;
 }
 
 nav #menu li a:hover {
-      color: #141111;
+      color: #555555;
       text-decoration: none;
       transition: all .2s ease-out;
-      border-bottom: 2pt solid #f5f5f5;
+      border-bottom: 2pt solid #94a7aa;
 }
 
 
 #menu a.active {
-      color: #f5f5f5;
-      border-bottom: 2pt solid #141111;
+      color: #555555;
+      border-bottom: 2pt solid #94a7aa;
 
 }
 
@@ -158,23 +149,23 @@ nav #menu li a:hover {
 }
 
 #resize #menu li a {
-      font-family: acumin-pro-condensed, sans-serif !important;
+      font-family: quicksand, sans-serif !important;
       font-style: normal;
       font-weight: 600;
       font-size: 24pt;
-      color: #f5f5f5;
+      color: #fffff8;
 
 }
 
 #resize #menu li a:hover {
       color: #94a7aa;
-      border-bottom: 2.5pt solid #f5f5f5;
+      border-bottom: 2.5pt solid #fffff8;
       text-decoration: none;
       transition: all .3s ease-out;
 }
 
 #resize #menu li a.active {
-      color: #f5f5f5;
+      color: #fffff8;
       border-bottom: 2.5pt solid #94a7aa;
 }
 
@@ -222,41 +213,11 @@ nav #menu li a:hover {
 .hero #sectionblurb p{
   font-family: acumin-pro, sans-serif;
   font-size: 11pt;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
-  line-height: 22px;
-  color: #141111 !important;
+  color: #555555 !important;
   text-align: left;
 }
-
-.hero #hero-background {
-  background-color: #94a7aa;
-  clip-path: polygon(0 0%, 100% 0, 100% 90%, 0 100%, 0 0%);
-  padding-bottom: 25px;
-}
-
-.hero #project1 {
-  background-color: #aa91a9;
-  clip-path: polygon(0 0%, 100% 0, 100% 90%, 0 100%, 0 0%);
-
-}
-
-.hero #project2 {
-  background-color: #cf7676;
-  clip-path: polygon(0 0%, 100% 0, 100% 90%, 0 100%, 0 0%);
-}
-
-
-.hero #project4 {
-  background-color: #afa285;
-  clip-path: polygon(0 0%, 100% 0, 100% 90%, 0 100%, 0 0%);
-}
-
-.hero #project5 {
-  background-color: #76a7ad;
-  clip-path: polygon(0 0%, 100% 0, 100% 90%, 0 100%, 0 0%);
-}
-
 
 
 
@@ -269,24 +230,22 @@ nav #menu li a:hover {
 
 .project-container #title h1 {
       padding-bottom: 25px;
-      font-family: acumin-pro-condensed, sans-serif !important;
-      font-weight: 400;
+      font-family: quicksand, sans-serif; !important;
+      font-weight: 700;
       font-style: normal;
       font-size: 24pt;
       line-height: 75px;
-      color: #677d83;
+      color: #fffff8;
       text-align: left;
-      letter-spacing: .15pt;
-
 }
 
 .project {
       height: 250px;
-      border: 3pt solid #f5f5f5;
+      border: 3pt solid #fffff8;
 }
 
 .project .caption {
-    background-color: rgba(102,125,131, .85);
+    background-color: rgba(102,103,103, .9);
     position: absolute;
     z-index: 0;
     transition: all 0.3s ease-out;
@@ -298,22 +257,21 @@ nav #menu li a:hover {
 }
 
 .project .caption h1 {
-  font-family: acumin-pro-condensed, sans-serif !important;
+  font-family: quicksand, sans-serif; !important;
   position: relative;
   font-weight: 700;
   font-size: 24pt;
-  color:  #f5f5f5;
-  letter-spacing: .15pt;
+  color:  #fffff8;
   top: 35%;
   left: 12%;
 }
 
 .project .caption p {
-  font-family: acumin-pro-condensed, sans-serif;
-  font-weight: 400;
+  font-family: quicksand, sans-serif;
+  font-weight: 200;
   font-style: normal;
   line-height: 20px;
-  color: #f5f5f5;
+  color: #fffff8;
   text-align: left;
   font-size: 12pt;
   position: relative;
@@ -381,74 +339,60 @@ nav #menu li a:hover {
 }
 
 .project-content #title h1 {
-      font-family: acumin-pro-condensed, sans-serif !important;
-      font-size: 42pt !important;
+      font-family: quicksand, sans-serif; !important;
+      font-size: 36pt !important;
       text-align: left;
       line-height: .75;
-      font-weight: 800;
+      font-weight: 700;
       font-style: normal;
-      color: #141111;
+      color: #555555;
       padding-bottom: 25px;
       }
 
 
   .project-row #section h2 {
-      font-family: acumin-pro-condensed, sans-serif !important;
+      font-family: quicksand, sans-serif !important;
       font-size: 16pt;
-      font-weight: bold;
+      font-weight: 700;
       font-style: normal;
-      color: #677d83;
+      color: #555555;
       text-align: left;
-      letter-spacing: .75px;
       }
 
 .project-content h3 {
-      font-family: acumin-pro-condensed, sans-serif;
+      font-family: quicksand, sans-serif;
       font-weight: 600;
       font-style: normal;
-      font-size: 11pt;
-      color: #3b3b3b;
+      font-size: 10pt;
+      color: #555555;
       text-align: left;
       padding-top: 5px;
       }
 
-.sectionblurb #alt-title h1 {
-      font-family: acumin-pro-condensed, sans-serif !important;
-      font-size: 42pt !important;
-      line-height: .75;
-      text-align: left;
-      font-weight: 800;
-      font-style: normal;
-      color: #141111;
-      padding-bottom: 20px;
-
-}
-
 .project-content caption li {
   text-align: left;
-  color: #141111;
+  color: #555555;
 }
 
 .project-content #sectionblurb {
-      font-family: acumin-pro, sans-serif;
-      font-size: 11pt;
-      font-weight: 400;
+      font-family: acumin-pro, sans-serif;;
+      font-size: 10.5pt;
+      font-weight: 200;
       font-style: normal;
-      color: #141111;
+      color: #555555;
       text-align: left;
       padding-top: 15px;
       margin-bottom: 25px;
 }
 
 .project-content #sectionblurb a{
-      font-family: acumin-pro-condensed, sans-serif;
+      font-family: quicksand, sans-serif;
       font-size: 10pt;
       font-weight: 600;
       font-style: normal;
       color: #94a7aa;;
       text-align: left;
       padding: 10px;
-      letter-spacing: .5pt;
       margin-left: 5px;
 }
 
@@ -461,14 +405,14 @@ nav #menu li a:hover {
 
 
 .sectionblurb #specialty h4 {
-      font-family: acumin-pro-condensed, sans-serif;
+      font-family: quicksand, sans-serif;
       font-weight: 400;
       font-style: normal;
       line-height: 20px;
-      color: #f5f5f5;
+      color: #555555;
       text-align: left;
       font-size: 14pt;
-      padding-bottom: 10px;
+      padding-bottom: 5px;
 
 }
 
@@ -479,17 +423,6 @@ nav #menu li a:hover {
   font-size: 10pt;
   font-weight: 300;
   font-style: normal;
-}
-
-.sectionblurb #alt-specialty h4 {
-      font-family: acumin-pro-condensed, sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      line-height: 20px;
-      font-size: 14pt;
-      color: #677d83;
-      text-align: left;
-      padding-bottom: 10px;
 }
 
 @media(max-width: 1280px) {
@@ -517,10 +450,10 @@ nav #menu li a:hover {
 
 
 .prev a, .next a{
-  font-family: acumin-pro-condensed, sans-serif;
+  font-family: quicksand, sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 14pt;
+  font-size: 10pt;
   display: block;
   color: #94a7aa !important;
 
@@ -632,7 +565,7 @@ nav #menu li a:hover {
 }
 
 .info #credit h4 {
-      font-family: acumin-pro, sans-serif !important;
+      font-family: quicksand, sans-serif !important;
       text-align: right;
       padding-top: 20px;
       padding-right: 50px;
@@ -767,7 +700,7 @@ nav #menu li a:hover {
     height:0;
     width:0;
     border:8px solid transparent;
-    border-bottom-color:#f5f5f5;
+    border-bottom-color:#fffff8;
 }
 
 #scroll:hover {
@@ -781,7 +714,7 @@ nav #menu li a:hover {
 .button  {
     margin-top: 25px;
     background-color: #141111;
-    font-family: acumin-pro--condensed, sans-serif !important;
+    font-family: quicksand, sans-serif !important;
     color: #141111;
     font-style: normal;
     font-weight: 600;
