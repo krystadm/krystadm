@@ -703,18 +703,18 @@ nav #menu li a:hover {
 }
 
 #scroll:hover {
-    background-color:#141111;
+    background-color:#555556;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
 
 /* button */
 
-.button  {
+/* .button  {
     margin-top: 25px;
-    background-color: #141111;
+    background-color: #555555;
     font-family: quicksand, sans-serif !important;
-    color: #141111;
+    color: #555555;
     font-style: normal;
     font-weight: 600;
     font-size: 9pt;
@@ -724,4 +724,4 @@ nav #menu li a:hover {
 
 .btn.rounded.outline:hover {
   background-color: #677d83;
-}
+} */
