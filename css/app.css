@@ -34,7 +34,7 @@ nav {
 nav #brand {
       float: left;
       display: block;
-      margin-left: 275px;
+      margin-left: 270px;
       line-height: 100px;
 }
 
@@ -91,7 +91,7 @@ nav #menu li a:hover {
 #toggle {
       position: absolute;
       right: 5px;
-      top: 20px;
+      top: 26px;
       z-index: 2;
       cursor: pointer;
       transition: all 0.3s ease-out;
@@ -108,7 +108,7 @@ nav #menu li a:hover {
       right: 5px;
       z-index: 1;
       cursor: pointer;
-      top: 20px;
+      top: 25px;
 }
 
 .close-btn img {
@@ -117,7 +117,7 @@ nav #menu li a:hover {
 
 #resize {
       z-index: 2;
-      background-color: rgba(59,59,59, .8);
+      background-color: rgba(59,59,59, .9);
       top: 0;
       position: fixed;
       width: 100%;
