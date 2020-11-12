@@ -158,8 +158,8 @@ nav #menu li a:hover {
 }
 
 #resize #menu li a:hover {
-      color: #94a7aa;
-      border-bottom: 2.5pt solid #fffff8;
+      color: #fffff8;
+      border-bottom: 2.5pt solid #94a7aa;
       text-decoration: none;
       transition: all .3s ease-out;
 }
@@ -570,7 +570,7 @@ nav #menu li a:hover {
       padding-top: 20px;
       padding-right: 50px;
       font-size: 10px;
-      color: #141111;
+      color: #555555;
 }
 
 .info #media li {
