@@ -242,6 +242,7 @@ nav #menu li a:hover {
 .project {
       height: 250px;
       border: 3pt solid #fffff8;
+      margin-bottom: 10px;
 }
 
 .project .caption {
@@ -349,7 +350,7 @@ nav #menu li a:hover {
       }
 
 
-  .project-row #section h2 {
+   #section h2 {
       font-family: quicksand, sans-serif !important;
       font-size: 16pt;
       font-weight: 700;
