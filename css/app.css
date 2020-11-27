@@ -240,9 +240,8 @@ nav #menu li a:hover {
 }
 
 .project {
-      height: 250px;
+      height: 225px;
       border: 3pt solid #fffff8;
-      margin-bottom: 10px;
 }
 
 .project .caption {
@@ -392,8 +391,6 @@ nav #menu li a:hover {
       font-style: normal;
       color: #94a7aa;;
       text-align: left;
-      padding: 10px;
-      margin-left: 5px;
 }
 
 
