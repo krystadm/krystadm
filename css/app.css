@@ -365,7 +365,7 @@ nav #menu li a:hover {
       font-size: 10pt;
       color: #555555;
       text-align: left;
-      padding-top: 5px;
+      margin-top: 20px;
       }
 
 .project-content caption li {
@@ -389,7 +389,7 @@ nav #menu li a:hover {
       font-size: 10pt;
       font-weight: 600;
       font-style: normal;
-      color: #94a7aa;;
+      color: #94a7aa;
       text-align: left;
 }
 
