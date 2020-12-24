@@ -6,7 +6,7 @@
 /*--------------- basic styling --------------- */
 html, body {
       width: 100%;
-      background-color: #fffff8 !important;
+      background-color: #fbfbf8 !important;
       overflow-x: hidden;
 }
 
@@ -153,19 +153,19 @@ nav #menu li a:hover {
       font-style: normal;
       font-weight: 600;
       font-size: 24pt;
-      color: #fffff8;
+      color: #fbfbf8;
 
 }
 
 #resize #menu li a:hover {
-      color: #fffff8;
+      color: #fbfbf8;
       border-bottom: 2.5pt solid #94a7aa;
       text-decoration: none;
       transition: all .3s ease-out;
 }
 
 #resize #menu li a.active {
-      color: #fffff8;
+      color: #fbfbf8;
       border-bottom: 2.5pt solid #94a7aa;
 }
 
@@ -212,7 +212,7 @@ nav #menu li a:hover {
 
 .hero #sectionblurb p{
   font-family: acumin-pro, sans-serif;
-  font-size: 11pt;
+  font-size: 10.5pt;
   font-weight: 200;
   font-style: normal;
   color: #555555 !important;
@@ -235,7 +235,7 @@ nav #menu li a:hover {
       font-style: normal;
       font-size: 24pt;
       line-height: 75px;
-      color: #fffff8;
+      color: #fbfbf8;
       text-align: left;
 }
 
@@ -260,7 +260,7 @@ nav #menu li a:hover {
   position: relative;
   font-weight: 700;
   font-size: 24pt;
-  color:  #fffff8;
+  color:  #fbfbf8;
   top: 35%;
   left: 12%;
 }
@@ -270,7 +270,7 @@ nav #menu li a:hover {
   font-weight: 200;
   font-style: normal;
   line-height: 20px;
-  color: #fffff8;
+  color: #fbfbf8;
   text-align: left;
   font-size: 12pt;
   position: relative;
@@ -339,7 +339,7 @@ nav #menu li a:hover {
 
 .project-content #title h1 {
       font-family: quicksand, sans-serif; !important;
-      font-size: 36pt !important;
+      font-size: 24pt !important;
       text-align: left;
       font-weight: 700;
       font-style: normal;
@@ -350,7 +350,7 @@ nav #menu li a:hover {
 
    #section h2 {
       font-family: quicksand, sans-serif !important;
-      font-size: 16pt;
+      font-size: 12pt;
       font-weight: 700;
       font-style: normal;
       color: #555555;
@@ -407,7 +407,7 @@ nav #menu li a:hover {
       line-height: 20px;
       color: #555555;
       text-align: left;
-      font-size: 14pt;
+      font-size: 10pt;
       padding-bottom: 5px;
 
 }
@@ -424,6 +424,11 @@ nav #menu li a:hover {
 @media(max-width: 1280px) {
       .project-content {
         height: 100%;
+      }
+
+      .project-image img {
+        max-width: 90%;
+        margin: 0 auto;
       }
     }
   }
@@ -696,7 +701,7 @@ nav #menu li a:hover {
     height:0;
     width:0;
     border:8px solid transparent;
-    border-bottom-color:#fffff8;
+    border-bottom-color:#fbfbf8;
 }
 
 #scroll:hover {
