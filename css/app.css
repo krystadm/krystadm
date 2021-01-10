@@ -304,6 +304,11 @@ nav #menu li a:hover {
       background-size: cover;
 }
 
+.project5 {
+      background: url('../Other/ryuillustration.png') no-repeat 50% 50%;
+      background-size: cover;
+}
+
 @media(max-width: 1280px) {
       .section {
             width: 100% !important;
