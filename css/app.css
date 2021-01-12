@@ -524,7 +524,6 @@ nav #menu li a:hover {
 
 #myCarousel1 {
   width: 786px;
-  margin: 0 auto;
   z-index: 1;
 
 }
@@ -542,12 +541,10 @@ nav #menu li a:hover {
 
 .carousel .carousel-item {
     overflow:hidden;
-    margin-bottom:1em;
-    margin-top:1em;
 }
 .carousel-inner > .carousel-item > img {
     float: left;
-    height: none;
+    height: 100%;
     width:  100%;
 }
 
