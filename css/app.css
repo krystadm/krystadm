@@ -356,7 +356,7 @@ nav #menu li a:hover {
    #section h2 {
       font-family: quicksand, sans-serif !important;
       font-size: 12pt;
-      font-weight: 700;
+      font-weight: 600;
       font-style: normal;
       color: #555555;
       text-align: left;
@@ -419,7 +419,7 @@ nav #menu li a:hover {
 
 .project-content h2 {
   font-family: acumin-pro, sans-serif;
-  font-weight: 700;
+  font-weight: 200;
   font-style: normal;
   font-size: 10pt;
   font-style: normal;
