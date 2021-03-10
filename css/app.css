@@ -224,6 +224,10 @@ nav #menu li a:hover {
 
 /*--------------- projects section --------------- */
 
+img {
+  border-radius: 5px;
+}
+
 .project-container {
   width: 100%;
 }
@@ -343,13 +347,12 @@ nav #menu li a:hover {
 }
 
 .project-content #title h1 {
-      font-family: quicksand, sans-serif; !important;
-      font-size: 24pt !important;
+      font-family: rift-soft, sans-serif; !important;
+      font-size: 42pt !important;
       text-align: left;
-      font-weight: 700;
+      font-weight: 600;
       font-style: normal;
       color: #555555;
-      padding-bottom: 15px;
       }
 
 
@@ -378,7 +381,7 @@ nav #menu li a:hover {
 }
 
 .project-content #sectionblurb {
-      font-family: acumin-pro, sans-serif;;
+      font-family: acumin-pro, sans-serif;
       font-size: 10.5pt;
       font-weight: 200;
       font-style: normal;
@@ -410,7 +413,7 @@ nav #menu li a:hover {
       font-weight: 400;
       font-style: normal;
       line-height: 20px;
-      color: #555555;
+      color: #55555;
       text-align: left;
       font-size: 10pt;
       padding-bottom: 5px;
@@ -429,6 +432,14 @@ nav #menu li a:hover {
       .project-content {
         height: 100%;
       }
+
+      #title h1 {
+       text-align: center !important;
+     }
+
+     #specialty h4 {
+      text-align: center !important;
+    }
 
       .project-image img {
         max-width: 90%;
