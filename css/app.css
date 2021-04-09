@@ -286,6 +286,12 @@ img {
     opacity: 100%;
 }
 
+.project0 {
+      background: url('../Bellyrub-banner.png') no-repeat 50% 50%;
+      background-size: cover;
+
+}
+
 .project1 {
       background: url('../STredesignmockup.jpg') no-repeat 50% 50%;
       background-size: cover;
