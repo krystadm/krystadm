@@ -28,7 +28,7 @@ nav {
       position: relative;
       opacity: 100%;
       z-index: 1;
-      border-bottom: 2pt solid #c5c5c5;
+      border-bottom: 1pt solid #c5c5c5;
       background-color: #f5f5f5;
 }
 
@@ -47,7 +47,7 @@ nav #brand img {
 nav #brand a {
       font-family: quicksand, sans-serif !important;
       font-style: normal;
-      font-size: 10pt;
+      font-size: 9pt;
       color: #555555;
 }
 
