@@ -36,7 +36,7 @@ nav #brand {
       float: left;
       display: block;
       margin-left: 280px;
-      line-height: 80px;
+      line-height: 75px;
 }
 
 nav #brand img {
@@ -47,7 +47,7 @@ nav #brand img {
 nav #brand a {
       font-family: quicksand, sans-serif !important;
       font-style: normal;
-      font-size: 10pt;
+      font-size: 9pt;
       color: #555555;
 }
 
