@@ -29,7 +29,7 @@ nav {
       opacity: 100%;
       z-index: 3;
       background-color: #fbfbf8;
-      border-bottom: 1.5pt solid #555555;
+      border-bottom: 1pt solid #94a7aa;
 }
 
 nav #brand {
@@ -66,6 +66,7 @@ nav #menu {
 nav #menu li {
       padding-left: 40px;
       display: inline-block;
+      list-style-type: none;
       cursor: pointer;
       line-height: 80px;
       position: relative;
@@ -584,84 +585,98 @@ img {
 .footer {
       bottom: 0;
       position: relative;
-      opacity: 75%;
       width: 100%;
-      font-weight: lighter;
+      background-color: #555555;
+      padding: 25px;
 }
 
 .hr {
-  width: 1200px;
-  height: 50px;
-  margin: 0 auto;
-  animation: fadeIn 1.5s ease-in-out 0s forwards;
+      width: 1100px;
+      margin: 0 auto;
+      animation: fadeIn 1.5s ease-in-out 0s forwards;
+}
+
+.footer #footertitle h4{
+      font-family: quicksand, sans-serif !important;
+      text-align: left;
+      font-size: 12px;
+      color: #fbfbf8;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #fff;
+}
+
+
+.info #media {
+      padding-top: 10px;
+      font-family: quicksand, sans-serif !important;
+      text-align: left;
+      font-size: 10px;
+      color: #fbfbf8;
+
+}
+
+.info #media  a{
+      padding-top: 10px;
+      font-family: quicksand, sans-serif !important;
+      text-align: left;
+      font-size: 10px;
+      color: #94a7aa;
+
+}
+
+.info #media  a:hover{
+      text-decoration: none;
+      padding-top: 10px;
+      font-family: quicksand, sans-serif !important;
+      text-align: left;
+      font-size: 10px;
+      color: #fbfbf8;
+      transition: all .2s ease-out;
+
+}
+
+.info #media img {
+      filter: invert(100%);
+      height: 15px;
+      padding-right: 10px;
+}
+
+.info #media li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+.info img {
+      max-width: 50px;
+      text-align: right;
 }
 
 .info #credit h4 {
       font-family: quicksand, sans-serif !important;
       text-align: right;
-      padding-top: 20px;
-      padding-right: 50px;
-      font-size: 10px;
-      color: #555555;
-}
-
-.info #media li {
-      font-weight: lighter;
-      font-size: 18px;
-      padding-top: 10px;
-}
-
-.info #media {
-      text-align: left;
-}
-
-.info img {
-      height: 15px;
-      padding-left: 10px;
-}
-
-.info img:hover {
-      filter: invert(75%);
-      transition: all .2s ease-out;
-
+      font-size: 8px;
+      color: #fbfbf8;
 }
 
 
+@media(max-width: 1280px) {
 
-.info #media ul li {
-      display: inline-block;
-}
-
-@media(max-width: 1280px) { .footer {
-      height: 100px;
-}
+      .hr {
+        width: 100% !important;
+      }
 
       .info #credit h4 {
-            text-align: center;
-            padding-top: 20px;
-            padding-right: 0 !important;
+            text-align: left;
       }
 
       .info #media {
-            text-align: center;
+            text-align: left;
       }
 
       .info img {
             height: 15px;
-            margin: 5px;
-
       }
 
-
-      .hr {
-        width: 100%;
-        padding-top: 0px;
-      }
-
-      .info ul {
-            margin: 0 auto;
-            padding: 0;
-      }
 }
 
 /* loading animations */
@@ -719,7 +734,7 @@ img {
     -webkit-border-radius:60px;
     -moz-border-radius:60px;
     border-radius:60px;
-    z-index: 2;
+    z-index: 4;
     transition: all 0.3s ease-out;
     border: 2pt solid #555555;
 
