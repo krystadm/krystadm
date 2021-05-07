@@ -355,7 +355,7 @@ img {
       font-size: 11pt;
       font-weight: 800;
       font-style: normal;
-      color: #95999a;
+      color: #858d96;
       text-align: left;
       }
 
@@ -423,6 +423,7 @@ img {
     }
 
       .project-image img {
+        padding-top: 25px;
         max-width: 90%;
         margin: 0 auto;
       }
