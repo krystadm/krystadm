@@ -368,7 +368,7 @@ img {
 
 .project-content #title h1 {
       font-family: rift-soft, sans-serif; !important;
-      font-size: 42pt !important;
+      font-size: 24pt !important;
       text-align: left;
       font-weight: 200;
       font-style: normal;
@@ -378,12 +378,21 @@ img {
 
    #section h2 {
       font-family: quicksand, sans-serif !important;
-      font-size: 12pt;
-      font-weight: 600;
+      font-size: 11pt;
+      font-weight: 400;
       font-style: normal;
       color: #555555;
       text-align: left;
       }
+
+      #section h3 {
+         font-family: acumin-pro, sans-serif !important;
+         font-size: 9pt;
+         font-weight: 200;
+         font-style: normal;
+         color: #555555;
+         text-align: left;
+         }
 
 .project-content h3 {
       font-family: quicksand, sans-serif;
