@@ -335,9 +335,9 @@ img {
       }
 
       .project-content a:hover {
-            color: #94a7aa;
-            text-align: left;
-            }
+      color: #94a7aa;
+      transition: all .2s ease-out;
+      }
 
 
 .project-content #title h1 {
@@ -364,7 +364,7 @@ img {
       font-family: quicksand, sans-serif;
       font-weight: 600;
       font-style: normal;
-      font-size: 10pt;
+      font-size: 9pt;
       color: #555555;
       text-align: left;
       margin-top: 20px;
