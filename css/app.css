@@ -689,7 +689,7 @@ img {
     border-radius:60px;
     z-index: 4;
     transition: all 0.3s ease-out;
-    border: 2pt solid #555555;
+    border: 1.5pt solid #94a7aa;
 
 }
 #scroll span {
