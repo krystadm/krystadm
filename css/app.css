@@ -88,7 +88,7 @@ nav #menu li a:hover {
 
 
 #menu a.active {
-      color: #555555;
+      color: #94a7aa;
       border-bottom: 2pt solid #94a7aa;
 
 }
@@ -345,7 +345,7 @@ img {
       text-align: left;
       font-weight: 800;
       font-style: normal;
-      color: #555555;
+      color: #24292f;
       padding-bottom: 5px;
       }
 
@@ -355,7 +355,7 @@ img {
       font-size: 11pt;
       font-weight: 800;
       font-style: normal;
-      color: #858d96;
+      color: #677d83;
       text-align: left;
       }
 
@@ -443,7 +443,7 @@ img {
 
   .row #nav-row  {
     flex-wrap: nowrap !important;
-    padding-top: 20px;
+    padding-top: 50px;
   }
 
 
@@ -452,14 +452,14 @@ img {
   font-weight: 600;
   font-style: normal;
   font-size: 10pt;
-  display: block;
+  display: inline;
   color: #94a7aa !important;
 
 }
 
 .prev a:hover, .next a:hover{
 
-  display: block;
+  display: inline;
   text-decoration: none;
   color: #677d83 !important;
   transition: all 0.3s ease-out;
@@ -467,7 +467,7 @@ img {
 }
 
 .prev p {
-      text-align: left !important;
+      float: left !important;
 }
 
 .next p {
@@ -550,7 +550,7 @@ img {
       bottom: 0;
       position: relative;
       width: 100%;
-      background-color: #555555;
+      background-color: #24292f;
       padding: 25px;
 }
 
@@ -562,6 +562,7 @@ img {
 
 .footer #footertitle h4{
       font-size: 12px;
+      font-weight: 600;
       color: #fbfbf8;
       padding-bottom: 20px;
       border-bottom: 1px solid #fff;
@@ -577,14 +578,15 @@ img {
 
 .info #media  a{
       padding-top: 12px;
-      line-height: 2;
-      color: #fbfbf8;
+      font-weight: 600;
+      line-height: 2.5;
+      color: #94a7aa;
 
 }
 
 .info #media  a:hover{
       text-decoration: none;
-      color: #94a7aa;
+      color: #fbfbf8;
       transition: all .2s ease-out;
 
 }
@@ -710,7 +712,7 @@ img {
     -ms-filter:"alpha(opacity=100)";
 }
 
-#button {
+/* #button {
   margin-top: 10px;
   position: relative;
   cursor: pointer;
@@ -735,4 +737,4 @@ img {
 
 .list ul {
   text-align: left;
-}
+} */
