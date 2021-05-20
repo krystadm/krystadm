@@ -89,7 +89,7 @@ nav #menu li a:hover {
 
 #menu a.active {
       color: #94a7aa;
-      border-bottom: 2pt solid #94a7aa;
+      border-bottom: 2pt solid #555555;
 
 }
 
@@ -390,7 +390,6 @@ img {
       font-weight: 600;
       font-style: normal;
       color: #94a7aa;
-      text-align: left;
 }
 
 
@@ -712,21 +711,29 @@ img {
     -ms-filter:"alpha(opacity=100)";
 }
 
-/* #button {
+  #button {
   margin-top: 10px;
+  color: #fbfbf8!important;;
   position: relative;
   cursor: pointer;
-  border: 2pt solid #94a7aa;
+  border: 2pt solid #fbfbf8;
   border-radius: 15px;
   padding: 5px 15px 5px 15px;
+  text-align: left !important;
 }
 
 
 #button:hover{
-  border: 2pt solid #677d83;
-  color: white!important;
-  background-color: #677d83;
+  color: #677d83!important;
+  background-color: #fbfbf8 !important;
 }
+
+@media(max-width: 1280px) {
+
+      #button  {
+      text-align: center;
+     }
+   }
 
 .list {
   list-style-type: circle;
