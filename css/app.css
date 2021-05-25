@@ -727,6 +727,24 @@ img {
   background-color: #fbfbf8 !important;
 }
 
+#button2 {
+margin-top: 10px;
+color: #677d83!important;;
+position: relative;
+cursor: pointer;
+border: 2pt solid #677d83;
+border-radius: 15px;
+padding: 5px 15px 5px 15px;
+text-align: left !important;
+}
+
+
+#button2:hover{
+color: #fbfbf9!important;
+background-color: #677d83 !important;
+}
+
+
 @media(max-width: 1280px) {
 
       #button  {
