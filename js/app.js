@@ -87,9 +87,9 @@ jQuery(function($) {
 $(document).ready(function(){
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
-            $('#scroll').fadeIn();
+            $('#scroll').fadeIn("fast");
         } else {
-            $('#scroll').fadeOut();
+            $('#scroll').fadeOut("fast");
         }
     });
     $('#scroll').click(function(){
@@ -97,3 +97,40 @@ $(document).ready(function(){
         return false;
     });
 });
+
+
+$(document).ready(function() {
+		$('a[href*=#]').bind('click', function(e) {
+				e.preventDefault(); // prevent hard jump, the default behavior
+
+				var target = $(this).attr("href"); // Set the target as variable
+
+				// perform animated scrolling by getting top-position of target-element and set it as scroll target
+				$('html, body').stop().animate({
+						scrollTop: $(target).offset().top
+				}, 300, function() {
+						location.hash = target; //attach the hash (#jumptarget) to the pageurl
+				});
+
+				return false;
+		});
+});
+
+$(window).scroll(function() {
+		var scrollDistance = $(window).scrollTop();
+
+		// Show/hide menu on scroll
+		if (scrollDistance >= 100) {
+				$('.secondary').fadeIn("fast");
+		} else {
+				$('.secondary').fadeOut("fast");
+		}
+
+		// Assign active class to nav links while scolling
+		$('#link').each(function(i) {
+				if ($(this).position().top <= scrollDistance) {
+						$('.secondary a.active').removeClass('active');
+						$('.secondary a').eq(i).addClass('active');
+				}
+		});
+}).scroll();
