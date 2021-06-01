@@ -350,7 +350,7 @@ img {
 
 .project-content a {
       font-family: quicksand, sans-serif !important;
-      font-size: 11pt;
+      font-size: 10pt;
       font-weight: 800;
       font-style: normal;
       color: #94a7aa;
@@ -418,6 +418,7 @@ img {
       font-style: normal;
       color: #555555;
       text-align: left;
+      line-height: 1.5;
       margin-bottom: 15px;
 }
 
@@ -585,10 +586,12 @@ img {
       border-bottom: 1px solid #fff;
 }
 
-
+.info {
+  padding-top: 25px;
+}
 .info #media {
       padding-top: 10px;
-      font-size: 10px;
+      font-size: 11px;
       color: #fbfbf8;
 
 }
@@ -596,7 +599,7 @@ img {
 .info #media  a{
       padding-top: 12px;
       font-weight: 600;
-      line-height: 2.5;
+      line-height: 2;
       color: #94a7aa;
 
 }
@@ -626,7 +629,7 @@ img {
 
 .info #credit h4 {
       text-align: right;
-      font-size: 8px;
+      font-size: 11px;
       color: #fbfbf8;
 }
 
