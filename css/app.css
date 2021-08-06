@@ -314,6 +314,11 @@ img {
       background-size: cover;
 }
 
+.project6 {
+      background: url('../mishlybanner.png') no-repeat 50% 50%;
+      background-size: cover;
+}
+
 @media(max-width: 1280px) {
       .section {
             width: 100% !important;
