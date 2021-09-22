@@ -21,6 +21,7 @@ html, body {
 
 
 /*--------------- navigation --------------- */
+
 nav {
       font-family: quicksand, sans-serif !important;
       font-style: normal;
@@ -30,7 +31,7 @@ nav {
       opacity: 100%;
       z-index: 3;
       background-color: #fbfbf8;
-      filter: drop-shadow(0px 0px 3px #cccccc);
+
 }
 
 nav #brand {
@@ -258,6 +259,16 @@ nav #menu li a:hover {
     }
 
 /*--------------- projects section --------------- */
+
+.section{
+  width: 100%;
+  padding: 25px;
+  height: 100%;
+  background-color: #fbfbf8;
+  border-radius: 5px;
+  filter: drop-shadow(0px 0px 2px #eeeeee);
+}
+
 
 img {
   border-radius: 5px;
