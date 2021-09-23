@@ -268,10 +268,6 @@ nav #menu li a:hover {
   filter: drop-shadow(0px 0px 2px #eeeeee);
 }
 
-@media screen and (max-width: 767px) {
-.section {margin-bottom: 10px;}
-}
-
 
 img {
   border-radius: 5px;
@@ -280,7 +276,7 @@ img {
 .project {
       height: 250px;
       border-radius: 5px;
-      padding: 25px;
+      margin-bottom: 15px;
 }
 
 .project0 {
@@ -325,13 +321,12 @@ img {
       .section {
             width: 100% !important;
             margin: 0px auto;
-            text-align: center;
       }
 
       .project-content {
         width: 100%;
         margin: 0 auto;
-        text-align: center;
+        content-align: center;
       }
 
       .vertical {
@@ -345,7 +340,6 @@ img {
 .container-flex {
   width: 100%;
   margin: 0 auto;
-  text-align: center;
   background-color: #fbfbf8;
 }
 
@@ -368,6 +362,7 @@ img {
       font-weight: 800;
       font-style: normal;
       color: #94a7aa;
+      text-align: left !important;
       }
 
       .project-content a:hover {
@@ -421,7 +416,6 @@ img {
           font-size: 14pt;
           color: #c3c3c3;
           text-align: left;
-          margin-top: 20px;
           }
 
 
@@ -450,6 +444,7 @@ img {
       .project-content {
         height: 100%;
       }
+
 
       #title h1 {
        text-align: center !important;
