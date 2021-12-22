@@ -280,42 +280,38 @@ img {
 }
 
 .project0 {
-      background: url('../Bellyrub-banner.png') no-repeat 50% 25%;
+      background: url('../portfolio/bellyrub/Bellyrub-banner.png') no-repeat 50% 25%;
       background-size: cover;
 
 }
 
 .project1 {
-      background: url('../STredesignmockup.jpg') no-repeat 50% 50%;
+      background: url('../portfolio/st/STredesignmockup.jpg') no-repeat 50% 50%;
       background-size: cover;
 
 }
 
 
 .project2 {
-      background: url('../boxes.jpg') no-repeat 50% 50%;
+      background: url('../portfolio/moodykit/boxes.jpg') no-repeat 50% 50%;
       background-size: cover;
 }
 
 .project3 {
-      background: url('../LGGwebbanner.png') no-repeat 50% 50%;
+      background: url('../portfolio/mishly/mishlybanner.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
 .project4 {
-      background: url('../Obscurity-Banner.png') no-repeat 50% 50%;
+      background: url('../portfolio/quark/Obscurity-Banner.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
 .project5 {
-      background: url('../Other/ryuillustration.png') no-repeat 50% 50%;
+      background: url('../portfolio/misc/ryuillustration.png') no-repeat 50% 50%;
       background-size: cover;
 }
 
-.project6 {
-      background: url('../mishlybanner.png') no-repeat 50% 50%;
-      background-size: cover;
-}
 
 @media(max-width: 1280px) {
       .section {
