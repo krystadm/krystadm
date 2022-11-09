@@ -24,62 +24,50 @@
 
 
     <!--------------- navbar starts here --------------->
-        <nav>
-          <span id="brand">
-            <a href="../index.html"><img src="../kdmfavicon.svg" alt="Krysta Madewell Logo">Krysta Madewell | Product + Visual Design</a>
-          </span>
+  <nav>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
 
-          <ul id="menu">
-            <li><a href="../index.html" class="active">Portfolio</a></li>
-            <li><a href="../about.html">About</a></li>
-            <li><a href="https://www.etsy.com/shop/krystuff" target="_blank">Shop</a></li>
-          </ul>
-
-          <div id="toggle">
-            <div class="span"><img src="../menuicon.svg" alt="menu toggle"></div>
+        <div class="navbar navbar-expand-lg navbar-light">
+          <div class="navbar-brand"><img src="../kdmfavicon.svg" alt="KDM Logo"><a href='../index.html'>Krysta Madewell | Product + Visual Design</a></div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-        </nav>
+          </button>
 
-    <!--------------- mobile navbar starts here --------------->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a href="../index.html" class="active">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="../about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.etsy.com/shop/krystuff" target="_blank">Shop</a>
+              </li>
+            </ul>
+          </div>
 
-        <div id="resize">
-          <div class="close-btn">Close<img src="../closeicon.svg" alt="menu toggle"></div>
-
-          <ul id="menu">
-            <li><a href="../index.html" class="active">Portfolio</a></li>
-            <li><a href="../about.html">About</a></li>
-            <li><a href="https://www.etsy.com/shop/krystuff" target="_blank">Shop</a></li>
-          </ul>
-        </div>
-
+      </div>
+    </div>
+  </nav>
 
     <!--------------- secondary navbar starts here --------------->
 
     <div class="secondary">
-      <ul class="sub-item_secondary">
         <div id="subtitle"><h5>Process</h5></div>
 
-        <li class="sub-item">
-          <a href="#overview" class="link">Overview</a>
-        </li>
-        <li class="sub-item">
-          <a href="#empathize" class="link">Understand</a>
-        </li>
-        <li class="sub-item">
-          <a href="#define" class="link">Define</a>
-        </li>
-        <li class="sub-item">
-          <a href="#ideate" class="link">Ideate</a>
-        </li>
-        <li class="sub-item">
-          <a href="#test" class="link">Test</a>
-        </li>
-        <li class="sub-item">
-          <a href="#iterate" class="link">Iterate</a>
-        </li>
-        <li class="sub-item">
-          <a href="#Reflect" class="link">Reflect</a>
-        </li>
+        <li><a href="#overview" class="link">Overview</a></li>
+        <li><a href="#empathize" class="link">Understand</a></li>
+        <li><a href="#define" class="link">Define</a></li>
+        <li><a href="#ideate" class="link">Ideate</a></li>
+        <li><a href="#test" class="link">Test</a></li>
+        <li><a href="#iterate" class="link">Iterate</a></li>
+        <li><a href="#Reflect" class="link">Reflect</a></li>
       </ul>
     </div>
 
@@ -94,7 +82,7 @@
             <div class="row justify-content-center animatable fadeInUp">
 
               <div class="col-lg-5" style="vertical-align: middle; padding: 25px; margin: 25px; background-color: rgba(254,254,248, .95); border-radius: 5px;">
-                <div id="title"><h1 style="color: #003366;">Widget Display Tool</h1></div>
+                <div id="title"><h1>Widget Display Tool</h1></div>
                   <p>The QS Widget Display Tool is a simple tool for internal Merchandising, Development, and Client Teams to view, manage, and conclude A/B tests on advertising widgets for QS clients. I designed this the UI and interactivity for this tool in conjunction with members of the QS Merchandising and Development team to plan the overall project. </p>
                     <a class="btn btn-default" href="https://xd.adobe.com/view/776d2dce-63bb-4d3a-4d64-d1f69f966100-015c/" target="_blank" role="button2" id="button2">View Prototype &#8594;</a></p>
               </div>
@@ -142,7 +130,7 @@
                 <p>Prior to the creation of WDT, simple widget management requests were sent directly from Merchandising teams to the Development team to execute, reducing dev resources and adding time/communication obstacles through ticket requests.</p>
 
               <div id="section"><h4 style="text-align: left;">Solution</h4></div>
-              <p>An internal tool that provides an SRC directory, and managing and concluding existing A/B tests on Widgets with a few simple clicks will provide self-sufficiency for Business teams and help Development regain resources for high-bandwidth projects.</p>
+              <p >An internal tool that provides an SRC directory, and managing and concluding existing A/B tests on Widgets with a few simple clicks will provide self-sufficiency for Business teams and help Development regain resources for high-bandwidth projects.</p>
           </div>
 
         </div>
@@ -166,24 +154,23 @@
       </div>
     </div>
 
-
-    <div class="row justify-content-center animatable fadeInUp" style="padding: 0px 0px 10px 20px">
+    <div class="project-row">
+    <div class="row justify-content-center animatable fadeInUp">
       <div class="col-lg-8 justify-content-center animatable fadeInUp">
         <div id="subheader"><h3>Pain Points of the Widget Management Process</h3></div>
       </div>
     </div>
 
-    <div class="project-row">
       <div class="row justify-content-center animatable fadeInUp">
 
         <div class="col-lg-4 animatable fadeInUp">
             <div id="section"><h4>Quantity</h4></div>
-            <p style="text-align: left; font-size: 10pt">QS has many valuable clients under different verticals, meaning up to thousands of A/B tests could be running throughout our widgets at one time. The lack of organization makes it difficult to manage A/B tests throughout the widgets.</p>
+            <p>QS has many valuable clients under different verticals, meaning up to thousands of A/B tests could be running throughout our widgets at one time. The lack of organization makes it difficult to manage A/B tests throughout the widgets.</p>
         </div>
 
         <div class="col-lg-4 animatable fadeInUp">
               <div id="section"><h4>Communication</h4></div>
-            <p style="text-align: left; font-size: 10pt">All modifications, directory searches, and test management would need to be forwarded as tickets to development, resulting in obstacles with miscommunication, project management, and reprioritzation towards overall developments for the company.</p>
+            <p>All modifications, directory searches, and test management would need to be forwarded as tickets to development, resulting in obstacles with miscommunication, project management, and reprioritzation towards overall developments for the company.</p>
         </div>
 
     </div>
@@ -208,37 +195,42 @@
           </div>
         </div>
 
-
-        <div class="row justify-content-center animatable fadeInUp" style="padding: 0px 0px 10px 20px">
+      <div class="project-row">
+        <div class="row justify-content-center animatable fadeInUp">
           <div class="col-lg-8 justify-content-center animatable fadeInUp">
             <div id="subheader"><h3>Core Team Responsibilities for the Widget Lifecycle</h3></div>
           </div>
         </div>
 
-        <div class="project-row">
           <div class="row justify-content-center animatable fadeInUp">
 
             <div class="col-lg-3 animatable fadeInUp">
               <img src="../portfolio/WDT/Merchandising.png" alt="Merchandising icon">
                 <div id="section"><h4>Merchandising Team</h4></div>
+                <ul>
                   <li>Review Inventory types</li>
                   <li>Keep track of widget pages and current A/B tests</li>
                   <li>Manage A/B Test splits + conclude winning tests </li>
-            </div>
-
-            <div class="col-lg-3 animatable fadeInUp">
-                <img src="../portfolio/WDT/Development.png" alt="Development icon">
-                  <div id="section"><h4>Development Team</h4></div>
-                    <li>Monitoring traffic</li>
-                    <li>Auditing existing A/B Tests</li>
-                    <li>Conclude Tests for variations across multiple SRCs</li>
+                </ul>
             </div>
 
             <div class="col-lg-2 animatable fadeInUp">
+                <img src="../portfolio/WDT/Development.png" alt="Development icon">
+                  <div id="section"><h4>Development Team</h4></div>
+                  <ul>
+                    <li>Monitoring traffic</li>
+                    <li>Auditing existing A/B Tests</li>
+                    <li>Conclude Tests for variations across multiple SRCs</li>
+                  </ul>
+            </div>
+
+            <div class="col-lg-3 animatable fadeInUp">
                 <img src="../portfolio/WDT/Client.png" alt="Client icon">
                   <div id="section"><h4>Client Team</h4></div>
+                  <ul>
                     <li>Analyzing performance metrics</li>
                     <li>Identifying client feedback/requests</li>
+                  </ul>
             </div>
 
 
@@ -317,39 +309,38 @@
             </div>
           </div>
 
-              <div class="row justify-content-center" style="padding: 0px 0px 10px 20px">
-                <div class="col-lg-8 justify-content-center animatable fadeInUp">
-                  <div id="subheader"><h3>Early Insights</h3></div>
-                </div>
+          <div class="project-row">
+            <div class="row justify-content-center animatable fadeInUp">
+              <div class="col-lg-8 justify-content-center animatable fadeInUp">
+                <div id="subheader"><h3>Early Insights</h3></div>
+              </div>
+            </div>
 
-                          <div class="project-row">
-                            <div class="row justify-content-center">
+            <div class="row justify-content-center animatable fadeInUp">
 
-                              <div class="col-lg-2 animatable fadeInUp">
-                                <div id="section"><h4>Account Functions</h4></div>
-                                  <p>Invalid logins will show complex error message. Upon log-in, there is no feature for the user to securely log out.</p>
-                                </div>
+                  <div class="col-lg-2 animatable fadeInUp">
+                    <div id="section"><h4>Account Functions</h4></div>
+                    <p>Invalid logins will show complex error message. Upon log-in, there is no feature for the user to securely log out.</p>
+                  </div>
 
-                                <div class="col-lg-2 animatable fadeInUp">
-                                  <div id="section"><h4>Navigation</h4></div>
-                                    <p>Logging in would take users straight to "Account" tab - No dashboard or info section to summarize Widget Tool features for new users without context. Each function has a seperate screen.</p>
-                                  </div>
+                  <div class="col-lg-2 animatable fadeInUp">
+                    <div id="section"><h4>Navigation</h4></div>
+                    <p>Logging in would take users straight to "Account" tab - No dashboard or info section to summarize Widget Tool features for new users without context. Each function has a seperate screen.</p>
+                  </div>
 
-                                  <div class="col-lg-2 animatable fadeInUp">
-                                    <div id="section"><h4>Search Functionality</h4></div>
-                                      <p>Search parameters not detecting keywords - users have to know direct Account/Inventory/Category Type ID # to receive search results. </p>
-                                    </div>
+                  <div class="col-lg-2 animatable fadeInUp">
+                    <div id="section"><h4>Search Functionality</h4></div>
+                    <p>Search parameters not detecting keywords - users have to know direct Account/Inventory/Category Type ID # to receive search results. </p>
+                  </div>
 
-                                    <div class="col-lg-2 animatable fadeInUp">
-                                      <div id="section"><h4>A/B Test Management</h4></div>
-                                        <p>Search results would take you to an "edit" screen with a large text box where users would have to manually input commands to split A/B traffic or conclude Widget tests.</p>
-                                      </div>
+                  <div class="col-lg-2 animatable fadeInUp">
+                      <div id="section"><h4>A/B Test Management</h4></div>
+                      <p>Search results would take you to an "edit" screen with a large text box where users would have to manually input commands to split A/B traffic or conclude Widget tests.</p>
+                  </div>
 
-                            </div>
-                          </div>
+              </div>
 
-                          </div>
-                        </div>
+
 
 </div>
 
@@ -373,12 +364,12 @@
               <div class="project-row">
                 <div class="row justify-content-center">
 
-                  <div class="col-lg-3 animatable fadeInUp">
+                  <div class="col-lg-4 animatable fadeInUp">
                     <div id="section"><h4>Account Functions</h4></div>
                       <p>After discussing with dev and my PM and learning the login perameters, I designed a basic log-in screen, allowing room for a small summary about the tool, and created a focused login container with an easygoing error state so users would not have to run into the overwhelming error they encountered prior. <p> Upon logging in, users would now see which email is logged in and have the option to log out in case they needed to.</p>
                   </div>
 
-                  <div class="col-lg-5 project-image">
+                  <div class="col-lg-4 project-image">
                     <img src="../portfolio/WDT/WDT-accountdemo.gif" alt="Demo of account functions">
                   </div>
 
@@ -389,12 +380,12 @@
               <div class="project-row">
                 <div class="row justify-content-center">
 
-                  <div class="col-lg-3 animatable fadeInUp">
+                  <div class="col-lg-4 animatable fadeInUp">
                     <div id="section"><h4>Navigation</h4></div>
                     <p>Within tight limitations (we did not have the time or resources to modify the sitemap at this stage, but discussed future ideas for how we could reasses this), I organized the navigation to correlate with common use-cases.<p> More often, people would check Accounts and Categories to see the status of tests between our different clients and verticals, and it would be a much longer timeframe to conclude A/B tests, then the directory was placed last because it was more of an informational tab.</p>
                   </div>
 
-                  <div class="col-lg-5 project-image">
+                  <div class="col-lg-4 project-image">
                     <img src="../portfolio/WDT/WDT-navdemo.gif" alt="Demo of navigation">
                   </div>
 
@@ -405,12 +396,12 @@
               <div class="project-row">
                 <div class="row justify-content-center">
 
-                  <div class="col-lg-3 animatable fadeInUp">
+                  <div class="col-lg-4 animatable fadeInUp">
                     <div id="section"><h4>Search Functionality</h4></div>
-                    <p>After discussion with the team, dev was able to change the parameters to partial searches using keywords or the first few digits of each ID. With this in mind, we would be able to improve upon the search bar and add limited filtering options (ie: category dropdowns, etc.) for the pages that apply. <p>In addition, we were able have dev combine the search functions and results functions together as they were formerly on separate steps of the process.</p>
+                    <p>Dev was able to change the parameters to partial searches using keywords or the first few digits of each ID. With this in mind, we would be able to improve upon the search bar and add limited filtering options (ie: category dropdowns, etc.) for the pages that apply. <p>In addition, we were able have dev combine the search functions and results functions together as they were formerly on separate steps of the process.</p>
                   </div>
 
-                  <div class="col-lg-5 project-image">
+                  <div class="col-lg-4 project-image">
                     <img src="../portfolio/WDT/WDT-searchdemo.gif" alt="Demo of different search functions">
                   </div>
 
@@ -421,13 +412,13 @@
               <div class="project-row">
                 <div class="row justify-content-center">
 
-                  <div class="col-lg-3 animatable fadeInUp">
+                  <div class="col-lg-4 animatable fadeInUp">
                     <div id="section"><h4>A/B Test Management</h4></div>
                       <p>My solution to issue to memorizing commands, and inputting them into a command box, was to prioritize having a proper summary page where people can compare the performance between 2 tests and have straightforward, usable components instead. <p>Because of limitations, dev was not able to combine the management and conclusion functions into one page, though there was the reality that running tests and concluding them could be months to a year apart.</p>
                   </div>
 
 
-                  <div class="col-lg-5 project-image">
+                  <div class="col-lg-4 project-image">
                     <img src="../portfolio/WDT/WDT-testdemo.gif" alt="Demo of both conclusion and management features of active A/B tests">
                   </div>
 

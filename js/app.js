@@ -3,37 +3,28 @@ $('#myCarousel1').carousel({
   interval: false,
 });
 
+$(document).ready(function(){
+	$('#nav-icon1').click(function(){
+		$(this).toggleClass('open');
+	});
+});
 
-
-
-      // navigation starts here
-      $("#toggle").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
-
-      $("#resize ul li a").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
-
-      $(".close-btn").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
+$(document).ready(function(){
+  $('.navbar-toggler').collapse({toggle: false})
+});
 
       // navigation ends here
 
       // nav animation
 
-      TweenMax.from("#brand", 1, {
+      TweenMax.from(".navbar-brand", 1, {
             delay: 0.4,
             y: -10,
             opacity: 0,
             ease: Expo.easeInOut
       })
 
-      TweenMax.staggerFrom("#menu li a", 1, {
+      TweenMax.staggerFrom(".nav-item a", 1, {
             delay: 0.4,
             opacity: 0,
             ease: Expo.easeInOut

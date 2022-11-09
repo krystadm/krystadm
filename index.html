@@ -23,33 +23,37 @@
 
 
 <!-- nav start -->
+<nav>
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
 
-    <nav>
+      <div class="navbar navbar-expand-lg navbar-light">
+        <div class="navbar-brand"><img src="../kdmfavicon.svg" alt="KDM Logo"><a href='../index.html'>Krysta Madewell | Product + Visual Design</a></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <div id="nav-icon1">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        </button>
 
-          <span id="brand">
-            <a href="index.html"><img src="kdmfavicon.svg" alt="Krysta Madewell Logo">Krysta Madewell | Product + Visual Design</a>
-          </span>
-
-          <ul id="menu">
-                <li><a href="index.html" class="active">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="https://www.etsy.com/shop/krystuff" target="_blank">Shop</a></li>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a href="../index.html" class="active">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="../about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.etsy.com/shop/krystuff" target="_blank">Shop</a>
+            </li>
           </ul>
+        </div>
 
-          <div id="toggle">
-                <div class="span"><img src="menuicon.svg" alt="menu toggle"></div>
-          </div>
-
-    </nav>
-
-    <div id="resize">
-          <div class="close-btn">Close<img src="/closeicon.svg" alt="menu toggle"></div>
-          <ul id="menu">
-            <li><a href="index.html" class="active">Portfolio</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="https://www.etsy.com/shop/krystuff" target="_blank">Shop</a></li>
-          </ul>
     </div>
+  </div>
+</nav>
 
 <!-- nav end -->
 
@@ -58,11 +62,11 @@
             <div class="row justify-content-center animatable fadeInUp" style="min-height: 450px; background: url('bigbrainbanner.png'); background-size: cover;">
 
             <div class="col-lg-8">
-            <div class="col-lg-6" style="padding: 25px;">
-              <div id="title"><h1 style="padding-top: 50px; font-size: 36pt!important; text-align: left !important; color: #677d83;"> Full-time Madewell.</h1></div>
-              <p style="font-size: 11pt!important; font-weight: 900; font-style: oblique; color:#677d83;">A designer who's adventured through many prismatic faces of the design scape.
+            <div class="col-lg-6">
+              <div id="title"><h1 style="padding-top: 36px;"> Full-time Madewell.</h1></div>
+
               <p>I specialize in diving far into a spectrum of details to <i>understand the people</i> in our world, going back and forth to make sure all the gears of execution are cranking in the big machine named <i>the product lifecycle</i>, and generating all kinds of <i>interactions, visuals, and quirks</i> that guide the way through our journeys.</p>
-             <a class="btn btn-default" href="about.html" role="button2" id="button2">About Me &#8594;</a>
+             <a class="btn btn-default" href="about.html" role="button2" id="button2">About Me <span>&#8594;</span></a>
             </div>
 
           </div>
@@ -72,35 +76,42 @@
 
 
         <div class="container-flex">
+                <div class="project-content">
 
             <div class="project-row">
               <div class="row justify-content-center">
-
                 <div class="col-lg-8 animatable fadeInUp">
-                  <div id="subtitle"><h5 style="text-align:center;">Featured Projects </h5></div>
-                  <div id="header"><h2 style="text-align: center; color: #677d83;">Product + UI</h2></div>
+                  <div id="subtitle"><h5>Featured Projects </h5></div>
+                  <div id="header"><h2>Product + Visual Design</h2></div>
                 </div>
-
               </div>
             </div>
+
 
             <div class="project-row" >
               <div class="row justify-content-center">
 
                 <div class="col-lg-8 mb-4 mb-md-0 animatable fadeInUp">
                   <div class="section">
-                  <div class="project project6" style="cursor: pointer;" onclick="location.href='portfolio/WDT.html'"></div>
-                    <div id="subtitle"><h5>Publisher-side widget management tool</h5></div>
-                      <div id="header"><h2 style="color: #003366;">QS Widget Display Tool</h2></div>
-                        <p>A small-but-mighty management tool for merchandising, sales, and development teams to review, test, and manage client-side A/B tests for publisher widgets.</p>
-                        <a href="portfolio/WDT.html" style="color: #003366;">View Project &#8594;</a>
+                    <div class="row">
+
+                      <div class="col-lg-6 mb-6 mb-md-0">
+                        <div class="project project6" style="cursor: pointer;" onclick="location.href='portfolio/WDT.html'"></div>
                       </div>
+                      <div class="col-lg-6 mb-6 mb-md-0">
+                        <div id="section"><h4>Publisher-side widget management tool</h4></div>
+                        <div id="header"><h2 style="color: #003366;">QS Widget Display Tool</h3></div>
+                        <p>A small-but-mighty management tool for merchandising, sales, and development teams to review, test, and manage client-side A/B tests for publisher widgets.</p>
+                        <a href="portfolio/WDT.html" style="text-align: right;">View Project &#8594;</a>
+                      </div>
+
                     </div>
-
-
-
+                  </div>
                 </div>
+
               </div>
+            </div>
+
 
             <div class="project-row" >
               <div class="row justify-content-center">
@@ -108,10 +119,10 @@
                 <div class="col-lg-4 mb-4 mb-md-0 animatable fadeInUp">
                   <div class="section">
                   <div class="project project0" style="cursor: pointer;" onclick="location.href='portfolio/bellyrub.html'"></div>
-                    <div id="subtitle"><h5>App for a customizable dog food service</h5></div>
+                    <div id="section"><h4>App for a customizable dog food service</h4></div>
                       <div id="header"><h2 style="color: #83A792;">Bellyrub</h2></div>
                         <p>A mobile app for a customizable organic dog food subscription service that lets you customize a meal plan based on your dog's characteristics and wellness profile, either through self-service or data-backed guidance. I completed an end-to-end UX process starting from understanding, to research, creation, testing, and prototyping.</p>
-                        <a href="portfolio/bellyrub.html" style="color: #83A792;">View Project &#8594;</a>
+                        <a href="portfolio/bellyrub.html">View Project &#8594;</a>
                       </div>
                     </div>
 
@@ -119,10 +130,10 @@
                 <div class="col-lg-4 animatable fadeInUp">
                   <div class="section">
                   <div class="project project3" style="cursor: pointer;" onclick="location.href='portfolio/mishly.html'"></div>
-                    <div id="subtitle"><h5>Web-based personal project management platform</h5></div>
+                    <div id="section"><h4>Web-based personal project management platform</h4></div>
                       <div id="header"><h2 style="color: #726DA8;">Mishly</h2></div>
                       <p>An online platform dedicated to making our favorite Kanban Board accessible for everyday independent creatives who want to amp up their side-hustle process, plus features that encourage communication, live workflow updates, and time-tracking with potential clients to automate and bring value to their work.</p>
-                        <a href="portfolio/mishly.html" style="color: #726DA8;">View Project &#8594;</a>
+                        <a href="portfolio/mishly.html">View Project &#8594;</a>
                     </div>
                   </div>
 
@@ -130,16 +141,16 @@
               </div>
 
 
-                <div class="project-row" >
+                <div class="project-row" style="margin-bottom: 50px;">
                   <div class="row justify-content-center">
 
                     <div class="col-lg-4 mb-4 mb-md-0 animatable fadeInUp">
                     <div class="section">
                       <div class="project project1" style="cursor: pointer;" onclick="location.href='portfolio/sealingpage.html'"></div>
-                        <div id="subtitle"><h5>Purposeful website relaunch (and journey as a solo designer)</h5></div>
+                        <div id="section"><h4>Website relaunch (and journey as a solo designer)</h4></div>
                           <div id="header"><h2 style="color: #c25755;">SealingTech</h2></div>
                           <p>Designing and collaborating from the ground-up to improve and virtualize the Defense Contractor B2G lifecycle for a small, veteran-owned business (VOSB) providing Cybersecurity and Hardware/Software solutions to the US Government through design direction, marketing strategy, and working directly with customers.</p>
-                            <a href="portfolio/sealingpage.html" style="color: #c25755;">View Project &#8594;</a>
+                          <a href="portfolio/sealingpage.html">View Project &#8594;</a>
                     </div>
                   </div>
 
@@ -148,10 +159,10 @@
                     <div class="col-lg-4 animatable fadeInUp">
                       <div class="section">
                       <div class="project project4" style="cursor: pointer;" onclick="location.href='portfolio/obscurity-app.html'"></div>
-                        <div id="subtitle"><h5>Light UI for an MDM security app ft. the marketing fun</h5></div>
+                        <div id="section"><h4>Light UI for an MDM security app ft. the marketing fun</h4></div>
                           <div id="header"><h2 style="color: #ce3728;">Quark Obscurity</h2></div>
                           <p>Consumer MDM software for Android™, acquired through a merger between Quark Security and SealingTech. I collaborated to improve usability, rebrand for a consumer audience, design marketing journeys to accelerate user testing and teach consumers about the security benefits of Mobile Device Management.</p>
-                            <a href="portfolio/obscurity-app.html" style="color: #ce3728;">View Project &#8594;</a>
+                            <a href="portfolio/obscurity-app.html">View Project &#8594;</a>
                       </div>
                     </div>
 
@@ -163,33 +174,32 @@
                       <div class="row justify-content-center">
 
                         <div class="col-lg-8 animatable fadeInUp">
-                          <div id="subtitle"><h5 style="text-align:center;">Featured Projects </h5></div>
-                          <div id="header"><h2 style="text-align: center; color: #677d83;">Graphic Design</h2></div>
+                          <div id="header"><h2>Graphic Design</h2></div>
                         </div>
 
                       </div>
                     </div>
 
-                    <div class="project-row">
+                    <div class="project-row" style="margin-bottom: 50px;">
                       <div class="row justify-content-center">
 
                         <div class="col-lg-4 mb-4 mb-md-0  animatable fadeInUp">
                           <div class="mb-4 mb-md-0 section">
                           <div class="project project2" style="cursor: pointer;" onclick="location.href='portfolio/moodykit.html'"></div>
-                          <div id="subtitle"><h5>A cute, but dark subscription gift service</h5></div>
+                          <div id="section"><h4>A cute, but dark subscription gift service</h4></div>
                             <div id="header"><h2 style="color: #aa91a8;">Moodykit</h2></div>
                             <p>My Spring 2019 senior capstone (and passion project) for a seasonal gift subscription box, including a brand identity, character design, and some bonus web UI work.</p>
-                              <a href="portfolio/moodykit.html" style="color: #aa91a8;">View Project &#8594;</a>
+                              <a href="portfolio/moodykit.html">View Project &#8594;</a>
                           </div>
                         </div>
 
                         <div class="col-lg-4 animatable fadeInUp">
                           <div class="section">
                           <div class="project project5" style="cursor: pointer;" onclick="location.href='portfolio/miscellaneous.html'"></div>
-                            <div id="subtitle"><h5>Krysta, the Visual Designer (for every medium)</h5></div>
+                            <div id="section"><h4>Krysta, the Visual Designer (for every medium)</h4></div>
                               <div id="header"><h2 style="color: #667d83;">Miscellaneous</h2></div>
                               <p>Various adhoc, freelance, and personal spec work I've done throughout the years that might be a little too small for their own case-studies. Looking for logos, ads, brand identities, packaging, print, etc? Come check them out!</p>
-                                <a href="portfolio/miscellaneous.html" style="color: #667d83;">View Project &#8594;</a>
+                                <a href="portfolio/miscellaneous.html">View Project &#8594;</a>
                             </div>
                         </div>
 
@@ -199,73 +209,76 @@
 
                           <div class="project-row">
                                 <div class="row justify-content-center">
+
                                   <div class="col-lg-8 justify-content-center animatable fadeInUp">
-                                      <div id="header"><h2>What did others think?</h2></div>
+                                    <div id="header"><h2> Testimonials</h2></div>
                                 </div>
+
                             </div>
                           </div>
 
 
                           <div class="project-row">
                                 <div class="row justify-content-center animatable fadeInUp">
-                              <div class="col-lg-2 animatable fadeInUp">
-                                  <p style="text-align: left; font-style: oblique; font-size: 10pt">"Highly recommend. Krysta Madewell is a thorough and creative designer, and was a great asset to our business."</p>
-                                  <div id="section"><h4 style="text-align: left; font-size: 10pt">—Ed Sealing, CEO @ SealingTech</h4></div>
-                              </div>
+                                        <div class="col-lg-6 mb-8 mb-md-0">
+                                          <p>"Highly recommend. Krysta Madewell is a thorough and creative designer, and was a great asset to our business."</p>
+                                        </div>
 
-                              <div class="col-lg-1">
-                              </div>
+                                        <div class="col-lg-2 mb-4 mb-md-0">
+                                          <div id="subtitle"><h5>—Ed Sealing, CEO @ SealingTech</h5></div>
+                                        </div>
+                                </div>
 
-                              <div class="col-lg-2 animatable fadeInUp">
-                                  <p style="text-align: left; font-style: oblique; font-size: 10pt">"Krysta's expertise in design, empathy, and visual cohesiveness brought clarity and a positive user experience to every project she was a part of. She is truly a specialist at her craft and is a valuable asset to any company."</p>
-                                  <div id="section"><h4 style="text-align: left; font-size: 10pt">—Anastasia, Manager @ SealingTech</h4></div>
-                              </div>
+                                    <div class="row justify-content-center animatable fadeInUp">
+                                            <div class="col-lg-4 mb-6 mb-md-0" style="margin-bottom:25px;">
+                                              <p>"Krysta's expertise in design, empathy, and visual cohesiveness brought clarity and a positive user experience to every project she was a part of. She is truly a specialist at her craft and is a valuable asset to any company."</p>
+                                              <div id="subtitle"><h5>—Anastasia, Former Marketing @ SealingTech</h5></div>
+                                            </div>
 
-                                              <div class="col-lg-1">
-                                              </div>
+                                            <div class="col-lg-4 mb-6 mb-md-0">
+                                              <p>"Krysta brought a breath of fresh creativity to the job and delivered in a timely manner. Easy to communicate with and really listened to my input and created something that expanded on my initial ideas in a much more marketable way. Highly recommend."</p>
+                                              <div id="subtitle"><h5>—Dan, Freelance Client @ LGG</h5></div>
+                                            </div>
 
-                              <div class="col-lg-2 animatable fadeInUp">
-                                  <p style="text-align: left; font-style: oblique; font-size: 10pt">"Krysta brought a breath of fresh creativity to the job and delivered in a timely manner. Easy to communicate with and really listened to my input and created something that expanded on my initial ideas in a much more marketable way. Highly recommend."</p>
-                                  <div id="section"><h4 style="text-align: left; font-size: 10pt">—Dan, Freelance Client @ LGG</h4></div>
-                              </div>
+                                    </div>
 
-                            </div>
-                            </div>
-
-
-
-<!-- project end -->
+                                  </div>
 
 
-<!-- footer start -->
+                                <div class="whitespace1"></div>
 
-            <footer class="footer">
-              <div class="hr">
-                <div class="info">
-                  <div class="row">
-                    <div class="col-lg-3" id="footertitle">
-                    <h4>Thank you very much for stopping by!</h4>
-                  </div>
-                </div>
 
-                      <div class="row">
-                        <div class="col-lg-6" id="media">Let's keep in touch?<p>
-                            <li id="li"><a href="mailto:contact@krystadm.com" target="_blank"><img src="email.png" alt="Email Icon">contact@krystadm.com</a></li>
-                            <li id="ig"><a href="https://www.linkedin.com/in/krysta-madewell-ba5792a6/" target="_blank"><img src="linkedin.png" alt="LinkedIn Icon">Krysta Madewell</a></li>
-                          <div class="whitespace"></div>
-                        </div>
+                          <!-- Project Ends Here -->
 
-                        <div class="col-lg-6" id="credit"><h4>Designed and developed with &hearts; by Krysta Madewell &copy; 2022</h4></div>
+                          <!--------------- footer starts here --------------->
 
-                    </div>
-                  </div>
-            </footer>
+                                <footer class="footer">
+                                  <div class="hr">
+                                    <div class="info">
 
-<!-- footer end -->
+                                      <div class="row">
+                                        <div class="col-lg-3" id="footertitle">
+                                          <h4>Thank you very much for stopping by!</h4>
+                                        </div>
+                                      </div>
 
-<!-- wrapper end -->
-          </div>
+                                      <div class="row">
+                                        <div class="col-lg-6" id="media">Let's keep in touch?<p>
+                                          <li id="li"><a href="mailto:contact@krystadm.com" target="_blank"><img src="email.png" alt="Email Icon">contact@krystadm.com</a></li>
+                                          <li id="ig"><a href="https://www.linkedin.com/in/krysta-madewell-ba5792a6/" target="_blank"><img src="linkedin.png" alt="LinkedIn Icon">Krysta Madewell</a></li>
+                                          <div class="whitespace"></div>
+                                      </div>
 
+                                      <div class="col-lg-6" id="credit"><h4>Designed and developed with &hearts; by Krysta Madewell &copy; 2022</h4></div>
+
+                                    </div>
+                                  </div>
+                                </footer>
+
+                          <!--------------- footer starts here --------------->
+
+                          </div>
+                          </div>
 
 <!-- greensock cdn -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
