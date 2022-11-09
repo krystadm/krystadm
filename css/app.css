@@ -297,7 +297,7 @@ transform: translateY(-7px) rotate(-45deg);
 
       #title h1 {
       font-family: halcom, sans-serif; !important;
-      font-size: 36pt !important;
+      font-size: 42pt !important;
       text-align: left;
       font-weight: 800;
       font-style: normal;
@@ -330,10 +330,10 @@ transform: translateY(-7px) rotate(-45deg);
 
        #section h4 {
           font-family: halcom, sans-serif !important;
-          font-size: 11pt;
-          font-weight: 400;
+          font-size: 10pt;
+          font-weight: 600;
           font-style: oblique;
-          color: #94a7aa;
+          color: #cd7560;
           text-align: left;
           }
 
@@ -343,7 +343,7 @@ transform: translateY(-7px) rotate(-45deg);
           font-weight: 200;
           font-style: oblique;
           font-size: 11pt;
-          color: #cd7560;
+          color: #556a67;
           text-align: left;
           }
 
