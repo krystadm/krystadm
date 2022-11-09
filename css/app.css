@@ -135,7 +135,7 @@ transform: translateY(-7px) rotate(-45deg);
         top: 25%;
         z-index: 1;
         margin: 0 auto;
-        background-color:  rgba(251,251,251,0.9);
+        background-color: #fbfbf8;
         margin-left: 10px;
         padding: 20px;
         border-radius: 8px;
@@ -391,7 +391,6 @@ transform: translateY(-7px) rotate(-45deg);
   position: absolute;
   animation: fadeIn 1s ease-in-out 0s forwards;
   margin-bottom: 25px;
-
   }
 
   #nav-row  {
