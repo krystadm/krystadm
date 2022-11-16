@@ -5,13 +5,13 @@
 /*--------------- basic styling --------------- */
 html, body {
       width: 100%;
-      background-color: #fbfbf8 !important;
+      background-color: #fbfbfb !important;
       overflow-x: hidden;
 }
 
 .whitespace1 {
       width: 100%;
-      height: 50px;
+      height: 42px;
 }
 
 .whitespace {
@@ -25,7 +25,7 @@ nav {
 }
 
 body .navbar-light .navbar-toggler {
-      border-color: #fff;
+      border-color: #fbfbfb;
 }
 
 .navbar-toggler:focus {
@@ -46,7 +46,7 @@ body .navbar-light .navbar-toggler {
 .navbar-brand a {
       margin-left: 15px;
       font-weight: 200;
-      font-size: 9pt;
+      font-size: 10pt;
       color: #555555;
 }
 
@@ -135,7 +135,7 @@ transform: translateY(-7px) rotate(-45deg);
         top: 25%;
         z-index: 1;
         margin: 0 auto;
-        background-color: #fbfbf8;
+        background-color: #fbfbfb;
         margin-left: 10px;
         padding: 20px;
         border-radius: 8px;
@@ -163,7 +163,7 @@ transform: translateY(-7px) rotate(-45deg);
       }
 
        &.active {
-        color: #fbfbf8;;
+        color: #fbfbfb;
         background-color: rgba(0,0,0,0.9);
        }
 
@@ -179,13 +179,17 @@ transform: translateY(-7px) rotate(-45deg);
 
 /*--------------- projects section --------------- */
 
+#colorblock {
+  background-color: #ecf4f1;
+  padding: 4px 0px 32px 0px;
+}
+
 .section{
   width: 100%;
   padding: 25px;
   height: 100%;
   background-color: #fff;
   border-radius: 8px;
-  filter: drop-shadow(0px 0px 2px #eeeeee);
 }
 
 
@@ -264,7 +268,7 @@ transform: translateY(-7px) rotate(-45deg);
 .container-flex {
   width: 100%;
   margin: 0 auto;
-  background-color: #fbfbf8;
+  background-color: #fbfbfb;
 }
 
 .project-row {
@@ -281,7 +285,7 @@ transform: translateY(-7px) rotate(-45deg);
 
 .project-content a {
       font-family: quicksand, sans-serif !important;
-      font-size: 10pt;
+      font-size: 12pt;
       font-weight: 600;
       font-style: normal;
       color: #cd7560;
@@ -312,16 +316,14 @@ transform: translateY(-7px) rotate(-45deg);
             font-weight: 600;
             font-style: normal;
             color: #556a67;
-            border-bottom: 2px solid #f7f2e7;
-            padding-bottom: 15px;
-            margin-bottom: 15px;
+            margin-bottom: 16px;
             }
 
             #subheader h3 {
                font-family: halcom, sans-serif !important;
                font-size: 14pt;
                font-weight: 600;
-               font-style: oblique;
+               font-style: normal;
                color: #556a67;
                text-align: left;
                padding-bottom: 15px;
@@ -330,9 +332,9 @@ transform: translateY(-7px) rotate(-45deg);
 
        #section h4 {
           font-family: halcom, sans-serif !important;
-          font-size: 10pt;
+          font-size: 12pt;
           font-weight: 600;
-          font-style: oblique;
+          font-style: normal;
           color: #cd7560;
           text-align: left;
           }
@@ -340,20 +342,19 @@ transform: translateY(-7px) rotate(-45deg);
 
         #subtitle h5 {
           font-family: quicksand, sans-serif;
-          font-weight: 200;
+          font-weight: 400;
           font-style: oblique;
           font-size: 11pt;
-          color: #556a67;
+          color: #35403e;
           text-align: left;
           }
 
 
 .project-content p {
       font-family: quicksand, sans-serif;
-      font-size: 11pt;
-      font-weight: 200;
+      font-size: 12pt;
       font-style: normal;
-      color: #24292f;
+      color: #081922;
       text-align: left;
       line-height: 1.75;
       margin: 25px, 0px, 25px, 0px;
@@ -362,8 +363,8 @@ transform: translateY(-7px) rotate(-45deg);
 .project-content ul, .project-content li{
       font-family: quicksand, sans-serif;
       padding-bottom: 5px;
-      font-size: 11pt;
-      font-weight: 200;
+      font-size: 12pt;
+      font-weight: 400;
       font-style: normal;
       color: #555555;
       text-align: left;
@@ -507,7 +508,7 @@ transform: translateY(-7px) rotate(-45deg);
 .footer #footertitle h4{
       font-size: 12px;
       font-weight: 600;
-      color: #fbfbf8;
+      color: #fbfbfb;
       padding-bottom: 20px;
       border-bottom: 1px solid #94a7aa;
 }
@@ -518,7 +519,7 @@ transform: translateY(-7px) rotate(-45deg);
 .info #media {
       padding-top: 10px;
       font-size: 11px;
-      color: #fbfbf8;
+      color: #fbfbfb;
 
 }
 
@@ -556,7 +557,7 @@ transform: translateY(-7px) rotate(-45deg);
 .info #credit h4 {
       text-align: right;
       font-size: 11px;
-      color: #fbfbf8;
+      color: #fbfbfb;
 }
 
 
@@ -637,7 +638,7 @@ transform: translateY(-7px) rotate(-45deg);
     border-radius:60px;
     z-index: 4;
     transition: all 0.3s ease-out;
-    filter: drop-shadow(0px 0px 0px #c3c3c3);
+    /* filter: drop-shadow(0px 0px 0px #c3c3c3); */
 
 }
 #scroll span {
@@ -660,10 +661,10 @@ transform: translateY(-7px) rotate(-45deg);
 
   #button {
   margin-top: 10px;
-  color: #fbfbf8!important;;
+  color: #fbfbfb!important;;
   position: relative;
   cursor: pointer;
-  border: 2pt solid #fbfbf8;
+  border: 2pt solid #fbfbfb;
   border-radius: 15px;
   padding: 5px 15px 5px 15px;
   text-align: left !important;
@@ -677,7 +678,7 @@ transform: translateY(-7px) rotate(-45deg);
 
 #button2 {
 margin-top: 10px;
-color: #fbfbf8!important;
+color: #fbfbfb!important;
 background-color: #cd7560 !important;
 position: relative;
 cursor: pointer;
@@ -688,7 +689,7 @@ text-align: left !important;
 }
 
 #button2:hover {
-color: #fbfbf8!important;
+color: #fbfbfb!important;
 background-color: #a75f4e !important;
 border: 2pt solid #a75f4e;
 -webkit-transition: .25s ease-in-out;
