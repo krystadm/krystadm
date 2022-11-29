@@ -46,7 +46,7 @@ body .navbar-light .navbar-toggler {
 .navbar-brand a {
       margin-left: 15px;
       font-weight: 400;
-      font-size: 11pt;
+      font-size: 10pt;
       color: #556a67;
 }
 
@@ -96,7 +96,7 @@ body .navbar-light .navbar-toggler {
         line-height: 64px;
   }
       .nav-item a {
-        font-size: 16pt;
+        font-size: 12pt;
       }
     }
 
@@ -412,7 +412,9 @@ transform: translateY(-7px) rotate(-45deg);
 
   #nav-row  {
     flex-wrap: nowrap !important;
-    padding: 0px 25px 0px 25px;
+    border-top: 1pt solid #e7e7e7;
+    margin-top: 16px;
+    padding: 48px 25px 0px 25px;
   }
 
 
