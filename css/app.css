@@ -1,5 +1,6 @@
 @font-face {
-    src: url(https://use.typekit.net/aal6sfn.css);
+    src: url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
 }
 
 /*--------------- basic styling --------------- */
@@ -27,7 +28,8 @@ body .navbar-light .navbar-toggler {
 .navbar {
       margin: 0 auto;
       max-width: 1320px;
-      font-family: quicksand, sans-serif !important;
+      font-family: "Quicksand", sans-serif !important;
+      font-optical-sizing: auto;
       font-style: normal;
       text-align: center;
 }
@@ -139,7 +141,9 @@ transform: translateY(-7px) rotate(-45deg);
 
   	.secondary li, .link {
       text-align: left;
-      font-family: quicksand, sans-serif !important;
+      font-family: "Quicksand", sans-serif !important;
+      font-optical-sizing: auto;
+      font-optical-sizing: auto;
       font-size: 12pt;
       font-weight: 400;
       color: #556a67 !important;
@@ -270,7 +274,9 @@ transform: translateY(-7px) rotate(-45deg);
 
 
 .project-content a {
-      font-family: quicksand, sans-serif !important;
+      font-family: "Quicksand", sans-serif !important;
+      font-optical-sizing: auto;
+      font-optical-sizing: auto;
       font-size: 12pt;
       font-weight: 600;
       font-style: normal;
@@ -286,7 +292,9 @@ transform: translateY(-7px) rotate(-45deg);
 
 
       #title h1 {
-      font-family: quicksand, sans-serif; !important;
+      font-family: "Quicksand", sans-serif; !important;
+      font-optical-sizing: auto;
+      font-optical-sizing: auto;
       font-size: 40pt !important;
       text-align: left;
       font-weight: 800;
@@ -300,18 +308,20 @@ transform: translateY(-7px) rotate(-45deg);
 
       #header h2 {
             width: 100%;
-            font-family: Quicksand, sans-serif; !important;
+            font-family: "Quicksand", sans-serif; !important;
+            font-optical-sizing: auto;
             font-size: 24pt !important;
             text-align: left;
             font-weight: 800;
             font-style: normal;
-            color: #24292f;
+            color: #586166;
             line-height: 1.25;
 
             }
 
             #subheader h3 {
-               font-family: Quicksand, sans-serif !important;
+               font-family: "Quicksand", sans-serif !important;
+               font-optical-sizing: auto;
                font-size: 16pt;
                font-weight: 800;
                color: #24292f;
@@ -323,7 +333,8 @@ transform: translateY(-7px) rotate(-45deg);
                }
 
        #section h4 {
-          font-family: quicksand, sans-serif !important;
+          font-family: "Quicksand", sans-serif !important;
+          font-optical-sizing: auto;
           font-size: 14pt;
           font-weight: 600;
           font-style: normal;
@@ -335,7 +346,8 @@ transform: translateY(-7px) rotate(-45deg);
 
         #subtitle h5 {
           padding-top: 8px;
-          font-family: quicksand, sans-serif;
+          font-family: "Quicksand", sans-serif;
+          font-optical-sizing: auto;
           font-weight: 300;
           font-style: oblique;
           font-size: 12pt;
@@ -344,7 +356,8 @@ transform: translateY(-7px) rotate(-45deg);
           }
 
 .project-content p {
-      font-family: quicksand, sans-serif;
+      font-optical-sizing: auto;
+      font-family: "Quicksand", sans-serif;
       font-weight: 300;
       font-size: 14pt;
       color: #24292f;
@@ -353,7 +366,8 @@ transform: translateY(-7px) rotate(-45deg);
 }
 
 .project-content ul, .project-content li{
-      font-family: quicksand, sans-serif;
+      font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
       font-size: 14pt;
       font-weight: 300;
       font-style: normal;
@@ -400,7 +414,8 @@ transform: translateY(-7px) rotate(-45deg);
 
 
 .prev a, .next a{
-  font-family: quicksand, sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
   font-size: 16pt;
@@ -458,7 +473,8 @@ transform: translateY(-7px) rotate(-45deg);
 /*--------------- footer section --------------- */
 
 .footer {
-      font-family: quicksand, sans-serif !important;
+      font-family: "Quicksand", sans-serif !important;
+      font-optical-sizing: auto;
       text-align: left;
       position: relative;
       width: 100%;
@@ -602,7 +618,7 @@ transform: translateY(-7px) rotate(-45deg);
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:#edf2f1;
+    background-color:#fff;
     border: 2px solid #556a67;
     text-indent:-9999px;
     display:none;
@@ -611,26 +627,27 @@ transform: translateY(-7px) rotate(-45deg);
     border-radius:60px;
     z-index: 4;
     transition: all 0.3s ease-out;
-    /* filter: drop-shadow(0px 0px 0px #c3c3c3); */
+    filter: drop-shadow(0px 0px 4px #e7e7e7);
 
 }
-#scroll span {
+#scroll i {
     position:absolute;
     top:50%;
     left:50%;
     margin-left:-8px;
     margin-top:-12px;
-    height:0;
-    width:0;
+    border-radius: 2px;
     border:8px solid transparent;
     border-bottom-color:#556a67;
 }
 
 #scroll:hover {
-    background-color:#cd7560;
+    background-color:#edf2f1;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
+
+/* buttons */
 
   #button {
   margin-top: 10px;

@@ -107,6 +107,8 @@ $(document).ready(function() {
 		});
 });
 
+// secondary nav
+
 $(window).scroll(function() {
 		var scrollDistance = $(window).scrollTop();
 
