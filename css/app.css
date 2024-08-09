@@ -7,13 +7,14 @@ html, body {
       overflow-x: hidden;
 }
 
-
+background
 /*--------------- navigation --------------- */
 nav {
 }
 
 body .navbar-light .navbar-toggler {
       border-color: #fbfbfb;
+      background-position:
 }
 
 .navbar-toggler:focus {
@@ -627,7 +628,7 @@ transform: translateY(-7px) rotate(-45deg);
     filter: drop-shadow(0px 0px 4px #e7e7e7);
 
 }
-#scroll i {
+#scroll span {
     position:absolute;
     top:50%;
     left:50%;
