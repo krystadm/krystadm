@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url("https://use.typekit.net/sla1zmb.css");
 
 /*--------------- basic styling --------------- */
 html, body {
       width: 100%;
-      background-color: #fbfbfb !important;
+      background-color: #f7fcfb !important;
       overflow-x: hidden;
 }
 
@@ -14,7 +13,7 @@ nav {
 }
 
 body .navbar-light .navbar-toggler {
-      border-color: #fbfbfb;
+      border-color: #ffffff;
       background-position:
 }
 
@@ -65,7 +64,7 @@ body .navbar-light .navbar-toggler {
 }
 
 .nav-item a:hover {
-      color: #556a67;
+      color: #555555;
       text-decoration: none;
       transition: all .2s ease-out;
       border-bottom: 2pt solid #cd7560;
@@ -150,7 +149,7 @@ transform: translateY(-7px) rotate(-45deg);
 
 
     .secondary-main {
-        background-color: #fbfbfb;
+        background-color: #fff;
         margin: 0 auto;
         border-radius:0px 0px 8px 8px;
         padding: 8px 12px 0px 12px;
@@ -264,14 +263,13 @@ transform: translateY(-7px) rotate(-45deg);
 
 .container-flex {
   width: 100%;
-  background-color: #fbfbfb;
+  background-color: #f7fcfb;
 }
 
 .grid-content {
   margin: 0 auto;
-
   max-width: 1320px;
-  padding: 32px;
+  padding: 24px;
 
 }
 
@@ -303,15 +301,13 @@ transform: translateY(-7px) rotate(-45deg);
       font-family: "Quicksand", sans-serif; !important;
       font-optical-sizing: auto;
       font-optical-sizing: auto;
-      font-size: 40pt !important;
+      font-size: 48pt !important;
       text-align: left;
       font-weight: 800;
       font-style: normal;
       color: #586166;
       line-height: 1.25;
-      border-bottom: 2px solid #cd7560;
       padding-bottom: 22px;
-      margin-bottom: 22px;
      }
 
       #header h2 {
@@ -324,6 +320,7 @@ transform: translateY(-7px) rotate(-45deg);
             font-style: normal;
             color: #586166;
             line-height: 1.25;
+            padding: 16px 0px 16px 0px;
 
             }
 
@@ -333,7 +330,7 @@ transform: translateY(-7px) rotate(-45deg);
                font-size: 16pt;
                font-weight: 800;
                color: #586166;
-               border-bottom: 2px solid #edf2f1;
+               border-bottom: 1px solid #edf2f1;
                padding-top: 8px;
                padding-bottom: 8px;
                text-align: left;
@@ -356,7 +353,7 @@ transform: translateY(-7px) rotate(-45deg);
           padding-top: 8px;
           font-family: "Quicksand", sans-serif;
           font-optical-sizing: auto;
-          font-weight: 300;
+          font-weight: 400;
           font-style: oblique;
           font-size: 12pt;
           color: #586166;
@@ -365,16 +362,18 @@ transform: translateY(-7px) rotate(-45deg);
 
 p {
       font-optical-sizing: auto;
-      font-family: "Quicksand", sans-serif;
+      font-family: "roboto", sans-serif;
       font-weight: 300;
       font-size: 14pt;
       color: #24292f;
       text-align: left;
-      line-height: 1.50;
+      line-height: 1.5;
 }
 
+
+
 .project-content ul, .project-content li{
-      font-family: "Quicksand", sans-serif;
+      font-family: "roboto", sans-serif;
       font-optical-sizing: auto;
       font-size: 14pt;
       font-weight: 300;
@@ -382,6 +381,13 @@ p {
       color: #24292f;
       text-align: left;
       line-height: 1.50;
+      padding-bottom: 8px;
+}
+      li::marker {
+            padding-bottom: 8px;
+            color: #cd7560;
+          }
+      }
 }
 
 @media(max-width: 1024px) {
@@ -501,7 +507,7 @@ p {
 .footer #footertitle h4{
       font-size: 14px;
       font-weight: 600;
-      color: #fbfbfb;
+      color: #f7fcfb;
       padding-bottom: 24px;
       border-bottom: 1px solid #94a7aa;
 }
@@ -513,7 +519,7 @@ p {
 .info #media {
 
       font-size: 12px;
-      color: #fbfbfb;
+      color: #f7fcfb;
 
 }
 
@@ -547,7 +553,7 @@ p {
       padding-top: 16px;
       text-align: right;
       font-size: 12px;
-      color: #fbfbfb;
+      color: #f7fcfb;
 }
 
 @media(max-width: 1024px) {
@@ -555,7 +561,7 @@ p {
         padding-top: 32px;
         text-align: right;
         font-size: 12px;
-        color: #fbfbfb;
+        color: #f7fcfb;
   }
 
 
@@ -659,10 +665,10 @@ p {
 
   #button {
   margin-top: 10px;
-  color: #fbfbfb!important;
+  color: #f7fcfb!important;
   position: relative;
   cursor: pointer;
-  border: 2pt solid #fbfbfb;
+  border: 2pt solid #f7fcfb;
   border-radius: 15px;
   padding: 5px 15px 5px 15px;
   text-align: left !important;
@@ -676,7 +682,7 @@ p {
 
 #button2 {
 margin-top: 10px;
-color: #fbfbfb!important;
+color: #f7fcfb!important;
 background-color: #556a67 !important;
 cursor: pointer;
 border: 2pt solid #556a67;
@@ -686,7 +692,7 @@ text-align: left !important;
 }
 
 #button2:hover {
-color: #fbfbfb!important;
+color: #f7fcfb!important;
 background-color: #a75f4e !important;
 border: 2pt solid #a75f4e;
 -webkit-transition: .25s ease-in-out;
@@ -708,7 +714,7 @@ transition: .25s ease-in-out;
 
    .card {
    padding: 24px;
-   background-color: #fff;
+   background-color: #EBE9E3;
    border-radius: 12px !important;
    border: 2px solid #edf2f1 !important;
    margin-bottom: 24px;
